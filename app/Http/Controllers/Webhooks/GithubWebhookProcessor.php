@@ -54,8 +54,28 @@ class GithubWebhookProcessor
     public function handle(Request $request)
     {
         $this->validateGithubWebhook(config('app.github_webhook_secret'), $request);
+        $this->logger->info('The GitHub webhook is validated');
 
-        $this->logger->info('Hello World. The GitHub webhook is validated');
+        // Set Variables
+        $LOCAL_ROOT         = "/var/www/MySite";
+        $LOCAL_REPO_NAME    = "MySite";
+        $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
+        $REMOTE_REPO        = "git@github.com:SecBack/MySite.git";
+        $BRANCH             = "master";
+
+        if( file_exists($LOCAL_REPO)) {
+            // If there is already a repo, just run a git pull to grab the latest changes
+            shell_exec("cd {$LOCAL_REPO} && git pull");
+
+            die("done " . mktime());
+        } else {
+            // If the repo does not exist, then clone it into the parent directory
+            shell_exec("cd {$LOCAL_ROOT} && git clone {$REMOTE_REPO}");
+
+            die("done " . mktime());
+        }
+
+        $this->logger->info('Repo has been pulled');
         $this->logger->info($request->getContent());
     }
 }
