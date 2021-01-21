@@ -33,27 +33,27 @@
     ></vue-particles>
   </div>
   <div class="sticky-top">
-    <b-navbar toggleable="lg" type="dark" variant="info" class="mb-5">
+    <b-navbar toggleable="lg" type="dark" variant="info" class="mb-5" v-b-scrollspy:nav-scroller>
       <b-navbar-brand href="#">GoTo</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">About</b-nav-item>
-          <b-nav-item href="#">Time line</b-nav-item>
-          <b-nav-item href="#">Contact</b-nav-item>
+          <b-nav-item href="#about" @click="scrollIntoView">About</b-nav-item>
+          <b-nav-item href="#timeLine" @click="scrollIntoView">Time line</b-nav-item>
+          <b-nav-item href="#contact" @click="scrollIntoView">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </div>
 
-  <div class="container justify-content-center col-8 mb-5">
-    <About class="mb-5"></About>
+  <div id="nav-scroller" class="container justify-content-center col-8 mb-5">
+    <About id="about" class="mb-5"></About>
 
-    <TimeLine class="mb-5"></TimeLine>
+    <TimeLine id="timeLine" class="mb-5"></TimeLine>
     <hr>
-    <Contact class="mb-5 mt-5"></Contact>
+    <Contact id="contact" class="mb-5 mt-5"></Contact>
 
   </div>
     <AppFooter></AppFooter>
@@ -76,10 +76,22 @@ export default {
     Contact,
   },
   computed: {},
+  methods: {
+    // Convenience method to scroll a heading into view.
+    // Not required for scrollspy to work
+    scrollIntoView(event) {
+      event.preventDefault()
+      const href = event.target.getAttribute('href')
+      const el = href ? document.querySelector(href) : null
+      if (el) {
+        this.$refs.content.scrollTop = el.offsetTop
+      }
+    }
+  },
   data() {
     return {
       message: "hej"
     }
   }
-};
+}
 </script>
