@@ -19,3 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::resource('contact', ContactController::class);
+
+Route::namespace('Webhooks')->prefix('/webhooks')->group(function () {
+    Route::post('/github/handle', 'GithubWebhookProcessor@handle');
+});
