@@ -49,7 +49,7 @@ export default {
           message: this.form.message,
         };
         console.log("onSubmit ran");
-        axios.post('http://localhost:8000/contact', postData)
+        axios.post('/contact', postData)
         .then(Response => {
           console.log("sucess! 200");
         })

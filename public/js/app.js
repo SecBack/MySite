@@ -2026,7 +2026,7 @@ __webpack_require__.r(__webpack_exports__);
         message: this.form.message
       };
       console.log("onSubmit ran");
-      axios__WEBPACK_IMPORTED_MODULE_0___default().post('http://localhost:8000/contact', postData).then(function (Response) {
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('/contact', postData).then(function (Response) {
         console.log("sucess! 200");
       });
     }
