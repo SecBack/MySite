@@ -48,11 +48,7 @@ export default {
           email: this.form.email,
           message: this.form.message,
         };
-        console.log("onSubmit ran");
         axios.post('/contact', postData)
-        .then(Response => {
-          console.log("sucess! 200");
-        })
       }
   },
 }
