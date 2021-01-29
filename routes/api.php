@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Webhooks\GithubWebhookProcessor;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +20,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resource('contact', ContactController::class);
+Route::post('/contact', [ContactController::class, 'store']);
 
 Route::namespace('Webhooks')->prefix('/webhooks')->group(function () {
-    Route::post('/github/handle', 'GithubWebhookProcessor@handle');
+    Route::post('/github/handle', [GithubWebhookProcessor::class, 'handle']);
 });
