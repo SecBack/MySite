@@ -48,7 +48,7 @@ export default {
           email: this.form.email,
           message: this.form.message,
         };
-        axios.post('/contact', postData)
+        axios.post('api/contact', postData)
       }
   },
 }
