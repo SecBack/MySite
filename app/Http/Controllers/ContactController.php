@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactStoreRequest;
 use App\Models\Contact;
 
@@ -20,6 +22,7 @@ class ContactController extends Controller {
 
         $contact = Contact::create($validated);
 
+        // test
         return $this->success($contact->toArray());
     }
 }
