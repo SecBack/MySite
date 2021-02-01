@@ -21,7 +21,6 @@ class ContactController extends Controller {
 
         $contact = Contact::create($validated);
 
-        // test123
         return $this->success($contact->toArray());
     }
 }
