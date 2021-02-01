@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactStoreRequest;
 use App\Models\Contact;
 
-
 class ContactController extends Controller {
 
     /**
@@ -22,6 +21,7 @@ class ContactController extends Controller {
 
         $contact = Contact::create($validated);
 
+        // test123
         return $this->success($contact->toArray());
     }
 }
