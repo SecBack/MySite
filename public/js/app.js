@@ -50835,7 +50835,7 @@ var render = function() {
               ),
               _vm._v(" "),
               _c("b-col", { staticClass: "justify-content-center" }, [
-                _vm._v("\r\n        " + _vm._s(_vm.aboutText) + "\r\n      ")
+                _vm._v("\n        " + _vm._s(_vm.aboutText) + "\n      ")
               ])
             ],
             1
@@ -50977,9 +50977,7 @@ var render = function() {
                           },
                           [
                             _c("b-icon", { attrs: { icon: "telephone" } }),
-                            _vm._v(
-                              "\r\n              41 60 76 37\r\n            "
-                            )
+                            _vm._v("\n              41 60 76 37\n            ")
                           ],
                           1
                         )
@@ -51001,7 +50999,7 @@ var render = function() {
                           [
                             _c("b-icon", { attrs: { icon: "mailbox" } }),
                             _vm._v(
-                              "\r\n              albert3257@live.dk\r\n            "
+                              "\n              albert3257@live.dk\n            "
                             )
                           ],
                           1
@@ -51023,9 +51021,7 @@ var render = function() {
                           },
                           [
                             _c("b-icon", { attrs: { icon: "linkedin" } }),
-                            _vm._v(
-                              "\r\n              linked in\r\n            "
-                            )
+                            _vm._v("\n              linked in\n            ")
                           ],
                           1
                         )
@@ -51231,7 +51227,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-card-text", [
                     _vm._v(
-                      "\r\n          Internship at WEXO a/s where i had the chance to work...\r\n        "
+                      "\n          Internship at WEXO a/s where i had the chance to work...\n        "
                     )
                   ]),
                   _vm._v(" "),
@@ -51259,7 +51255,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-card-text", [
                     _vm._v(
-                      "\r\n          Datatechnician with a specialty in programmering\r\n        "
+                      "\n          Datatechnician with a specialty in programmering\n        "
                     )
                   ]),
                   _vm._v(" "),
@@ -51296,7 +51292,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-card-text", [
                     _vm._v(
-                      "\r\n          10th grade, where i had the time to figure out that i wanted to be a programmer\r\n        "
+                      "\n          10th grade, where i had the time to figure out that i wanted to be a programmer\n        "
                     )
                   ]),
                   _vm._v(" "),
@@ -51335,7 +51331,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-card-text", [
                     _vm._v(
-                      "\r\n          A school focused on gymnastics\r\n        "
+                      "\n          A school focused on gymnastics\n        "
                     )
                   ]),
                   _vm._v(" "),
@@ -51372,7 +51368,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("b-card-text", [
                     _vm._v(
-                      "\r\n          0th - 6th grade in hometown, with 7th and 8th in a nearby town\r\n        "
+                      "\n          0th - 6th grade in hometown, with 7th and 8th in a nearby town\n        "
                     )
                   ]),
                   _vm._v(" "),
@@ -51432,7 +51428,7 @@ var render = function() {
             [
               _c("b-row", { staticClass: "justify-content-center" }, [
                 _c("h1", { staticClass: "display-1" }, [
-                  _vm._v("\r\n          Albert Andersen\r\n        ")
+                  _vm._v("\n          Albert Andersen\n        ")
                 ])
               ]),
               _vm._v(" "),
@@ -51449,9 +51445,7 @@ var render = function() {
                       },
                       [
                         _c("b-icon", { attrs: { icon: "mailbox" } }),
-                        _vm._v(
-                          "\r\n            albert3257@live.dk\r\n          "
-                        )
+                        _vm._v("\n            albert3257@live.dk\n          ")
                       ],
                       1
                     )
@@ -51470,7 +51464,7 @@ var render = function() {
                       },
                       [
                         _c("b-icon", { attrs: { icon: "telephone" } }),
-                        _vm._v("\r\n            41 60 76 37\r\n          ")
+                        _vm._v("\n            41 60 76 37\n          ")
                       ],
                       1
                     )
