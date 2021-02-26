@@ -1,17 +1,20 @@
 <template>
 <div>
+  <b-card>
   <b-container>
     <b-row>
       <b-col>
         <b-row class="justify-content-center">
-          <b-img src="https://picsum.photos/300/300"></b-img>
+          <b-img src="https://picsum.photos/300/300" rounded="circle"></b-img>
         </b-row>
       </b-col>
       <b-col class="justify-content-center">
+        <b-card-title>Who is this guy?</b-card-title>
         {{aboutText}}
       </b-col>
     </b-row>
   </b-container>
+  </b-card>
 </div>
 </template>
 
@@ -20,7 +23,7 @@ export default {
   computed: {},
   data() {
     return {
-      aboutText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      aboutText: "As a 21-year-old diligent guy, located in the southern part of Jylland around Vejle. I have been kept active with gymnastics, football, and taekwondo while I was growing up. Later I have become a mountain bike-riding computer nerd, with tendencies to various physical activities."
     }
   }
 };

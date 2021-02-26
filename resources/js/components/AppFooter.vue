@@ -10,18 +10,32 @@
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-            <b-badge href="#" pill variant="info" class="mb-2">Top</b-badge>
+            <b-badge
+              href="#top"
+              pill variant="info"
+              class="mb-2"
+              @click="scrollFromFooter"
+            >Top</b-badge>
           </h3>
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-           <b-badge href="#" pill variant="info" class="mb-2">About</b-badge>
+            <b-badge
+              href="#about"
+              pill variant="info"
+              class="mb-2"
+              @click="scrollFromFooter"
+            >About</b-badge>
           </h3>
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-            <b-badge href="#" pill variant="info">Time line</b-badge>
-         </h3>
+            <b-badge
+              href="#timeLine"
+              pill variant="info"
+              @click="scrollFromFooter"
+            >Time line</b-badge>
+          </h3>
         </b-row>
       </b-col>
       <b-col>
@@ -32,7 +46,7 @@
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-            <b-badge href="#" pill variant="info" class="mb-2">
+            <b-badge pill variant="info" class="mb-2">
               <b-icon icon="telephone"></b-icon>
               41 60 76 37
             </b-badge>
@@ -40,7 +54,7 @@
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-            <b-badge href="#" pill variant="info" class="mb-2">
+            <b-badge pill variant="info" class="mb-2">
               <b-icon icon="mailbox"></b-icon>
               albert3257@live.dk
             </b-badge>
@@ -48,7 +62,7 @@
         </b-row>
         <b-row class="justify-content-center">
           <h3>
-            <b-badge href="#" pill variant="info" class="mb-2">
+            <b-badge pill variant="info" class="mb-2">
               <b-icon icon="linkedin"></b-icon>
               linked in
             </b-badge>
@@ -74,6 +88,21 @@
 
 <script>
 export default {
-  name: "AppFooter"
+  name: "AppFooter",
+  data() {
+    return {
+      message: "hej"
+    }
+  },
+  methodes: {
+    scrollFromFooter(event) {
+      event.preventDefault();
+      const href = event.target.getAttribute('href');
+      const el = href ? document.querySelector(href) : null;
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center'});
+      }
+    }
+  }
 }
 </script>
