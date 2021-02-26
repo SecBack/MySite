@@ -14,7 +14,7 @@
         <b-card-text class="small text-muted">2019 - 2020</b-card-text>
         <b-card-title>WEXO a/s</b-card-title>
         <b-card-text>
-          Internship at WEXO a/s where i had the chance to work...
+          Apprenticeship at WEXO a/s, Aarhus
         </b-card-text>
       <b-card-text class="small text-muted">Aarhus</b-card-text>
     </b-card>
@@ -24,7 +24,7 @@
         <b-card-text class="small text-muted">2017 - Now</b-card-text>
         <b-card-title>Syddansk erhvervsskole</b-card-title>
         <b-card-text>
-          Datatechnician with a specialty in programmering
+          Datatechnician specialized in programmering
         </b-card-text>
         <b-card-text class="small text-muted">Odense</b-card-text>
       </b-card>
@@ -38,7 +38,7 @@
         <b-card-text class="small text-muted">2016 - 2017</b-card-text>
         <b-card-title>Tørring 10th grade</b-card-title>
         <b-card-text>
-          10th grade, where i had the time to figure out that i wanted to be a programmer
+          10th grade for figuring out career stuff
         </b-card-text>
         <b-card-text class="small text-muted">Tørring</b-card-text>
       </b-card>
