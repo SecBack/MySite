@@ -37,6 +37,15 @@
             >Time line</b-badge>
           </h3>
         </b-row>
+        <b-row class="justify-content-center">
+          <h3>
+            <b-badge
+              href="#projects"
+              pill variant="info"
+              @click="scrollFromFooter"
+            >Projects</b-badge>
+          </h3>
+        </b-row>
       </b-col>
       <b-col>
         <b-row class="justify-content-center">
