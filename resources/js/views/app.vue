@@ -42,6 +42,7 @@
         <b-navbar-nav v-b-scrollspy:nav-scroller>
           <b-nav-item href="#about" @click="scrollFromBar">About</b-nav-item>
           <b-nav-item href="#timeLine" @click="scrollFromBar">Time line</b-nav-item>
+          <b-nav-item href="#projects" @click="scrollFromBar">Projects</b-nav-item>
           <b-nav-item href="#contact" @click="scrollFromBar">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -51,7 +52,7 @@
   <div id="nav-scroller" class="container justify-content-center col-8 mb-5">
     <About id="about" class="mb-5"/>
     <TimeLine id="timeLine" class="mb-5"/>
-    <Projects/>
+    <Projects id="projects" class="mb-5"/>
     <hr>
     <Contact id="contact" class="mb-5 mt-5"/>
   </div>
