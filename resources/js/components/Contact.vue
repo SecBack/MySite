@@ -1,5 +1,5 @@
 <template>
-<div class="container col-10 justify-content-center">
+<div class="container col-12 justify-content-center">
   <b-card title="Contact">
     <b-form @submit="onSubmit">
       <b-card-text class="small text-muted">Get in contact or let me know about feedback</b-card-text>

@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-card>
+  <b-card sm="4">
   <b-container>
     <b-row>
       <b-col>
