@@ -2147,6 +2147,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Projects",
   data: function data() {
@@ -2231,30 +2232,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "timeLine"
 });
@@ -2277,6 +2254,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_TimeLine_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/TimeLine.vue */ "./resources/js/components/TimeLine.vue");
 /* harmony import */ var _components_Contact_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Contact.vue */ "./resources/js/components/Contact.vue");
 /* harmony import */ var _components_Projects_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Projects.vue */ "./resources/js/components/Projects.vue");
+/* harmony import */ var particles_bg_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! particles-bg-vue */ "./node_modules/particles-bg-vue/src/particles-bg/index.js");
 //
 //
 //
@@ -2331,14 +2309,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 
@@ -2350,12 +2321,11 @@ __webpack_require__.r(__webpack_exports__);
     AppFooter: _components_AppFooter_vue__WEBPACK_IMPORTED_MODULE_1__.default,
     TimeLine: _components_TimeLine_vue__WEBPACK_IMPORTED_MODULE_2__.default,
     Contact: _components_Contact_vue__WEBPACK_IMPORTED_MODULE_3__.default,
-    Projects: _components_Projects_vue__WEBPACK_IMPORTED_MODULE_4__.default
+    Projects: _components_Projects_vue__WEBPACK_IMPORTED_MODULE_4__.default,
+    ParticlesBg: particles_bg_vue__WEBPACK_IMPORTED_MODULE_5__.ParticlesBg
   },
   data: function data() {
-    return {
-      message: "hej"
-    };
+    return {};
   },
   methods: {
     scrollFromBar: function scrollFromBar(event) {
@@ -2387,7 +2357,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_app_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/app.vue */ "./resources/js/views/app.vue");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/icons/plugin.js");
-/* harmony import */ var vue_particles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-particles */ "./node_modules/vue-particles/src/vue-particles/index.js");
+/* harmony import */ var particles_bg_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! particles-bg-vue */ "./node_modules/particles-bg-vue/src/particles-bg/index.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
 /* harmony import */ var bootstrap_vue_dist_bootstrap_vue_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap-vue/dist/bootstrap-vue.css */ "./node_modules/bootstrap-vue/dist/bootstrap-vue.css");
 /**
@@ -2425,7 +2395,7 @@ __webpack_require__.r(__webpack_exports__);
 
 vue__WEBPACK_IMPORTED_MODULE_4__.default.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__.BootstrapVue);
 vue__WEBPACK_IMPORTED_MODULE_4__.default.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_6__.BootstrapVueIcons);
-vue__WEBPACK_IMPORTED_MODULE_4__.default.use(vue_particles__WEBPACK_IMPORTED_MODULE_1__.default);
+vue__WEBPACK_IMPORTED_MODULE_4__.default.use(particles_bg_vue__WEBPACK_IMPORTED_MODULE_1__.default);
 vue__WEBPACK_IMPORTED_MODULE_4__.default.config.productionTip = false;
 new vue__WEBPACK_IMPORTED_MODULE_4__.default({
   render: function render(h) {
@@ -44747,6 +44717,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "/*!\n * Bootstrap v4.5.3 (https://getb
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.canvas[data-v-5c056944] {\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css&":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css& ***!
@@ -44765,6 +44759,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n#carousel[data-v-533b60e5] {\r\n  border-radius: 5px 5px 5px 5px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.canvas {\n  height: 100vh;\n}\n#home {\n  height: 100vh\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -44860,1553 +44878,146 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/particles.js/particles.js":
-/*!************************************************!*\
-  !*** ./node_modules/particles.js/particles.js ***!
-  \************************************************/
-/***/ (() => {
-
-/* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
-/* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
-/* How to use? : Check the GitHub README
-/* v2.0.0
-/* ----------------------------------------------- */
-
-var pJS = function(tag_id, params){
-
-  var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
-
-  /* particles.js variables with default values */
-  this.pJS = {
-    canvas: {
-      el: canvas_el,
-      w: canvas_el.offsetWidth,
-      h: canvas_el.offsetHeight
-    },
-    particles: {
-      number: {
-        value: 400,
-        density: {
-          enable: true,
-          value_area: 800
-        }
-      },
-      color: {
-        value: '#fff'
-      },
-      shape: {
-        type: 'circle',
-        stroke: {
-          width: 0,
-          color: '#ff0000'
-        },
-        polygon: {
-          nb_sides: 5
-        },
-        image: {
-          src: '',
-          width: 100,
-          height: 100
-        }
-      },
-      opacity: {
-        value: 1,
-        random: false,
-        anim: {
-          enable: false,
-          speed: 2,
-          opacity_min: 0,
-          sync: false
-        }
-      },
-      size: {
-        value: 20,
-        random: false,
-        anim: {
-          enable: false,
-          speed: 20,
-          size_min: 0,
-          sync: false
-        }
-      },
-      line_linked: {
-        enable: true,
-        distance: 100,
-        color: '#fff',
-        opacity: 1,
-        width: 1
-      },
-      move: {
-        enable: true,
-        speed: 2,
-        direction: 'none',
-        random: false,
-        straight: false,
-        out_mode: 'out',
-        bounce: false,
-        attract: {
-          enable: false,
-          rotateX: 3000,
-          rotateY: 3000
-        }
-      },
-      array: []
-    },
-    interactivity: {
-      detect_on: 'canvas',
-      events: {
-        onhover: {
-          enable: true,
-          mode: 'grab'
-        },
-        onclick: {
-          enable: true,
-          mode: 'push'
-        },
-        resize: true
-      },
-      modes: {
-        grab:{
-          distance: 100,
-          line_linked:{
-            opacity: 1
-          }
-        },
-        bubble:{
-          distance: 200,
-          size: 80,
-          duration: 0.4
-        },
-        repulse:{
-          distance: 200,
-          duration: 0.4
-        },
-        push:{
-          particles_nb: 4
-        },
-        remove:{
-          particles_nb: 2
-        }
-      },
-      mouse:{}
-    },
-    retina_detect: false,
-    fn: {
-      interact: {},
-      modes: {},
-      vendors:{}
-    },
-    tmp: {}
-  };
-
-  var pJS = this.pJS;
-
-  /* params settings */
-  if(params){
-    Object.deepExtend(pJS, params);
-  }
-
-  pJS.tmp.obj = {
-    size_value: pJS.particles.size.value,
-    size_anim_speed: pJS.particles.size.anim.speed,
-    move_speed: pJS.particles.move.speed,
-    line_linked_distance: pJS.particles.line_linked.distance,
-    line_linked_width: pJS.particles.line_linked.width,
-    mode_grab_distance: pJS.interactivity.modes.grab.distance,
-    mode_bubble_distance: pJS.interactivity.modes.bubble.distance,
-    mode_bubble_size: pJS.interactivity.modes.bubble.size,
-    mode_repulse_distance: pJS.interactivity.modes.repulse.distance
-  };
-
-
-  pJS.fn.retinaInit = function(){
-
-    if(pJS.retina_detect && window.devicePixelRatio > 1){
-      pJS.canvas.pxratio = window.devicePixelRatio; 
-      pJS.tmp.retina = true;
-    } 
-    else{
-      pJS.canvas.pxratio = 1;
-      pJS.tmp.retina = false;
-    }
-
-    pJS.canvas.w = pJS.canvas.el.offsetWidth * pJS.canvas.pxratio;
-    pJS.canvas.h = pJS.canvas.el.offsetHeight * pJS.canvas.pxratio;
-
-    pJS.particles.size.value = pJS.tmp.obj.size_value * pJS.canvas.pxratio;
-    pJS.particles.size.anim.speed = pJS.tmp.obj.size_anim_speed * pJS.canvas.pxratio;
-    pJS.particles.move.speed = pJS.tmp.obj.move_speed * pJS.canvas.pxratio;
-    pJS.particles.line_linked.distance = pJS.tmp.obj.line_linked_distance * pJS.canvas.pxratio;
-    pJS.interactivity.modes.grab.distance = pJS.tmp.obj.mode_grab_distance * pJS.canvas.pxratio;
-    pJS.interactivity.modes.bubble.distance = pJS.tmp.obj.mode_bubble_distance * pJS.canvas.pxratio;
-    pJS.particles.line_linked.width = pJS.tmp.obj.line_linked_width * pJS.canvas.pxratio;
-    pJS.interactivity.modes.bubble.size = pJS.tmp.obj.mode_bubble_size * pJS.canvas.pxratio;
-    pJS.interactivity.modes.repulse.distance = pJS.tmp.obj.mode_repulse_distance * pJS.canvas.pxratio;
-
-  };
-
-
-
-  /* ---------- pJS functions - canvas ------------ */
-
-  pJS.fn.canvasInit = function(){
-    pJS.canvas.ctx = pJS.canvas.el.getContext('2d');
-  };
-
-  pJS.fn.canvasSize = function(){
-
-    pJS.canvas.el.width = pJS.canvas.w;
-    pJS.canvas.el.height = pJS.canvas.h;
-
-    if(pJS && pJS.interactivity.events.resize){
-
-      window.addEventListener('resize', function(){
-
-          pJS.canvas.w = pJS.canvas.el.offsetWidth;
-          pJS.canvas.h = pJS.canvas.el.offsetHeight;
-
-          /* resize canvas */
-          if(pJS.tmp.retina){
-            pJS.canvas.w *= pJS.canvas.pxratio;
-            pJS.canvas.h *= pJS.canvas.pxratio;
-          }
-
-          pJS.canvas.el.width = pJS.canvas.w;
-          pJS.canvas.el.height = pJS.canvas.h;
-
-          /* repaint canvas on anim disabled */
-          if(!pJS.particles.move.enable){
-            pJS.fn.particlesEmpty();
-            pJS.fn.particlesCreate();
-            pJS.fn.particlesDraw();
-            pJS.fn.vendors.densityAutoParticles();
-          }
-
-        /* density particles enabled */
-        pJS.fn.vendors.densityAutoParticles();
-
-      });
-
-    }
-
-  };
-
-
-  pJS.fn.canvasPaint = function(){
-    pJS.canvas.ctx.fillRect(0, 0, pJS.canvas.w, pJS.canvas.h);
-  };
-
-  pJS.fn.canvasClear = function(){
-    pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
-  };
-
-
-  /* --------- pJS functions - particles ----------- */
-
-  pJS.fn.particle = function(color, opacity, position){
-
-    /* size */
-    this.radius = (pJS.particles.size.random ? Math.random() : 1) * pJS.particles.size.value;
-    if(pJS.particles.size.anim.enable){
-      this.size_status = false;
-      this.vs = pJS.particles.size.anim.speed / 100;
-      if(!pJS.particles.size.anim.sync){
-        this.vs = this.vs * Math.random();
-      }
-    }
-
-    /* position */
-    this.x = position ? position.x : Math.random() * pJS.canvas.w;
-    this.y = position ? position.y : Math.random() * pJS.canvas.h;
-
-    /* check position  - into the canvas */
-    if(this.x > pJS.canvas.w - this.radius*2) this.x = this.x - this.radius;
-    else if(this.x < this.radius*2) this.x = this.x + this.radius;
-    if(this.y > pJS.canvas.h - this.radius*2) this.y = this.y - this.radius;
-    else if(this.y < this.radius*2) this.y = this.y + this.radius;
-
-    /* check position - avoid overlap */
-    if(pJS.particles.move.bounce){
-      pJS.fn.vendors.checkOverlap(this, position);
-    }
-
-    /* color */
-    this.color = {};
-    if(typeof(color.value) == 'object'){
-
-      if(color.value instanceof Array){
-        var color_selected = color.value[Math.floor(Math.random() * pJS.particles.color.value.length)];
-        this.color.rgb = hexToRgb(color_selected);
-      }else{
-        if(color.value.r != undefined && color.value.g != undefined && color.value.b != undefined){
-          this.color.rgb = {
-            r: color.value.r,
-            g: color.value.g,
-            b: color.value.b
-          }
-        }
-        if(color.value.h != undefined && color.value.s != undefined && color.value.l != undefined){
-          this.color.hsl = {
-            h: color.value.h,
-            s: color.value.s,
-            l: color.value.l
-          }
-        }
-      }
-
-    }
-    else if(color.value == 'random'){
-      this.color.rgb = {
-        r: (Math.floor(Math.random() * (255 - 0 + 1)) + 0),
-        g: (Math.floor(Math.random() * (255 - 0 + 1)) + 0),
-        b: (Math.floor(Math.random() * (255 - 0 + 1)) + 0)
-      }
-    }
-    else if(typeof(color.value) == 'string'){
-      this.color = color;
-      this.color.rgb = hexToRgb(this.color.value);
-    }
-
-    /* opacity */
-    this.opacity = (pJS.particles.opacity.random ? Math.random() : 1) * pJS.particles.opacity.value;
-    if(pJS.particles.opacity.anim.enable){
-      this.opacity_status = false;
-      this.vo = pJS.particles.opacity.anim.speed / 100;
-      if(!pJS.particles.opacity.anim.sync){
-        this.vo = this.vo * Math.random();
-      }
-    }
-
-    /* animation - velocity for speed */
-    var velbase = {}
-    switch(pJS.particles.move.direction){
-      case 'top':
-        velbase = { x:0, y:-1 };
-      break;
-      case 'top-right':
-        velbase = { x:0.5, y:-0.5 };
-      break;
-      case 'right':
-        velbase = { x:1, y:-0 };
-      break;
-      case 'bottom-right':
-        velbase = { x:0.5, y:0.5 };
-      break;
-      case 'bottom':
-        velbase = { x:0, y:1 };
-      break;
-      case 'bottom-left':
-        velbase = { x:-0.5, y:1 };
-      break;
-      case 'left':
-        velbase = { x:-1, y:0 };
-      break;
-      case 'top-left':
-        velbase = { x:-0.5, y:-0.5 };
-      break;
-      default:
-        velbase = { x:0, y:0 };
-      break;
-    }
-
-    if(pJS.particles.move.straight){
-      this.vx = velbase.x;
-      this.vy = velbase.y;
-      if(pJS.particles.move.random){
-        this.vx = this.vx * (Math.random());
-        this.vy = this.vy * (Math.random());
-      }
-    }else{
-      this.vx = velbase.x + Math.random()-0.5;
-      this.vy = velbase.y + Math.random()-0.5;
-    }
-
-    // var theta = 2.0 * Math.PI * Math.random();
-    // this.vx = Math.cos(theta);
-    // this.vy = Math.sin(theta);
-
-    this.vx_i = this.vx;
-    this.vy_i = this.vy;
-
-    
-
-    /* if shape is image */
-
-    var shape_type = pJS.particles.shape.type;
-    if(typeof(shape_type) == 'object'){
-      if(shape_type instanceof Array){
-        var shape_selected = shape_type[Math.floor(Math.random() * shape_type.length)];
-        this.shape = shape_selected;
-      }
-    }else{
-      this.shape = shape_type;
-    }
-
-    if(this.shape == 'image'){
-      var sh = pJS.particles.shape;
-      this.img = {
-        src: sh.image.src,
-        ratio: sh.image.width / sh.image.height
-      }
-      if(!this.img.ratio) this.img.ratio = 1;
-      if(pJS.tmp.img_type == 'svg' && pJS.tmp.source_svg != undefined){
-        pJS.fn.vendors.createSvgImg(this);
-        if(pJS.tmp.pushing){
-          this.img.loaded = false;
-        }
-      }
-    }
-
-    
-
-  };
-
-
-  pJS.fn.particle.prototype.draw = function() {
-
-    var p = this;
-
-    if(p.radius_bubble != undefined){
-      var radius = p.radius_bubble; 
-    }else{
-      var radius = p.radius;
-    }
-
-    if(p.opacity_bubble != undefined){
-      var opacity = p.opacity_bubble;
-    }else{
-      var opacity = p.opacity;
-    }
-
-    if(p.color.rgb){
-      var color_value = 'rgba('+p.color.rgb.r+','+p.color.rgb.g+','+p.color.rgb.b+','+opacity+')';
-    }else{
-      var color_value = 'hsla('+p.color.hsl.h+','+p.color.hsl.s+'%,'+p.color.hsl.l+'%,'+opacity+')';
-    }
-
-    pJS.canvas.ctx.fillStyle = color_value;
-    pJS.canvas.ctx.beginPath();
-
-    switch(p.shape){
-
-      case 'circle':
-        pJS.canvas.ctx.arc(p.x, p.y, radius, 0, Math.PI * 2, false);
-      break;
-
-      case 'edge':
-        pJS.canvas.ctx.rect(p.x-radius, p.y-radius, radius*2, radius*2);
-      break;
-
-      case 'triangle':
-        pJS.fn.vendors.drawShape(pJS.canvas.ctx, p.x-radius, p.y+radius / 1.66, radius*2, 3, 2);
-      break;
-
-      case 'polygon':
-        pJS.fn.vendors.drawShape(
-          pJS.canvas.ctx,
-          p.x - radius / (pJS.particles.shape.polygon.nb_sides/3.5), // startX
-          p.y - radius / (2.66/3.5), // startY
-          radius*2.66 / (pJS.particles.shape.polygon.nb_sides/3), // sideLength
-          pJS.particles.shape.polygon.nb_sides, // sideCountNumerator
-          1 // sideCountDenominator
-        );
-      break;
-
-      case 'star':
-        pJS.fn.vendors.drawShape(
-          pJS.canvas.ctx,
-          p.x - radius*2 / (pJS.particles.shape.polygon.nb_sides/4), // startX
-          p.y - radius / (2*2.66/3.5), // startY
-          radius*2*2.66 / (pJS.particles.shape.polygon.nb_sides/3), // sideLength
-          pJS.particles.shape.polygon.nb_sides, // sideCountNumerator
-          2 // sideCountDenominator
-        );
-      break;
-
-      case 'image':
-
-        function draw(){
-          pJS.canvas.ctx.drawImage(
-            img_obj,
-            p.x-radius,
-            p.y-radius,
-            radius*2,
-            radius*2 / p.img.ratio
-          );
-        }
-
-        if(pJS.tmp.img_type == 'svg'){
-          var img_obj = p.img.obj;
-        }else{
-          var img_obj = pJS.tmp.img_obj;
-        }
-
-        if(img_obj){
-          draw();
-        }
-
-      break;
-
-    }
-
-    pJS.canvas.ctx.closePath();
-
-    if(pJS.particles.shape.stroke.width > 0){
-      pJS.canvas.ctx.strokeStyle = pJS.particles.shape.stroke.color;
-      pJS.canvas.ctx.lineWidth = pJS.particles.shape.stroke.width;
-      pJS.canvas.ctx.stroke();
-    }
-    
-    pJS.canvas.ctx.fill();
-    
-  };
-
-
-  pJS.fn.particlesCreate = function(){
-    for(var i = 0; i < pJS.particles.number.value; i++) {
-      pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color, pJS.particles.opacity.value));
-    }
-  };
-
-  pJS.fn.particlesUpdate = function(){
-
-    for(var i = 0; i < pJS.particles.array.length; i++){
-
-      /* the particle */
-      var p = pJS.particles.array[i];
-
-      // var d = ( dx = pJS.interactivity.mouse.click_pos_x - p.x ) * dx + ( dy = pJS.interactivity.mouse.click_pos_y - p.y ) * dy;
-      // var f = -BANG_SIZE / d;
-      // if ( d < BANG_SIZE ) {
-      //     var t = Math.atan2( dy, dx );
-      //     p.vx = f * Math.cos(t);
-      //     p.vy = f * Math.sin(t);
-      // }
-
-      /* move the particle */
-      if(pJS.particles.move.enable){
-        var ms = pJS.particles.move.speed/2;
-        p.x += p.vx * ms;
-        p.y += p.vy * ms;
-      }
-
-      /* change opacity status */
-      if(pJS.particles.opacity.anim.enable) {
-        if(p.opacity_status == true) {
-          if(p.opacity >= pJS.particles.opacity.value) p.opacity_status = false;
-          p.opacity += p.vo;
-        }else {
-          if(p.opacity <= pJS.particles.opacity.anim.opacity_min) p.opacity_status = true;
-          p.opacity -= p.vo;
-        }
-        if(p.opacity < 0) p.opacity = 0;
-      }
-
-      /* change size */
-      if(pJS.particles.size.anim.enable){
-        if(p.size_status == true){
-          if(p.radius >= pJS.particles.size.value) p.size_status = false;
-          p.radius += p.vs;
-        }else{
-          if(p.radius <= pJS.particles.size.anim.size_min) p.size_status = true;
-          p.radius -= p.vs;
-        }
-        if(p.radius < 0) p.radius = 0;
-      }
-
-      /* change particle position if it is out of canvas */
-      if(pJS.particles.move.out_mode == 'bounce'){
-        var new_pos = {
-          x_left: p.radius,
-          x_right:  pJS.canvas.w,
-          y_top: p.radius,
-          y_bottom: pJS.canvas.h
-        }
-      }else{
-        var new_pos = {
-          x_left: -p.radius,
-          x_right: pJS.canvas.w + p.radius,
-          y_top: -p.radius,
-          y_bottom: pJS.canvas.h + p.radius
-        }
-      }
-
-      if(p.x - p.radius > pJS.canvas.w){
-        p.x = new_pos.x_left;
-        p.y = Math.random() * pJS.canvas.h;
-      }
-      else if(p.x + p.radius < 0){
-        p.x = new_pos.x_right;
-        p.y = Math.random() * pJS.canvas.h;
-      }
-      if(p.y - p.radius > pJS.canvas.h){
-        p.y = new_pos.y_top;
-        p.x = Math.random() * pJS.canvas.w;
-      }
-      else if(p.y + p.radius < 0){
-        p.y = new_pos.y_bottom;
-        p.x = Math.random() * pJS.canvas.w;
-      }
-
-      /* out of canvas modes */
-      switch(pJS.particles.move.out_mode){
-        case 'bounce':
-          if (p.x + p.radius > pJS.canvas.w) p.vx = -p.vx;
-          else if (p.x - p.radius < 0) p.vx = -p.vx;
-          if (p.y + p.radius > pJS.canvas.h) p.vy = -p.vy;
-          else if (p.y - p.radius < 0) p.vy = -p.vy;
-        break;
-      }
-
-      /* events */
-      if(isInArray('grab', pJS.interactivity.events.onhover.mode)){
-        pJS.fn.modes.grabParticle(p);
-      }
-
-      if(isInArray('bubble', pJS.interactivity.events.onhover.mode) || isInArray('bubble', pJS.interactivity.events.onclick.mode)){
-        pJS.fn.modes.bubbleParticle(p);
-      }
-
-      if(isInArray('repulse', pJS.interactivity.events.onhover.mode) || isInArray('repulse', pJS.interactivity.events.onclick.mode)){
-        pJS.fn.modes.repulseParticle(p);
-      }
-
-      /* interaction auto between particles */
-      if(pJS.particles.line_linked.enable || pJS.particles.move.attract.enable){
-        for(var j = i + 1; j < pJS.particles.array.length; j++){
-          var p2 = pJS.particles.array[j];
-
-          /* link particles */
-          if(pJS.particles.line_linked.enable){
-            pJS.fn.interact.linkParticles(p,p2);
-          }
-
-          /* attract particles */
-          if(pJS.particles.move.attract.enable){
-            pJS.fn.interact.attractParticles(p,p2);
-          }
-
-          /* bounce particles */
-          if(pJS.particles.move.bounce){
-            pJS.fn.interact.bounceParticles(p,p2);
-          }
-
-        }
-      }
-
-
-    }
-
-  };
-
-  pJS.fn.particlesDraw = function(){
-
-    /* clear canvas */
-    pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
-
-    /* update each particles param */
-    pJS.fn.particlesUpdate();
-
-    /* draw each particle */
-    for(var i = 0; i < pJS.particles.array.length; i++){
-      var p = pJS.particles.array[i];
-      p.draw();
-    }
-
-  };
-
-  pJS.fn.particlesEmpty = function(){
-    pJS.particles.array = [];
-  };
-
-  pJS.fn.particlesRefresh = function(){
-
-    /* init all */
-    cancelRequestAnimFrame(pJS.fn.checkAnimFrame);
-    cancelRequestAnimFrame(pJS.fn.drawAnimFrame);
-    pJS.tmp.source_svg = undefined;
-    pJS.tmp.img_obj = undefined;
-    pJS.tmp.count_svg = 0;
-    pJS.fn.particlesEmpty();
-    pJS.fn.canvasClear();
-    
-    /* restart */
-    pJS.fn.vendors.start();
-
-  };
-
-
-  /* ---------- pJS functions - particles interaction ------------ */
-
-  pJS.fn.interact.linkParticles = function(p1, p2){
-
-    var dx = p1.x - p2.x,
-        dy = p1.y - p2.y,
-        dist = Math.sqrt(dx*dx + dy*dy);
-
-    /* draw a line between p1 and p2 if the distance between them is under the config distance */
-    if(dist <= pJS.particles.line_linked.distance){
-
-      var opacity_line = pJS.particles.line_linked.opacity - (dist / (1/pJS.particles.line_linked.opacity)) / pJS.particles.line_linked.distance;
-
-      if(opacity_line > 0){        
-        
-        /* style */
-        var color_line = pJS.particles.line_linked.color_rgb_line;
-        pJS.canvas.ctx.strokeStyle = 'rgba('+color_line.r+','+color_line.g+','+color_line.b+','+opacity_line+')';
-        pJS.canvas.ctx.lineWidth = pJS.particles.line_linked.width;
-        //pJS.canvas.ctx.lineCap = 'round'; /* performance issue */
-        
-        /* path */
-        pJS.canvas.ctx.beginPath();
-        pJS.canvas.ctx.moveTo(p1.x, p1.y);
-        pJS.canvas.ctx.lineTo(p2.x, p2.y);
-        pJS.canvas.ctx.stroke();
-        pJS.canvas.ctx.closePath();
-
-      }
-
-    }
-
-  };
-
-
-  pJS.fn.interact.attractParticles  = function(p1, p2){
-
-    /* condensed particles */
-    var dx = p1.x - p2.x,
-        dy = p1.y - p2.y,
-        dist = Math.sqrt(dx*dx + dy*dy);
-
-    if(dist <= pJS.particles.line_linked.distance){
-
-      var ax = dx/(pJS.particles.move.attract.rotateX*1000),
-          ay = dy/(pJS.particles.move.attract.rotateY*1000);
-
-      p1.vx -= ax;
-      p1.vy -= ay;
-
-      p2.vx += ax;
-      p2.vy += ay;
-
-    }
-    
-
-  }
-
-
-  pJS.fn.interact.bounceParticles = function(p1, p2){
-
-    var dx = p1.x - p2.x,
-        dy = p1.y - p2.y,
-        dist = Math.sqrt(dx*dx + dy*dy),
-        dist_p = p1.radius+p2.radius;
-
-    if(dist <= dist_p){
-      p1.vx = -p1.vx;
-      p1.vy = -p1.vy;
-
-      p2.vx = -p2.vx;
-      p2.vy = -p2.vy;
-    }
-
-  }
-
-
-  /* ---------- pJS functions - modes events ------------ */
-
-  pJS.fn.modes.pushParticles = function(nb, pos){
-
-    pJS.tmp.pushing = true;
-
-    for(var i = 0; i < nb; i++){
-      pJS.particles.array.push(
-        new pJS.fn.particle(
-          pJS.particles.color,
-          pJS.particles.opacity.value,
-          {
-            'x': pos ? pos.pos_x : Math.random() * pJS.canvas.w,
-            'y': pos ? pos.pos_y : Math.random() * pJS.canvas.h
-          }
-        )
-      )
-      if(i == nb-1){
-        if(!pJS.particles.move.enable){
-          pJS.fn.particlesDraw();
-        }
-        pJS.tmp.pushing = false;
-      }
-    }
-
-  };
-
-
-  pJS.fn.modes.removeParticles = function(nb){
-
-    pJS.particles.array.splice(0, nb);
-    if(!pJS.particles.move.enable){
-      pJS.fn.particlesDraw();
-    }
-
-  };
-
-
-  pJS.fn.modes.bubbleParticle = function(p){
-
-    /* on hover event */
-    if(pJS.interactivity.events.onhover.enable && isInArray('bubble', pJS.interactivity.events.onhover.mode)){
-
-      var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
-          dy_mouse = p.y - pJS.interactivity.mouse.pos_y,
-          dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse),
-          ratio = 1 - dist_mouse / pJS.interactivity.modes.bubble.distance;
-
-      function init(){
-        p.opacity_bubble = p.opacity;
-        p.radius_bubble = p.radius;
-      }
-
-      /* mousemove - check ratio */
-      if(dist_mouse <= pJS.interactivity.modes.bubble.distance){
-
-        if(ratio >= 0 && pJS.interactivity.status == 'mousemove'){
-          
-          /* size */
-          if(pJS.interactivity.modes.bubble.size != pJS.particles.size.value){
-
-            if(pJS.interactivity.modes.bubble.size > pJS.particles.size.value){
-              var size = p.radius + (pJS.interactivity.modes.bubble.size*ratio);
-              if(size >= 0){
-                p.radius_bubble = size;
-              }
-            }else{
-              var dif = p.radius - pJS.interactivity.modes.bubble.size,
-                  size = p.radius - (dif*ratio);
-              if(size > 0){
-                p.radius_bubble = size;
-              }else{
-                p.radius_bubble = 0;
-              }
-            }
-
-          }
-
-          /* opacity */
-          if(pJS.interactivity.modes.bubble.opacity != pJS.particles.opacity.value){
-
-            if(pJS.interactivity.modes.bubble.opacity > pJS.particles.opacity.value){
-              var opacity = pJS.interactivity.modes.bubble.opacity*ratio;
-              if(opacity > p.opacity && opacity <= pJS.interactivity.modes.bubble.opacity){
-                p.opacity_bubble = opacity;
-              }
-            }else{
-              var opacity = p.opacity - (pJS.particles.opacity.value-pJS.interactivity.modes.bubble.opacity)*ratio;
-              if(opacity < p.opacity && opacity >= pJS.interactivity.modes.bubble.opacity){
-                p.opacity_bubble = opacity;
-              }
-            }
-
-          }
-
-        }
-
-      }else{
-        init();
-      }
-
-
-      /* mouseleave */
-      if(pJS.interactivity.status == 'mouseleave'){
-        init();
-      }
-    
-    }
-
-    /* on click event */
-    else if(pJS.interactivity.events.onclick.enable && isInArray('bubble', pJS.interactivity.events.onclick.mode)){
-
-
-      if(pJS.tmp.bubble_clicking){
-        var dx_mouse = p.x - pJS.interactivity.mouse.click_pos_x,
-            dy_mouse = p.y - pJS.interactivity.mouse.click_pos_y,
-            dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse),
-            time_spent = (new Date().getTime() - pJS.interactivity.mouse.click_time)/1000;
-
-        if(time_spent > pJS.interactivity.modes.bubble.duration){
-          pJS.tmp.bubble_duration_end = true;
-        }
-
-        if(time_spent > pJS.interactivity.modes.bubble.duration*2){
-          pJS.tmp.bubble_clicking = false;
-          pJS.tmp.bubble_duration_end = false;
-        }
-      }
-
-
-      function process(bubble_param, particles_param, p_obj_bubble, p_obj, id){
-
-        if(bubble_param != particles_param){
-
-          if(!pJS.tmp.bubble_duration_end){
-            if(dist_mouse <= pJS.interactivity.modes.bubble.distance){
-              if(p_obj_bubble != undefined) var obj = p_obj_bubble;
-              else var obj = p_obj;
-              if(obj != bubble_param){
-                var value = p_obj - (time_spent * (p_obj - bubble_param) / pJS.interactivity.modes.bubble.duration);
-                if(id == 'size') p.radius_bubble = value;
-                if(id == 'opacity') p.opacity_bubble = value;
-              }
-            }else{
-              if(id == 'size') p.radius_bubble = undefined;
-              if(id == 'opacity') p.opacity_bubble = undefined;
-            }
-          }else{
-            if(p_obj_bubble != undefined){
-              var value_tmp = p_obj - (time_spent * (p_obj - bubble_param) / pJS.interactivity.modes.bubble.duration),
-                  dif = bubble_param - value_tmp;
-                  value = bubble_param + dif;
-              if(id == 'size') p.radius_bubble = value;
-              if(id == 'opacity') p.opacity_bubble = value;
-            }
-          }
-
-        }
-
-      }
-
-      if(pJS.tmp.bubble_clicking){
-        /* size */
-        process(pJS.interactivity.modes.bubble.size, pJS.particles.size.value, p.radius_bubble, p.radius, 'size');
-        /* opacity */
-        process(pJS.interactivity.modes.bubble.opacity, pJS.particles.opacity.value, p.opacity_bubble, p.opacity, 'opacity');
-      }
-
-    }
-
-  };
-
-
-  pJS.fn.modes.repulseParticle = function(p){
-
-    if(pJS.interactivity.events.onhover.enable && isInArray('repulse', pJS.interactivity.events.onhover.mode) && pJS.interactivity.status == 'mousemove') {
-
-      var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
-          dy_mouse = p.y - pJS.interactivity.mouse.pos_y,
-          dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse);
-
-      var normVec = {x: dx_mouse/dist_mouse, y: dy_mouse/dist_mouse},
-          repulseRadius = pJS.interactivity.modes.repulse.distance,
-          velocity = 100,
-          repulseFactor = clamp((1/repulseRadius)*(-1*Math.pow(dist_mouse/repulseRadius,2)+1)*repulseRadius*velocity, 0, 50);
-      
-      var pos = {
-        x: p.x + normVec.x * repulseFactor,
-        y: p.y + normVec.y * repulseFactor
-      }
-
-      if(pJS.particles.move.out_mode == 'bounce'){
-        if(pos.x - p.radius > 0 && pos.x + p.radius < pJS.canvas.w) p.x = pos.x;
-        if(pos.y - p.radius > 0 && pos.y + p.radius < pJS.canvas.h) p.y = pos.y;
-      }else{
-        p.x = pos.x;
-        p.y = pos.y;
-      }
-    
-    }
-
-
-    else if(pJS.interactivity.events.onclick.enable && isInArray('repulse', pJS.interactivity.events.onclick.mode)) {
-
-      if(!pJS.tmp.repulse_finish){
-        pJS.tmp.repulse_count++;
-        if(pJS.tmp.repulse_count == pJS.particles.array.length){
-          pJS.tmp.repulse_finish = true;
-        }
-      }
-
-      if(pJS.tmp.repulse_clicking){
-
-        var repulseRadius = Math.pow(pJS.interactivity.modes.repulse.distance/6, 3);
-
-        var dx = pJS.interactivity.mouse.click_pos_x - p.x,
-            dy = pJS.interactivity.mouse.click_pos_y - p.y,
-            d = dx*dx + dy*dy;
-
-        var force = -repulseRadius / d * 1;
-
-        function process(){
-
-          var f = Math.atan2(dy,dx);
-          p.vx = force * Math.cos(f);
-          p.vy = force * Math.sin(f);
-
-          if(pJS.particles.move.out_mode == 'bounce'){
-            var pos = {
-              x: p.x + p.vx,
-              y: p.y + p.vy
-            }
-            if (pos.x + p.radius > pJS.canvas.w) p.vx = -p.vx;
-            else if (pos.x - p.radius < 0) p.vx = -p.vx;
-            if (pos.y + p.radius > pJS.canvas.h) p.vy = -p.vy;
-            else if (pos.y - p.radius < 0) p.vy = -p.vy;
-          }
-
-        }
-
-        // default
-        if(d <= repulseRadius){
-          process();
-        }
-
-        // bang - slow motion mode
-        // if(!pJS.tmp.repulse_finish){
-        //   if(d <= repulseRadius){
-        //     process();
-        //   }
-        // }else{
-        //   process();
-        // }
-        
-
-      }else{
-
-        if(pJS.tmp.repulse_clicking == false){
-
-          p.vx = p.vx_i;
-          p.vy = p.vy_i;
-        
-        }
-
-      }
-
-    }
-
-  }
-
-
-  pJS.fn.modes.grabParticle = function(p){
-
-    if(pJS.interactivity.events.onhover.enable && pJS.interactivity.status == 'mousemove'){
-
-      var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
-          dy_mouse = p.y - pJS.interactivity.mouse.pos_y,
-          dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse);
-
-      /* draw a line between the cursor and the particle if the distance between them is under the config distance */
-      if(dist_mouse <= pJS.interactivity.modes.grab.distance){
-
-        var opacity_line = pJS.interactivity.modes.grab.line_linked.opacity - (dist_mouse / (1/pJS.interactivity.modes.grab.line_linked.opacity)) / pJS.interactivity.modes.grab.distance;
-
-        if(opacity_line > 0){
-
-          /* style */
-          var color_line = pJS.particles.line_linked.color_rgb_line;
-          pJS.canvas.ctx.strokeStyle = 'rgba('+color_line.r+','+color_line.g+','+color_line.b+','+opacity_line+')';
-          pJS.canvas.ctx.lineWidth = pJS.particles.line_linked.width;
-          //pJS.canvas.ctx.lineCap = 'round'; /* performance issue */
-          
-          /* path */
-          pJS.canvas.ctx.beginPath();
-          pJS.canvas.ctx.moveTo(p.x, p.y);
-          pJS.canvas.ctx.lineTo(pJS.interactivity.mouse.pos_x, pJS.interactivity.mouse.pos_y);
-          pJS.canvas.ctx.stroke();
-          pJS.canvas.ctx.closePath();
-
-        }
-
-      }
-
-    }
-
-  };
-
-
-
-  /* ---------- pJS functions - vendors ------------ */
-
-  pJS.fn.vendors.eventsListeners = function(){
-
-    /* events target element */
-    if(pJS.interactivity.detect_on == 'window'){
-      pJS.interactivity.el = window;
-    }else{
-      pJS.interactivity.el = pJS.canvas.el;
-    }
-
-
-    /* detect mouse pos - on hover / click event */
-    if(pJS.interactivity.events.onhover.enable || pJS.interactivity.events.onclick.enable){
-
-      /* el on mousemove */
-      pJS.interactivity.el.addEventListener('mousemove', function(e){
-
-        if(pJS.interactivity.el == window){
-          var pos_x = e.clientX,
-              pos_y = e.clientY;
-        }
-        else{
-          var pos_x = e.offsetX || e.clientX,
-              pos_y = e.offsetY || e.clientY;
-        }
-
-        pJS.interactivity.mouse.pos_x = pos_x;
-        pJS.interactivity.mouse.pos_y = pos_y;
-
-        if(pJS.tmp.retina){
-          pJS.interactivity.mouse.pos_x *= pJS.canvas.pxratio;
-          pJS.interactivity.mouse.pos_y *= pJS.canvas.pxratio;
-        }
-
-        pJS.interactivity.status = 'mousemove';
-
-      });
-
-      /* el on onmouseleave */
-      pJS.interactivity.el.addEventListener('mouseleave', function(e){
-
-        pJS.interactivity.mouse.pos_x = null;
-        pJS.interactivity.mouse.pos_y = null;
-        pJS.interactivity.status = 'mouseleave';
-
-      });
-
-    }
-
-    /* on click event */
-    if(pJS.interactivity.events.onclick.enable){
-
-      pJS.interactivity.el.addEventListener('click', function(){
-
-        pJS.interactivity.mouse.click_pos_x = pJS.interactivity.mouse.pos_x;
-        pJS.interactivity.mouse.click_pos_y = pJS.interactivity.mouse.pos_y;
-        pJS.interactivity.mouse.click_time = new Date().getTime();
-
-        if(pJS.interactivity.events.onclick.enable){
-
-          switch(pJS.interactivity.events.onclick.mode){
-
-            case 'push':
-              if(pJS.particles.move.enable){
-                pJS.fn.modes.pushParticles(pJS.interactivity.modes.push.particles_nb, pJS.interactivity.mouse);
-              }else{
-                if(pJS.interactivity.modes.push.particles_nb == 1){
-                  pJS.fn.modes.pushParticles(pJS.interactivity.modes.push.particles_nb, pJS.interactivity.mouse);
-                }
-                else if(pJS.interactivity.modes.push.particles_nb > 1){
-                  pJS.fn.modes.pushParticles(pJS.interactivity.modes.push.particles_nb);
-                }
-              }
-            break;
-
-            case 'remove':
-              pJS.fn.modes.removeParticles(pJS.interactivity.modes.remove.particles_nb);
-            break;
-
-            case 'bubble':
-              pJS.tmp.bubble_clicking = true;
-            break;
-
-            case 'repulse':
-              pJS.tmp.repulse_clicking = true;
-              pJS.tmp.repulse_count = 0;
-              pJS.tmp.repulse_finish = false;
-              setTimeout(function(){
-                pJS.tmp.repulse_clicking = false;
-              }, pJS.interactivity.modes.repulse.duration*1000)
-            break;
-
-          }
-
-        }
-
-      });
-        
-    }
-
-
-  };
-
-  pJS.fn.vendors.densityAutoParticles = function(){
-
-    if(pJS.particles.number.density.enable){
-
-      /* calc area */
-      var area = pJS.canvas.el.width * pJS.canvas.el.height / 1000;
-      if(pJS.tmp.retina){
-        area = area/(pJS.canvas.pxratio*2);
-      }
-
-      /* calc number of particles based on density area */
-      var nb_particles = area * pJS.particles.number.value / pJS.particles.number.density.value_area;
-
-      /* add or remove X particles */
-      var missing_particles = pJS.particles.array.length - nb_particles;
-      if(missing_particles < 0) pJS.fn.modes.pushParticles(Math.abs(missing_particles));
-      else pJS.fn.modes.removeParticles(missing_particles);
-
-    }
-
-  };
-
-
-  pJS.fn.vendors.checkOverlap = function(p1, position){
-    for(var i = 0; i < pJS.particles.array.length; i++){
-      var p2 = pJS.particles.array[i];
-
-      var dx = p1.x - p2.x,
-          dy = p1.y - p2.y,
-          dist = Math.sqrt(dx*dx + dy*dy);
-
-      if(dist <= p1.radius + p2.radius){
-        p1.x = position ? position.x : Math.random() * pJS.canvas.w;
-        p1.y = position ? position.y : Math.random() * pJS.canvas.h;
-        pJS.fn.vendors.checkOverlap(p1);
-      }
-    }
-  };
-
-
-  pJS.fn.vendors.createSvgImg = function(p){
-
-    /* set color to svg element */
-    var svgXml = pJS.tmp.source_svg,
-        rgbHex = /#([0-9A-F]{3,6})/gi,
-        coloredSvgXml = svgXml.replace(rgbHex, function (m, r, g, b) {
-          if(p.color.rgb){
-            var color_value = 'rgba('+p.color.rgb.r+','+p.color.rgb.g+','+p.color.rgb.b+','+p.opacity+')';
-          }else{
-            var color_value = 'hsla('+p.color.hsl.h+','+p.color.hsl.s+'%,'+p.color.hsl.l+'%,'+p.opacity+')';
-          }
-          return color_value;
-        });
-
-    /* prepare to create img with colored svg */
-    var svg = new Blob([coloredSvgXml], {type: 'image/svg+xml;charset=utf-8'}),
-        DOMURL = window.URL || window.webkitURL || window,
-        url = DOMURL.createObjectURL(svg);
-
-    /* create particle img obj */
-    var img = new Image();
-    img.addEventListener('load', function(){
-      p.img.obj = img;
-      p.img.loaded = true;
-      DOMURL.revokeObjectURL(url);
-      pJS.tmp.count_svg++;
-    });
-    img.src = url;
-
-  };
-
-
-  pJS.fn.vendors.destroypJS = function(){
-    cancelAnimationFrame(pJS.fn.drawAnimFrame);
-    canvas_el.remove();
-    pJSDom = null;
-  };
-
-
-  pJS.fn.vendors.drawShape = function(c, startX, startY, sideLength, sideCountNumerator, sideCountDenominator){
-
-    // By Programming Thomas - https://programmingthomas.wordpress.com/2013/04/03/n-sided-shapes/
-    var sideCount = sideCountNumerator * sideCountDenominator;
-    var decimalSides = sideCountNumerator / sideCountDenominator;
-    var interiorAngleDegrees = (180 * (decimalSides - 2)) / decimalSides;
-    var interiorAngle = Math.PI - Math.PI * interiorAngleDegrees / 180; // convert to radians
-    c.save();
-    c.beginPath();
-    c.translate(startX, startY);
-    c.moveTo(0,0);
-    for (var i = 0; i < sideCount; i++) {
-      c.lineTo(sideLength,0);
-      c.translate(sideLength,0);
-      c.rotate(interiorAngle);
-    }
-    //c.stroke();
-    c.fill();
-    c.restore();
-
-  };
-
-  pJS.fn.vendors.exportImg = function(){
-    window.open(pJS.canvas.el.toDataURL('image/png'), '_blank');
-  };
-
-
-  pJS.fn.vendors.loadImg = function(type){
-
-    pJS.tmp.img_error = undefined;
-
-    if(pJS.particles.shape.image.src != ''){
-
-      if(type == 'svg'){
-
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', pJS.particles.shape.image.src);
-        xhr.onreadystatechange = function (data) {
-          if(xhr.readyState == 4){
-            if(xhr.status == 200){
-              pJS.tmp.source_svg = data.currentTarget.response;
-              pJS.fn.vendors.checkBeforeDraw();
-            }else{
-              console.log('Error pJS - Image not found');
-              pJS.tmp.img_error = true;
-            }
-          }
-        }
-        xhr.send();
-
-      }else{
-
-        var img = new Image();
-        img.addEventListener('load', function(){
-          pJS.tmp.img_obj = img;
-          pJS.fn.vendors.checkBeforeDraw();
-        });
-        img.src = pJS.particles.shape.image.src;
-
-      }
-
-    }else{
-      console.log('Error pJS - No image.src');
-      pJS.tmp.img_error = true;
-    }
-
-  };
-
-
-  pJS.fn.vendors.draw = function(){
-
-    if(pJS.particles.shape.type == 'image'){
-
-      if(pJS.tmp.img_type == 'svg'){
-
-        if(pJS.tmp.count_svg >= pJS.particles.number.value){
-          pJS.fn.particlesDraw();
-          if(!pJS.particles.move.enable) cancelRequestAnimFrame(pJS.fn.drawAnimFrame);
-          else pJS.fn.drawAnimFrame = requestAnimFrame(pJS.fn.vendors.draw);
-        }else{
-          //console.log('still loading...');
-          if(!pJS.tmp.img_error) pJS.fn.drawAnimFrame = requestAnimFrame(pJS.fn.vendors.draw);
-        }
-
-      }else{
-
-        if(pJS.tmp.img_obj != undefined){
-          pJS.fn.particlesDraw();
-          if(!pJS.particles.move.enable) cancelRequestAnimFrame(pJS.fn.drawAnimFrame);
-          else pJS.fn.drawAnimFrame = requestAnimFrame(pJS.fn.vendors.draw);
-        }else{
-          if(!pJS.tmp.img_error) pJS.fn.drawAnimFrame = requestAnimFrame(pJS.fn.vendors.draw);
-        }
-
-      }
-
-    }else{
-      pJS.fn.particlesDraw();
-      if(!pJS.particles.move.enable) cancelRequestAnimFrame(pJS.fn.drawAnimFrame);
-      else pJS.fn.drawAnimFrame = requestAnimFrame(pJS.fn.vendors.draw);
-    }
-
-  };
-
-
-  pJS.fn.vendors.checkBeforeDraw = function(){
-
-    // if shape is image
-    if(pJS.particles.shape.type == 'image'){
-
-      if(pJS.tmp.img_type == 'svg' && pJS.tmp.source_svg == undefined){
-        pJS.tmp.checkAnimFrame = requestAnimFrame(check);
-      }else{
-        //console.log('images loaded! cancel check');
-        cancelRequestAnimFrame(pJS.tmp.checkAnimFrame);
-        if(!pJS.tmp.img_error){
-          pJS.fn.vendors.init();
-          pJS.fn.vendors.draw();
-        }
-        
-      }
-
-    }else{
-      pJS.fn.vendors.init();
-      pJS.fn.vendors.draw();
-    }
-
-  };
-
-
-  pJS.fn.vendors.init = function(){
-
-    /* init canvas + particles */
-    pJS.fn.retinaInit();
-    pJS.fn.canvasInit();
-    pJS.fn.canvasSize();
-    pJS.fn.canvasPaint();
-    pJS.fn.particlesCreate();
-    pJS.fn.vendors.densityAutoParticles();
-
-    /* particles.line_linked - convert hex colors to rgb */
-    pJS.particles.line_linked.color_rgb_line = hexToRgb(pJS.particles.line_linked.color);
-
-  };
-
-
-  pJS.fn.vendors.start = function(){
-
-    if(isInArray('image', pJS.particles.shape.type)){
-      pJS.tmp.img_type = pJS.particles.shape.image.src.substr(pJS.particles.shape.image.src.length - 3);
-      pJS.fn.vendors.loadImg(pJS.tmp.img_type);
-    }else{
-      pJS.fn.vendors.checkBeforeDraw();
-    }
-
-  };
-
-
-
-
-  /* ---------- pJS - start ------------ */
-
-
-  pJS.fn.vendors.eventsListeners();
-
-  pJS.fn.vendors.start();
-  
-
-
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/index.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ParticlesBg": () => /* reexport safe */ _ParticlesBg__WEBPACK_IMPORTED_MODULE_0__.default,
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _ParticlesBg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ParticlesBg */ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue");
+
+
+const components = {
+  ParticlesBg: _ParticlesBg__WEBPACK_IMPORTED_MODULE_0__.default
 };
 
-/* ---------- global functions - vendors ------------ */
+const install = function(Vue) {
+  if (install.installed) return;
 
-Object.deepExtend = function(destination, source) {
-  for (var property in source) {
-    if (source[property] && source[property].constructor &&
-     source[property].constructor === Object) {
-      destination[property] = destination[property] || {};
-      arguments.callee(destination[property], source[property]);
+  for (let key in components) {
+    Vue.component(components[key].name, components[key]);
+  }
+};
+
+if (typeof window !== "undefined" && window.Vue) {
+  install(window.Vue);
+}
+
+const VueParticlesBg = {
+  install,
+  ...components
+};
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (VueParticlesBg);
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "hexToRgb": () => /* binding */ hexToRgb,
+/* harmony export */   "getColor": () => /* binding */ getColor
+/* harmony export */ });
+
+function hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : {};
+}
+
+function getColor(color, a) {
+    let c;
+    if (color) {
+        c = hexToRgb(color);
+        return `rgba(${c.r},${c.g},${c.b}, ${a})`;
     } else {
-      destination[property] = source[property];
+        return null;
     }
-  }
-  return destination;
-};
-
-window.requestAnimFrame = (function(){
-  return  window.requestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    window.mozRequestAnimationFrame    ||
-    window.oRequestAnimationFrame      ||
-    window.msRequestAnimationFrame     ||
-    function(callback){
-      window.setTimeout(callback, 1000 / 60);
-    };
-})();
-
-window.cancelRequestAnimFrame = ( function() {
-  return window.cancelAnimationFrame         ||
-    window.webkitCancelRequestAnimationFrame ||
-    window.mozCancelRequestAnimationFrame    ||
-    window.oCancelRequestAnimationFrame      ||
-    window.msCancelRequestAnimationFrame     ||
-    clearTimeout
-} )();
-
-function hexToRgb(hex){
-  // By Tim Down - http://stackoverflow.com/a/5624139/3493650
-  // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
-  var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-  hex = hex.replace(shorthandRegex, function(m, r, g, b) {
-     return r + r + g + g + b + b;
-  });
-  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result ? {
-      r: parseInt(result[1], 16),
-      g: parseInt(result[2], 16),
-      b: parseInt(result[3], 16)
-  } : null;
-};
-
-function clamp(number, min, max) {
-  return Math.min(Math.max(number, min), max);
-};
-
-function isInArray(value, array) {
-  return array.indexOf(value) > -1;
 }
 
 
-/* ---------- particles.js functions - start ------------ */
 
-window.pJSDom = [];
 
-window.particlesJS = function(tag_id, params){
+/***/ }),
 
-  //console.log(params);
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/utils/Rand.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/utils/Rand.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-  /* no string id? so it's object params, and set the id with default id */
-  if(typeof(tag_id) != 'string'){
-    params = tag_id;
-    tag_id = 'particles-js';
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+// Code source from here, thanks author
+// https://github.com/drawcall/Proton/blob/gh-pages/source/src/utils/Rand.js
+class Rand {
+
+  constructor() {
+      this.list = [];
   }
 
-  /* no id? set the id to default id */
-  if(!tag_id){
-    tag_id = 'particles-js';
+  set(probability, target) {
+      this.list.push({
+          probability,
+          target,
+          a: 0,
+          b: 1
+      });
+
+      this.calculation();
   }
 
-  /* pJS elements */
-  var pJS_tag = document.getElementById(tag_id),
-      pJS_canvas_class = 'particles-js-canvas-el',
-      exist_canvas = pJS_tag.getElementsByClassName(pJS_canvas_class);
-
-  /* remove canvas if exists into the pJS target tag */
-  if(exist_canvas.length){
-    while(exist_canvas.length > 0){
-      pJS_tag.removeChild(exist_canvas[0]);
-    }
-  }
-
-  /* create canvas element */
-  var canvas_el = document.createElement('canvas');
-  canvas_el.className = pJS_canvas_class;
-
-  /* set size canvas */
-  canvas_el.style.width = "100%";
-  canvas_el.style.height = "100%";
-
-  /* append canvas */
-  var canvas = document.getElementById(tag_id).appendChild(canvas_el);
-
-  /* launch particle.js */
-  if(canvas != null){
-    pJSDom.push(new pJS(tag_id, params));
-  }
-
-};
-
-window.particlesJS.load = function(tag_id, path_config_json, callback){
-
-  /* load json config */
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', path_config_json);
-  xhr.onreadystatechange = function (data) {
-    if(xhr.readyState == 4){
-      if(xhr.status == 200){
-        var params = JSON.parse(data.currentTarget.response);
-        window.particlesJS(tag_id, params);
-        if(callback) callback();
-      }else{
-        console.log('Error pJS - XMLHttpRequest status: '+xhr.status);
-        console.log('Error pJS - File config not found');
+  calculation() {
+      let total = 0;
+      for (let i = 0; i < this.list.length; i++) {
+          total += this.list[i].probability;
       }
-    }
-  };
-  xhr.send();
 
+      for (let i = 0; i < this.list.length; i++) {
+          const obj = this.list[i];
+          const val = obj.probability / total;
+
+          obj.a = i === 0 ? 0 : this.list[i - 1].b;
+          obj.b = obj.a + val;
+      }
+  }
+
+  getResult() {
+      const val = Math.random();
+      for (let i = 0; i < this.list.length; i++) {
+          const obj = this.list[i];
+
+          if (val <= obj.b && val > obj.a) {
+              return obj.target;
+          }
+      }
+
+      return this.list[0].target;
+  }
 };
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Rand);
+
 
 /***/ }),
 
@@ -49862,6 +48473,47 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/proton-engine/build/proton.min.js":
+/*!********************************************************!*\
+  !*** ./node_modules/proton-engine/build/proton.min.js ***!
+  \********************************************************/
+/***/ (function(module) {
+
+/*!
+* Proton v4.2.1
+* https://github.com/drawcall/Proton
+*
+* Copyright 2013-2020, A-JIE
+* Licensed under the MIT license
+* http://www.opensource.org/licenses/mit-license
+*
+*/
+!function(t,e){ true?module.exports=e():0}(this,function(){"use strict";var e=3.1415926,s={PI:e,PIx2:2*e,PI_2:e/2,PI_180:e/180,N180_PI:180/e,Infinity:-999,isInfinity:function(t){return t===this.Infinity||t===1/0},randomAToB:function(t,e,i){return 2<arguments.length&&void 0!==i&&i?Math.floor(Math.random()*(e-t))+t:t+Math.random()*(e-t)},randomFloating:function(t,e,i){return this.randomAToB(t-e,t+e,i)},randomColor:function(){return"#"+("00000"+(16777216*Math.random()<<0).toString(16)).slice(-6)},randomZone:function(){},floor:function(t,e){e=1<arguments.length&&void 0!==e?e:4,e=Math.pow(10,e);return Math.floor(t*e)/e},degreeTransform:function(t){return t*e/180},toColor16:function(t){return"#"+t.toString(16)}},i="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},o=function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")},t=function(t,e,i){return e&&a(t.prototype,e),i&&a(t,i),t};function a(t,e){for(var i=0;i<e.length;i++){var a=e[i];a.enumerable=a.enumerable||!1,a.configurable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(t,a.key,a)}}function n(t,e,i){null===t&&(t=Function.prototype);var a=Object.getOwnPropertyDescriptor(t,e);if(void 0!==a){if("value"in a)return a.value;a=a.get;return void 0!==a?a.call(i):void 0}if(null!==(t=Object.getPrototypeOf(t)))return n(t,e,i)}var r=function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)},h=function(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e},l=(t(u,[{key:"getValue",value:function(t){t=0<arguments.length&&void 0!==t&&t;return this.isArray?P.getRandFromArray(this.a):this.center?s.randomFloating(this.a,this.b,t):s.randomAToB(this.a,this.b,t)}}],[{key:"setSpanValue",value:function(t,e,i){return t instanceof u?t:void 0===e?new u(t):void 0===i?new u(t,e):new u(t,e,i)}},{key:"getSpanValue",value:function(t){return t instanceof u?t.getValue():t}}]),u);function u(t,e,i){o(this,u),P.isArray(t)?(this.isArray=!0,this.a=t):(this.isArray=!1,this.a=P.initValue(t,1),this.b=P.initValue(e,this.a),this.center=P.initValue(i,!1))}var c=function(t){--t;for(var e=1;e<32;e<<=1)t|=t>>e;return t+1},d=function(t,e){return[1,0,0,0,1,0,t,e,1]},y=function(t){var e=Math.cos(t),t=Math.sin(t);return[e,-t,0,t,e,0,0,0,1]},p=function(t,e){return[t,0,0,0,e,0,0,0,1]},f=function(t,e){var i=t[0],a=t[1],r=t[2],n=t[3],s=t[4],o=t[5],h=t[6],l=t[7],u=t[8],c=e[0],d=e[1],y=e[2],p=e[3],f=e[4],v=e[5],g=e[6],t=e[7],e=e[8];return[i*c+a*p+r*g,i*d+a*f+r*t,i*y+a*v+r*e,n*c+s*p+o*g,n*d+s*f+o*t,n*y+s*v+o*e,h*c+l*p+u*g,h*d+l*f+u*t,h*y+l*v+u*e]},v={createCanvas:function(t,e,i,a){var r=3<arguments.length&&void 0!==a?a:"absolute",a=document.createElement("canvas");return a.id=t,a.width=e,a.height=i,a.style.opacity=0,a.style.position=r,this.transform(a,-500,-500,0,0),a},createDiv:function(t,e,i){var a=document.createElement("div");return a.id=t,a.style.position="absolute",this.resize(a,e,i),a},resize:function(t,e,i){t.style.width=e+"px",t.style.height=i+"px",t.style.marginLeft=-e/2+"px",t.style.marginTop=-i/2+"px"},transform:function(t,e,i,a,r){t.style.willChange="transform";var n="translate("+e+"px, "+i+"px) scale("+a+") rotate("+r+"deg)";this.css3(t,"transform",n)},transform3d:function(t,e,i,a,r){t.style.willChange="transform";r="translate3d("+e+"px, "+i+"px, 0) scale("+a+") rotate("+r+"deg)";this.css3(t,"backfaceVisibility","hidden"),this.css3(t,"transform",r)},css3:function(t,e,i){var a=e.charAt(0).toUpperCase()+e.substr(1);t.style["Webkit"+a]=i,t.style["Moz"+a]=i,t.style["O"+a]=i,t.style["ms"+a]=i,t.style[""+e]=i}},g={},m={},b=0,_=function(t,e,i){t.drawImage(e,i.x,i.y);e=t.getImageData(i.x,i.y,i.width,i.height);return t.clearRect(i.x,i.y,i.width,i.height),e},x=function(t,e,i){var a="string"==typeof t?t:t.src;g[a]?e(g[a],i):((t=new Image).onload=function(t){g[a]=t.target,e(g[a],i)},t.src=a)},k=function(t,e,i){var a,r,n=t.src;return m[n]||(a=c(t.width),r=c(t.height),(r=v.createCanvas("proton_canvas_cache_"+ ++b,a,r)).getContext("2d").drawImage(t,0,0,t.width,t.height),m[n]=r),e&&e(m[n],i),m[n]},P={initValue:function(t,e){return t=null!=t?t:e},isArray:function(t){return"[object Array]"===Object.prototype.toString.call(t)},emptyArray:function(t){t&&(t.length=0)},toArray:function(t){return this.isArray(t)?t:[t]},getRandFromArray:function(t){return t?t[Math.floor(t.length*Math.random())]:null},emptyObject:function(t,e){var i,a=1<arguments.length&&void 0!==e?e:null;for(i in t)a&&-1<a.indexOf(i)||delete t[i]},classApply:function(t,e){e=1<arguments.length&&void 0!==e?e:null;return new(e?t.bind.apply(t,[null].concat(e)):t)},setVectorVal:function(t,e){e=1<arguments.length&&void 0!==e?e:null;e&&(this.hasProp(e,"x")&&(t.p.x=e.x),this.hasProp(e,"y")&&(t.p.y=e.y),this.hasProp(e,"vx")&&(t.v.x=e.vx),this.hasProp(e,"vy")&&(t.v.y=e.vy),this.hasProp(e,"ax")&&(t.a.x=e.ax),this.hasProp(e,"ay")&&(t.a.y=e.ay),this.hasProp(e,"p")&&t.p.copy(e.p),this.hasProp(e,"v")&&t.v.copy(e.v),this.hasProp(e,"a")&&t.a.copy(e.a),this.hasProp(e,"position")&&t.p.copy(e.position),this.hasProp(e,"velocity")&&t.v.copy(e.velocity),this.hasProp(e,"accelerate")&&t.a.copy(e.accelerate))},hasProp:function(t,e){return!!t&&void 0!==t[e]},setProp:function(t,e){for(var i in e)t.hasOwnProperty(i)&&(t[i]=l.getSpanValue(e[i]));return t},getImageData:function(t,e,i){return _(t,e,i)},destroyAll:function(t,e){for(var i=1<arguments.length&&void 0!==e?e:null,a=t.length;a--;){try{t[a].destroy(i)}catch(t){}delete t[a]}t.length=0},assign:function(t,e){if("function"==typeof Object.assign)return Object.assign(t,e);for(var i in e)Object.prototype.hasOwnProperty.call(e,i)&&(t[i]=e[i]);return t}},E={},A={_index:0,_cache:{},id:function(t){return void 0!==E[t]&&null!==E[t]||(E[t]=0),t+"_"+E[t]++},getId:function(t){var e=this.getIdFromCache(t);return e||(e="PUID_"+this._index++,this._cache[e]=t,e)},getIdFromCache:function(t){var e,i=void 0;for(i in this._cache){if((e=this._cache[i])===t)return i;if(this.isBody(e,t)&&e.src===t.src)return i}return null},isBody:function(t,e){return"object"===(void 0===t?"undefined":i(t))&&"object"===(void 0===e?"undefined":i(e))&&t.isInner&&e.isInner},getTarget:function(t){return this._cache[t]}},T=(t(R,[{key:"get",value:function(t,e,i){var a=void 0;return i=i||t.__puid||A.getId(t),(a=this.cache[i]&&0<this.cache[i].length?this.cache[i].pop():this.createOrClone(t,e)).__puid=t.__puid||i,a}},{key:"expire",value:function(t){return this.getCache(t.__puid).push(t)}},{key:"createOrClone",value:function(t,e){return this.total++,this.create?this.create(t,e):"function"==typeof t?P.classApply(t,e):t.clone()}},{key:"getCount",value:function(){var t,e=0;for(t in this.cache)e+=this.cache[t].length;return e++}},{key:"destroy",value:function(){for(var t in this.cache)this.cache[t].length=0,delete this.cache[t]}},{key:"getCache",value:function(t){t=0<arguments.length&&void 0!==t?t:"default";return this.cache[t]||(this.cache[t]=[]),this.cache[t]}}]),R);function R(t){o(this,R),this.total=0,this.cache={}}var O=(t(w,[{key:"update",value:function(t,e){this.add(t,e);var i=this.getEmitter(),t=this.getRenderer(),e="";switch(this.type){case 2:e+="emitter:"+this.proton.emitters.length+"<br>",i&&(e+="em speed:"+i.emitSpeed+"<br>"),i&&(e+="pos:"+this.getEmitterPos(i));break;case 3:i&&(e+="initializes:"+i.initializes.length+"<br>"),i&&(e+='<span style="display:inline-block;">'+this.concatArr(i.initializes)+"</span><br>"),i&&(e+="behaviours:"+i.behaviours.length+"<br>"),i&&(e+='<span style="display:inline-block;">'+this.concatArr(i.behaviours)+"</span><br>");break;case 4:t&&(e+=t.name+"<br>"),t&&(e+="body:"+this.getCreatedNumber(t)+"<br>");break;default:e+="particles:"+this.proton.getCount()+"<br>",e+="pool:"+this.proton.pool.getCount()+"<br>",e+="total:"+this.proton.pool.total}this.container.innerHTML=e}},{key:"add",value:function(t,e){var i=this;if(!this.container){this.type=1,this.container=document.createElement("div"),this.container.style.cssText=["position:absolute;bottom:0px;left:0;cursor:pointer;","opacity:0.9;z-index:10000;padding:10px;font-size:12px;font-family:Helvetica,Arial,sans-serif;","width:120px;height:50px;background-color:#002;color:#0ff;"].join(""),this.container.addEventListener("click",function(t){i.type++,4<i.type&&(i.type=1)},!1);var a=void 0,r=void 0;switch(t){case 2:a="#201",r="#f08";break;case 3:a="#020",r="#0f0";break;default:a="#002",r="#0ff"}this.container.style["background-color"]=a,this.container.style.color=r}this.container.parentNode||(e=e||this.body||document.body).appendChild(this.container)}},{key:"getEmitter",value:function(){return this.proton.emitters[this.emitterIndex]}},{key:"getRenderer",value:function(){return this.proton.renderers[this.rendererIndex]}},{key:"concatArr",value:function(t){var e="";if(!t||!t.length)return e;for(var i=0;i<t.length;i++)e+=(t[i].name||"").substr(0,1)+".";return e}},{key:"getCreatedNumber",value:function(t){return t.pool.total||t.cpool&&t.cpool.total||0}},{key:"getEmitterPos",value:function(t){return Math.round(t.p.x)+","+Math.round(t.p.y)}}]),w);function w(t){o(this,w),this.proton=t,this.container=null,this.type=1,this.emitterIndex=0,this.rendererIndex=0}var C=(t(S,[{key:"addEventListener",value:function(t,e){return this._listeners?this.removeEventListener(t,e):this._listeners={},this._listeners[t]||(this._listeners[t]=[]),this._listeners[t].push(e),e}},{key:"removeEventListener",value:function(t,e){if(this._listeners&&this._listeners[t])for(var i=this._listeners[t],a=i.length,r=0;r<a;r++)if(i[r]===e){1===a?delete this._listeners[t]:i.splice(r,1);break}}},{key:"removeAllEventListeners",value:function(t){t?this._listeners&&delete this._listeners[t]:this._listeners=null}},{key:"dispatchEvent",value:function(t,e){var i=!1,a=this._listeners;if(t&&a){var r=a[t];if(!r)return i;for(var n=void 0,s=r.length;s--;)n=r[s],i=i||n(e)}return!!i}},{key:"hasEventListener",value:function(t){var e=this._listeners;return!(!e||!e[t])}}],[{key:"bind",value:function(t){t.prototype.dispatchEvent=S.prototype.dispatchEvent,t.prototype.hasEventListener=S.prototype.hasEventListener,t.prototype.addEventListener=S.prototype.addEventListener,t.prototype.removeEventListener=S.prototype.removeEventListener,t.prototype.removeAllEventListeners=S.prototype.removeAllEventListeners}}]),S);function S(){o(this,S),this._listeners=null}var I=(t(D,[{key:"calculate",value:function(t,e,i){this.eulerIntegrate(t,e,i)}},{key:"eulerIntegrate",value:function(t,e,i){t.sleep||(t.old.p.copy(t.p),t.old.v.copy(t.v),t.a.multiplyScalar(1/t.mass),t.v.add(t.a.multiplyScalar(e)),t.p.add(t.old.v.multiplyScalar(e)),i&&t.v.multiplyScalar(i),t.a.clear())}}]),D);function D(t){o(this,D),this.type=t}var V=(t(M,[{key:"addRenderer",value:function(t){t.init(this),this.renderers.push(t)}},{key:"removeRenderer",value:function(t){var e=this.renderers.indexOf(t);this.renderers.splice(e,1),t.remove(this)}},{key:"addEmitter",value:function(t){this.emitters.push(t),(t.parent=this).dispatchEvent(M.EMITTER_ADDED,t)}},{key:"removeEmitter",value:function(t){var e=this.emitters.indexOf(t);this.emitters.splice(e,1),t.parent=null,this.dispatchEvent(M.EMITTER_REMOVED,t)}},{key:"update",value:function(){"auto"===this._fps?(this.dispatchEvent(M.PROTON_UPDATE),M.USE_CLOCK?(this.then||(this.then=(new Date).getTime()),this.now=(new Date).getTime(),this.elapsed=.001*(this.now-this.then),this.amendChangeTabsBug(),0<this.elapsed&&this.emittersUpdate(this.elapsed),this.then=this.now):this.emittersUpdate(M.DEFAULT_INTERVAL),this.dispatchEvent(M.PROTON_UPDATE_AFTER)):(this.then||(this.then=(new Date).getTime()),this.now=(new Date).getTime(),this.elapsed=.001*(this.now-this.then),this.elapsed>this._interval&&(this.dispatchEvent(M.PROTON_UPDATE),this.emittersUpdate(this._interval),this.then=this.now-this.elapsed%this._interval*1e3,this.dispatchEvent(M.PROTON_UPDATE_AFTER)))}},{key:"emittersUpdate",value:function(t){for(var e=this.emitters.length;e--;)this.emitters[e].update(t)}},{key:"amendChangeTabsBug",value:function(){M.amendChangeTabsBug&&.5<this.elapsed&&(this.then=(new Date).getTime(),this.elapsed=0)}},{key:"getCount",value:function(){for(var t=0,e=this.emitters.length;e--;)t+=this.emitters[e].particles.length;return t}},{key:"getAllParticles",value:function(){for(var t=[],e=this.emitters.length;e--;)t=t.concat(this.emitters[e].particles);return t}},{key:"destroyAllEmitters",value:function(){P.destroyAll(this.emitters)}},{key:"destroy",value:function(t){function e(){i.time=0,i.then=0,i.pool.destroy(),P.destroyAll(i.emitters),P.destroyAll(i.renderers,i.getAllParticles())}var i=this;0<arguments.length&&void 0!==t&&t?setTimeout(e,200):e()}},{key:"fps",set:function(t){this._fps=t,this._interval="auto"===t?M.DEFAULT_INTERVAL:s.floor(1/t,7)},get:function(){return this._fps}}]),M);function M(t){o(this,M),this.emitters=[],this.renderers=[],this.time=0,this.now=0,this.then=0,this.elapsed=0,this.stats=new O(this),this.pool=new T(80),this.integrationType=P.initValue(t,M.EULER),this.integrator=new I(this.integrationType),this._fps="auto",this._interval=M.DEFAULT_INTERVAL}V.USE_CLOCK=!1,V.MEASURE=100,V.EULER="euler",V.RK2="runge-kutta2",V.PARTICLE_CREATED="PARTICLE_CREATED",V.PARTICLE_UPDATE="PARTICLE_UPDATE",V.PARTICLE_SLEEP="PARTICLE_SLEEP",V.PARTICLE_DEAD="PARTICLE_DEAD",V.EMITTER_ADDED="EMITTER_ADDED",V.EMITTER_REMOVED="EMITTER_REMOVED",V.PROTON_UPDATE="PROTON_UPDATE",V.PROTON_UPDATE_AFTER="PROTON_UPDATE_AFTER",V.DEFAULT_INTERVAL=.0167,V.amendChangeTabsBug=!0,C.bind(V);var B=(t(L,[{key:"reset",value:function(){this.r=255,this.g=255,this.b=255}}]),L);function L(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:255,e=1<arguments.length&&void 0!==arguments[1]?arguments[1]:255,i=2<arguments.length&&void 0!==arguments[2]?arguments[2]:255;o(this,L),this.r=t,this.g=e,this.b=i}var U={easeLinear:function(t){return t},easeInQuad:function(t){return Math.pow(t,2)},easeOutQuad:function(t){return-(Math.pow(t-1,2)-1)},easeInOutQuad:function(t){return(t/=.5)<1?.5*Math.pow(t,2):-.5*((t-=2)*t-2)},easeInCubic:function(t){return Math.pow(t,3)},easeOutCubic:function(t){return Math.pow(t-1,3)+1},easeInOutCubic:function(t){return(t/=.5)<1?.5*Math.pow(t,3):.5*(Math.pow(t-2,3)+2)},easeInQuart:function(t){return Math.pow(t,4)},easeOutQuart:function(t){return-(Math.pow(t-1,4)-1)},easeInOutQuart:function(t){return(t/=.5)<1?.5*Math.pow(t,4):-.5*((t-=2)*Math.pow(t,3)-2)},easeInSine:function(t){return 1-Math.cos(t*s.PI_2)},easeOutSine:function(t){return Math.sin(t*s.PI_2)},easeInOutSine:function(t){return-.5*(Math.cos(Math.PI*t)-1)},easeInExpo:function(t){return 0===t?0:Math.pow(2,10*(t-1))},easeOutExpo:function(t){return 1===t?1:1-Math.pow(2,-10*t)},easeInOutExpo:function(t){return 0===t?0:1===t?1:(t/=.5)<1?.5*Math.pow(2,10*(t-1)):.5*(2-Math.pow(2,-10*--t))},easeInCirc:function(t){return-(Math.sqrt(1-t*t)-1)},easeOutCirc:function(t){return Math.sqrt(1-Math.pow(t-1,2))},easeInOutCirc:function(t){return(t/=.5)<1?-.5*(Math.sqrt(1-t*t)-1):.5*(Math.sqrt(1-(t-=2)*t)+1)},easeInBack:function(t){return t*t*(2.70158*t-1.70158)},easeOutBack:function(t){return--t*t*(2.70158*t+1.70158)+1},easeInOutBack:function(t){var e=1.70158;return(t/=.5)<1?t*t*((1+(e*=1.525))*t-e)*.5:.5*((t-=2)*t*((1+(e*=1.525))*t+e)+2)},getEasing:function(t){return"function"==typeof t?t:this[t]||this.easeLinear}},F=(t(z,[{key:"set",value:function(t,e){return this.x=t,this.y=e,this}},{key:"setX",value:function(t){return this.x=t,this}},{key:"setY",value:function(t){return this.y=t,this}},{key:"getGradient",value:function(){return 0!==this.x?Math.atan2(this.y,this.x):0<this.y?s.PI_2:this.y<0?-s.PI_2:void 0}},{key:"copy",value:function(t){return this.x=t.x,this.y=t.y,this}},{key:"add",value:function(t,e){return void 0!==e?this.addVectors(t,e):(this.x+=t.x,this.y+=t.y,this)}},{key:"addXY",value:function(t,e){return this.x+=t,this.y+=e,this}},{key:"addVectors",value:function(t,e){return this.x=t.x+e.x,this.y=t.y+e.y,this}},{key:"sub",value:function(t,e){return void 0!==e?this.subVectors(t,e):(this.x-=t.x,this.y-=t.y,this)}},{key:"subVectors",value:function(t,e){return this.x=t.x-e.x,this.y=t.y-e.y,this}},{key:"divideScalar",value:function(t){return 0!==t?(this.x/=t,this.y/=t):this.set(0,0),this}},{key:"multiplyScalar",value:function(t){return this.x*=t,this.y*=t,this}},{key:"negate",value:function(){return this.multiplyScalar(-1)}},{key:"dot",value:function(t){return this.x*t.x+this.y*t.y}},{key:"lengthSq",value:function(){return this.x*this.x+this.y*this.y}},{key:"length",value:function(){return Math.sqrt(this.x*this.x+this.y*this.y)}},{key:"normalize",value:function(){return this.divideScalar(this.length())}},{key:"distanceTo",value:function(t){return Math.sqrt(this.distanceToSquared(t))}},{key:"rotate",value:function(t){var e=this.x,i=this.y;return this.x=e*Math.cos(t)+i*Math.sin(t),this.y=-e*Math.sin(t)+i*Math.cos(t),this}},{key:"distanceToSquared",value:function(t){var e=this.x-t.x,t=this.y-t.y;return e*e+t*t}},{key:"lerp",value:function(t,e){return this.x+=(t.x-this.x)*e,this.y+=(t.y-this.y)*e,this}},{key:"equals",value:function(t){return t.x===this.x&&t.y===this.y}},{key:"clear",value:function(){return this.x=0,this.y=0,this}},{key:"clone",value:function(){return new z(this.x,this.y)}}]),z);function z(t,e){o(this,z),this.x=t||0,this.y=e||0}var j=(t(N,[{key:"getDirection",value:function(){return Math.atan2(this.v.x,-this.v.y)*s.N180_PI}},{key:"reset",value:function(){return this.life=1/0,this.age=0,this.dead=!1,this.sleep=!1,this.body=null,this.sprite=null,this.parent=null,this.energy=1,this.mass=1,this.radius=10,this.alpha=1,this.scale=1,this.rotation=0,this.color=null,this.p.set(0,0),this.v.set(0,0),this.a.set(0,0),this.old.p.set(0,0),this.old.v.set(0,0),this.old.a.set(0,0),this.easing=U.easeLinear,this.rgb.reset(),P.emptyObject(this.data),this.removeAllBehaviours(),this}},{key:"update",value:function(t,e){this.sleep||(this.age+=t,this.applyBehaviours(t,e)),this.age<this.life?(e=this.easing(this.age/this.life),this.energy=Math.max(1-e,0)):this.destroy()}},{key:"applyBehaviours",value:function(t,e){for(var i=this.behaviours.length,a=void 0,a=0;a<i;a++)this.behaviours[a]&&this.behaviours[a].applyBehaviour(this,t,e)}},{key:"addBehaviour",value:function(t){this.behaviours.push(t),t.hasOwnProperty("parents")&&t.parents.push(this),t.initialize(this)}},{key:"addBehaviours",value:function(t){for(var e=t.length,i=void 0,i=0;i<e;i++)this.addBehaviour(t[i])}},{key:"removeBehaviour",value:function(t){t=this.behaviours.indexOf(t);-1<t&&(this.behaviours.splice(t,1).parents=null)}},{key:"removeAllBehaviours",value:function(){P.emptyArray(this.behaviours)}},{key:"destroy",value:function(){this.removeAllBehaviours(),this.energy=0,this.dead=!0,this.parent=null}}]),N);function N(t){o(this,N),this.id="",this.old={},this.data={},this.behaviours=[],this.p=[],this.v=[],this.a=[],this.rgb={},this.name="Particle",this.id=A.id(this.name),this.old={},this.data={},this.behaviours=[],this.p=new F,this.v=new F,this.a=new F,this.old.p=new F,this.old.v=new F,this.old.a=new F,this.rgb=new B,this.reset(),t&&P.setProp(this,t)}var H={hexToRgb:function(t){t="#"===t.charAt(0)?t.substring(1,7):t;return{r:parseInt(t.substring(0,2),16),g:parseInt(t.substring(2,4),16),b:parseInt(t.substring(4,6),16)}},rgbToHex:function(t){return"rgb("+t.r+", "+t.g+", "+t.b+")"},getHex16FromParticle:function(t){return 65536*Number(t.rgb.r)+256*Number(t.rgb.g)+Number(t.rgb.b)}},q=(t(G,[{key:"set",value:function(t,e){return this.r=t,this.tha=e,this}},{key:"setR",value:function(t){return this.r=t,this}},{key:"setTha",value:function(t){return this.tha=t,this}},{key:"copy",value:function(t){return this.r=t.r,this.tha=t.tha,this}},{key:"toVector",value:function(){return new F(this.getX(),this.getY())}},{key:"getX",value:function(){return this.r*Math.sin(this.tha)}},{key:"getY",value:function(){return-this.r*Math.cos(this.tha)}},{key:"normalize",value:function(){return this.r=1,this}},{key:"equals",value:function(t){return t.r===this.r&&t.tha===this.tha}},{key:"clear",value:function(){return this.r=0,this.tha=0,this}},{key:"clone",value:function(){return new G(this.r,this.tha)}}]),G);function G(t,e){o(this,G),this.r=Math.abs(t)||0,this.tha=e||0}var X={create:function(t){var e=new Float32Array(9);return t&&this.set(t,e),e},set:function(t,e){for(var i=0;i<9;i++)e[i]=t[i];return e},multiply:function(t,e,i){var a=t[0],r=t[1],n=t[2],s=t[3],o=t[4],h=t[6],l=t[7],u=e[0],c=e[1],d=e[2],y=e[3],p=e[4],t=e[6],e=e[7];return i[0]=u*a+c*s,i[1]=u*r+c*o,i[2]=n*d,i[3]=y*a+p*s,i[4]=y*r+p*o,i[6]=t*a+e*s+h,i[7]=t*r+e*o+l,i},inverse:function(t,e){var i=t[0],a=t[1],r=t[3],n=t[4],s=t[6],o=t[7],h=-r,t=o*r-n*s,r=1/(i*n+a*h);return e[0]=n*r,e[1]=-a*r,e[3]=h*r,e[4]=i*r,e[6]=t*r,e[7]=(-o*i+a*s)*r,e},multiplyVec2:function(t,e,i){var a=e[0],e=e[1];return i[0]=a*t[0]+e*t[3]+t[6],i[1]=a*t[1]+e*t[4]+t[7],i}},Y=(r(W,l),t(W,[{key:"getValue",value:function(){var t=P.getRandFromArray(this._arr);return"random"===t||"Random"===t?s.randomColor():t}}],[{key:"createArraySpan",value:function(t){return t?t instanceof W?t:new W(t):null}}]),W);function W(t){o(this,W);var e=h(this,(W.__proto__||Object.getPrototypeOf(W)).call(this));return e._arr=P.toArray(t),e}var Z=(t(Q,[{key:"contains",value:function(t,e){return t<=this.right&&t>=this.x&&e<=this.bottom&&e>=this.y}}]),Q);function Q(t,e,i,a){o(this,Q),this.x=t,this.y=e,this.width=i,this.height=a,this.bottom=this.y+this.height,this.right=this.x+this.width}var K=(t(J,[{key:"init",value:function(){this.startTime=0,this.nextTime=this.timePan.getValue()}},{key:"getValue",value:function(t){return this.startTime+=t,this.startTime>=this.nextTime?(this.startTime=0,this.nextTime=this.timePan.getValue(),1===this.numPan.b?.5<this.numPan.getValue(!1)?1:0:this.numPan.getValue(!0)):0}}]),J);function J(t,e){o(this,J),this.numPan=l.setSpanValue(P.initValue(t,1)),this.timePan=l.setSpanValue(P.initValue(e,1)),this.startTime=0,this.nextTime=0,this.init()}var $=(t(tt,[{key:"reset",value:function(){}},{key:"init",value:function(t,e){e?this.initialize(e):this.initialize(t)}},{key:"initialize",value:function(){}}]),tt);function tt(){o(this,tt)}var et=(r(it,$),t(it,[{key:"initialize",value:function(t){this.lifePan.a===1/0?t.life=1/0:t.life=this.lifePan.getValue()}}]),it);function it(t,e,i){o(this,it);var a=h(this,(it.__proto__||Object.getPrototypeOf(it)).call(this));return a.lifePan=l.setSpanValue(t,e,i),a.name="Life",a}var at=(t(rt,[{key:"getPosition",value:function(){}},{key:"crossing",value:function(){}}]),rt);function rt(){o(this,rt),this.vector=new F(0,0),this.random=0,this.crossType="dead",this.alert=!0}var nt=(r(st,at),t(st,[{key:"getPosition",value:function(){return this.vector.x=this.x,this.vector.y=this.y,this.vector}},{key:"crossing",value:function(){this.alert&&(console.error("Sorry, PointZone does not support crossing method!"),this.alert=!1)}}]),st);function st(t,e){o(this,st);var i=h(this,(st.__proto__||Object.getPrototypeOf(st)).call(this));return i.x=t,i.y=e,i}var ot=(r(ht,$),t(ht,[{key:"reset",value:function(t){this.zone=P.initValue(t,new nt)}},{key:"initialize",value:function(t){this.zone.getPosition(),t.p.x=this.zone.vector.x,t.p.y=this.zone.vector.y}}]),ht);function ht(t){o(this,ht);var e=h(this,(ht.__proto__||Object.getPrototypeOf(ht)).call(this));return e.zone=P.initValue(t,new nt),e.name="Position",e}var lt=(r(ut,$),t(ut,[{key:"reset",value:function(t,e,i){this.rPan=l.setSpanValue(t),this.thaPan=l.setSpanValue(e),this.type=P.initValue(i,"vector")}},{key:"normalizeVelocity",value:function(t){return t*V.MEASURE}},{key:"initialize",value:function(t){var e;"p"===this.type||"P"===this.type||"polar"===this.type?(e=new q(this.normalizeVelocity(this.rPan.getValue()),this.thaPan.getValue()*s.PI_180),t.v.x=e.getX(),t.v.y=e.getY()):(t.v.x=this.normalizeVelocity(this.rPan.getValue()),t.v.y=this.normalizeVelocity(this.thaPan.getValue()))}}]),ut);function ut(t,e,i){o(this,ut);var a=h(this,(ut.__proto__||Object.getPrototypeOf(ut)).call(this));return a.rPan=l.setSpanValue(t),a.thaPan=l.setSpanValue(e),a.type=P.initValue(i,"vector"),a.name="Velocity",a}var ct=(r(dt,$),t(dt,[{key:"initialize",value:function(t){t.mass=this.massPan.getValue()}}]),dt);function dt(t,e,i){o(this,dt);var a=h(this,(dt.__proto__||Object.getPrototypeOf(dt)).call(this));return a.massPan=l.setSpanValue(t,e,i),a.name="Mass",a}var yt=(r(pt,$),t(pt,[{key:"reset",value:function(t,e,i){this.radius=l.setSpanValue(t,e,i)}},{key:"initialize",value:function(t){t.radius=this.radius.getValue(),t.data.oldRadius=t.radius}}]),pt);function pt(t,e,i){o(this,pt);var a=h(this,(pt.__proto__||Object.getPrototypeOf(pt)).call(this));return a.radius=l.setSpanValue(t,e,i),a.name="Radius",a}var ft=(r(vt,$),t(vt,[{key:"initialize",value:function(t){var e=this.image.getValue();t.body="string"==typeof e?{width:this.w,height:this.h,src:e,isInner:!0,inner:!0}:e}},{key:"setSpanValue",value:function(t){return t instanceof Y?t:new Y(t)}}]),vt);function vt(t,e,i){o(this,vt);var a=h(this,(vt.__proto__||Object.getPrototypeOf(vt)).call(this));return a.image=a.setSpanValue(t),a.w=P.initValue(e,20),a.h=P.initValue(i,a.w),a.name="Body",a}var gt=(t(mt,[{key:"reset",value:function(t,e){this.life=P.initValue(t,1/0),this.easing=U.getEasing(e)}},{key:"normalizeForce",value:function(t){return t.multiplyScalar(V.MEASURE)}},{key:"normalizeValue",value:function(t){return t*V.MEASURE}},{key:"initialize",value:function(){}},{key:"calculate",value:function(t,e){this.age+=e,this.age>=this.life||this.dead?(this.energy=0,this.dead=!0,this.destroy()):(t=this.easing(t.age/t.life),this.energy=Math.max(1-t,0))}},{key:"destroy",value:function(){for(var t=this.parents.length;t--;)this.parents[t].removeBehaviour(this);this.parents.length=0}}]),mt);function mt(t,e){o(this,mt),this.life=P.initValue(t,1/0),this.easing=U.getEasing(e),this.age=0,this.energy=1,this.dead=!1,this.parents=[],this.id="Behaviour_"+mt.id++,this.name="Behaviour"}gt.id=0;var bt=(r(_t,gt),t(_t,[{key:"reset",value:function(t,e,i,a){this.force=this.normalizeForce(new F(t,e)),i&&n(_t.prototype.__proto__||Object.getPrototypeOf(_t.prototype),"reset",this).call(this,i,a)}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),t.a.add(this.force)}}]),_t);function _t(t,e,i,a){o(this,_t);a=h(this,(_t.__proto__||Object.getPrototypeOf(_t)).call(this,i,a));return a.force=a.normalizeForce(new F(t,e)),a.name="Force",a}var xt=(r(kt,gt),t(kt,[{key:"reset",value:function(t,e,i,a,r){this.targetPosition=P.initValue(t,new F),this.radius=P.initValue(i,1e3),this.force=P.initValue(this.normalizeValue(e),100),this.radiusSq=this.radius*this.radius,this.attractionForce=new F,this.lengthSq=0,a&&n(kt.prototype.__proto__||Object.getPrototypeOf(kt.prototype),"reset",this).call(this,a,r)}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),this.attractionForce.copy(this.targetPosition),this.attractionForce.sub(t.p),this.lengthSq=this.attractionForce.lengthSq(),4e-5<this.lengthSq&&this.lengthSq<this.radiusSq&&(this.attractionForce.normalize(),this.attractionForce.multiplyScalar(1-this.lengthSq/this.radiusSq),this.attractionForce.multiplyScalar(this.force),t.a.add(this.attractionForce))}}]),kt);function kt(t,e,i,a,r){o(this,kt);r=h(this,(kt.__proto__||Object.getPrototypeOf(kt)).call(this,a,r));return r.targetPosition=P.initValue(t,new F),r.radius=P.initValue(i,1e3),r.force=P.initValue(r.normalizeValue(e),100),r.radiusSq=r.radius*r.radius,r.attractionForce=new F,r.lengthSq=0,r.name="Attraction",r}var Pt=(r(Et,gt),t(Et,[{key:"reset",value:function(t,e,i,a,r){this.panFoce=new F(t,e),this.panFoce=this.normalizeForce(this.panFoce),this.delay=i,a&&n(Et.prototype.__proto__||Object.getPrototypeOf(Et.prototype),"reset",this).call(this,a,r)}},{key:"initialize",value:function(t){t.data.time=0}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),t.data.time+=e,t.data.time>=this.delay&&(t.a.addXY(s.randomAToB(-this.panFoce.x,this.panFoce.x),s.randomAToB(-this.panFoce.y,this.panFoce.y)),t.data.time=0)}}]),Et);function Et(t,e,i,a,r){o(this,Et);r=h(this,(Et.__proto__||Object.getPrototypeOf(Et)).call(this,a,r));return r.reset(t,e,i),r.time=0,r.name="RandomDrift",r}var At=(r(Tt,bt),t(Tt,[{key:"reset",value:function(t,e,i){n(Tt.prototype.__proto__||Object.getPrototypeOf(Tt.prototype),"reset",this).call(this,0,t,e,i)}}]),Tt);function Tt(t,e,i){o(this,Tt);i=h(this,(Tt.__proto__||Object.getPrototypeOf(Tt)).call(this,0,t,e,i));return i.name="Gravity",i}var Rt=(r(Ot,gt),t(Ot,[{key:"reset",value:function(t,e,i,a,r){this.emitter=P.initValue(t,null),this.mass=P.initValue(e,!0),this.callback=P.initValue(i,null),this.collisionPool=[],this.delta=new F,a&&n(Ot.prototype.__proto__||Object.getPrototypeOf(Ot.prototype),"reset",this).call(this,a,r)}},{key:"applyBehaviour",value:function(t,e,i){for(var a,r,n,s,o,h,l=(this.emitter?this.emitter.particles:this.pool).slice(i),u=l.length,c=void 0,d=void 0,d=0;d<u;d++){(c=l[d])!==t&&(this.delta.copy(c.p),this.delta.sub(t.p),(a=this.delta.lengthSq())<=(h=t.radius+c.radius)*h&&(r=h-Math.sqrt(a),r+=.5,n=t.mass+c.mass,s=this.mass?c.mass/n:.5,o=this.mass?t.mass/n:.5,t.p.add(this.delta.clone().normalize().multiplyScalar(r*-s)),c.p.add(this.delta.normalize().multiplyScalar(r*o)),this.callback&&this.callback(t,c)))}}}]),Ot);function Ot(t,e,i,a,r){o(this,Ot);r=h(this,(Ot.__proto__||Object.getPrototypeOf(Ot)).call(this,a,r));return r.reset(t,e,i),r.name="Collision",r}var wt=(r(Ct,gt),t(Ct,[{key:"reset",value:function(t,e,i,a){this.zone=t,this.zone.crossType=P.initValue(e,"dead"),i&&n(Ct.prototype.__proto__||Object.getPrototypeOf(Ct.prototype),"reset",this).call(this,i,a)}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),this.zone.crossing(t)}}]),Ct);function Ct(t,e,i,a){o(this,Ct);a=h(this,(Ct.__proto__||Object.getPrototypeOf(Ct)).call(this,i,a));return a.reset(t,e),a.name="CrossZone",a}var St=(r(It,gt),t(It,[{key:"reset",value:function(t,e,i,a){this.same=null==e,this.a=l.setSpanValue(P.initValue(t,1)),this.b=l.setSpanValue(e),i&&n(It.prototype.__proto__||Object.getPrototypeOf(It.prototype),"reset",this).call(this,i,a)}},{key:"initialize",value:function(t){t.data.alphaA=this.a.getValue(),this.same?t.data.alphaB=t.data.alphaA:t.data.alphaB=this.b.getValue()}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),t.alpha=t.data.alphaB+(t.data.alphaA-t.data.alphaB)*this.energy,t.alpha<.001&&(t.alpha=0)}}]),It);function It(t,e,i,a){o(this,It);a=h(this,(It.__proto__||Object.getPrototypeOf(It)).call(this,i,a));return a.reset(t,e),a.name="Alpha",a}var Dt=(r(Vt,gt),t(Vt,[{key:"reset",value:function(t,e,i,a){this.same=null==e,this.a=l.setSpanValue(P.initValue(t,1)),this.b=l.setSpanValue(e),i&&n(Vt.prototype.__proto__||Object.getPrototypeOf(Vt.prototype),"reset",this).call(this,i,a)}},{key:"initialize",value:function(t){t.data.scaleA=this.a.getValue(),t.data.oldRadius=t.radius,t.data.scaleB=this.same?t.data.scaleA:this.b.getValue()}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),t.scale=t.data.scaleB+(t.data.scaleA-t.data.scaleB)*this.energy,t.scale<1e-4&&(t.scale=0),t.radius=t.data.oldRadius*t.scale}}]),Vt);function Vt(t,e,i,a){o(this,Vt);a=h(this,(Vt.__proto__||Object.getPrototypeOf(Vt)).call(this,i,a));return a.reset(t,e),a.name="Scale",a}var Mt=(r(Bt,gt),t(Bt,[{key:"reset",value:function(t,e,i,a,r){this.same=null==e,this.a=l.setSpanValue(P.initValue(t,"Velocity")),this.b=l.setSpanValue(P.initValue(e,0)),this.style=P.initValue(i,"to"),a&&n(Bt.prototype.__proto__||Object.getPrototypeOf(Bt.prototype),"reset",this).call(this,a,r)}},{key:"initialize",value:function(t){t.rotation=this.a.getValue(),t.data.rotationA=this.a.getValue(),this.same||(t.data.rotationB=this.b.getValue())}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i),this.same?"V"!==this.a.a&&"Velocity"!==this.a.a&&"v"!==this.a.a||(t.rotation=t.getDirection()):"to"===this.style||"TO"===this.style||"_"===this.style?t.rotation+=t.data.rotationB+(t.data.rotationA-t.data.rotationB)*this.energy:t.rotation+=t.data.rotationB}}]),Bt);function Bt(t,e,i,a,r){o(this,Bt);r=h(this,(Bt.__proto__||Object.getPrototypeOf(Bt)).call(this,a,r));return r.reset(t,e,i),r.name="Rotate",r}var Lt=(r(Ut,gt),t(Ut,[{key:"reset",value:function(t,e,i,a){this.a=Y.createArraySpan(t),this.b=Y.createArraySpan(e),i&&n(Ut.prototype.__proto__||Object.getPrototypeOf(Ut.prototype),"reset",this).call(this,i,a)}},{key:"initialize",value:function(t){t.color=this.a.getValue(),t.data.colorA=H.hexToRgb(t.color),this.b&&(t.data.colorB=H.hexToRgb(this.b.getValue()))}},{key:"applyBehaviour",value:function(t,e,i){this.b?(this.calculate(t,e,i),t.rgb.r=t.data.colorB.r+(t.data.colorA.r-t.data.colorB.r)*this.energy,t.rgb.g=t.data.colorB.g+(t.data.colorA.g-t.data.colorB.g)*this.energy,t.rgb.b=t.data.colorB.b+(t.data.colorA.b-t.data.colorB.b)*this.energy,t.rgb.r=Math.floor(t.rgb.r),t.rgb.g=Math.floor(t.rgb.g),t.rgb.b=Math.floor(t.rgb.b)):(t.rgb.r=t.data.colorA.r,t.rgb.g=t.data.colorA.g,t.rgb.b=t.data.colorA.b)}}]),Ut);function Ut(t,e,i,a){o(this,Ut);a=h(this,(Ut.__proto__||Object.getPrototypeOf(Ut)).call(this,i,a));return a.reset(t,e),a.name="Color",a}var Ft="changing",zt=(r(jt,gt),t(jt,[{key:"setAngleAndForce",value:function(t,e){this.force=Ft,this.angle=s.PI/2,"right"===t?this.angle=s.PI/2:"left"===t?this.angle=-s.PI/2:"random"===t?this.angle="random":t instanceof l?(this.angle="span",this.span=t):t&&(this.angle=t),"changing"===String(e).toLowerCase()||"chang"===String(e).toLowerCase()||"auto"===String(e).toLowerCase()?this.force=Ft:e&&(this.force=e)}},{key:"reset",value:function(t,e,i,a){this.angle=s.PI/2,this.setAngleAndForce(t,e),i&&n(jt.prototype.__proto__||Object.getPrototypeOf(jt.prototype),"reset",this).call(this,i,a)}},{key:"initialize",value:function(t){"random"===this.angle?t.data.cangle=s.randomAToB(-s.PI,s.PI):"span"===this.angle&&(t.data.cangle=this.span.getValue()),t.data.cyclone=new F(0,0)}},{key:"applyBehaviour",value:function(t,e,i){this.calculate(t,e,i);e=void 0,i=t.v.getGradient();"random"===this.angle||"span"===this.angle?i+=t.data.cangle:i+=this.angle,e=this.force===Ft?t.v.length()/100:this.force,t.data.cyclone.x=e*Math.cos(i),t.data.cyclone.y=e*Math.sin(i),t.data.cyclone=this.normalizeForce(t.data.cyclone),t.a.add(t.data.cyclone)}}]),jt);function jt(t,e,i,a){o(this,jt);a=h(this,(jt.__proto__||Object.getPrototypeOf(jt)).call(this,i,a));return a.setAngleAndForce(t,e),a.name="Cyclone",a}var Nt=(r(Ht,xt),t(Ht,[{key:"reset",value:function(t,e,i,a,r){n(Ht.prototype.__proto__||Object.getPrototypeOf(Ht.prototype),"reset",this).call(this,t,e,i,a,r),this.force*=-1}}]),Ht);function Ht(t,e,i,a,r){o(this,Ht);r=h(this,(Ht.__proto__||Object.getPrototypeOf(Ht)).call(this,t,e,i,a,r));return r.force*=-1,r.name="Repulsion",r}var qt=(r(Gt,gt),t(Gt,[{key:"reset",value:function(t,e,i,a){this.distanceVec=new F,this.centerPoint=P.initValue(t,new F),this.force=P.initValue(this.normalizeValue(e),100),i&&n(Gt.prototype.__proto__||Object.getPrototypeOf(Gt.prototype),"reset",this).call(this,i,a)}},{key:"initialize",value:function(){}},{key:"applyBehaviour",value:function(t,e){this.distanceVec.set(this.centerPoint.x-t.p.x,this.centerPoint.y-t.p.y);var i,a=this.distanceVec.lengthSq();0!==a&&(i=this.distanceVec.length(),i=this.force*e/(a*i),t.v.x+=i*this.distanceVec.x,t.v.y+=i*this.distanceVec.y)}}]),Gt);function Gt(t,e,i,a){o(this,Gt);a=h(this,(Gt.__proto__||Object.getPrototypeOf(Gt)).call(this,i,a));return a.distanceVec=new F,a.centerPoint=P.initValue(t,new F),a.force=P.initValue(a.normalizeValue(e),100),a.name="GravityWell",a}var Xt={initialize:function(t,e,i){for(var a=i.length,r=void 0,r=0;r<a;r++)i[r]instanceof $?i[r].init(t,e):this.init(t,e,i[r]);this.bindEmitter(t,e)},init:function(t,e,i){P.setProp(e,i),P.setVectorVal(e,i)},bindEmitter:function(t,e){t.bindEmitter&&(e.p.add(t.p),e.v.add(t.v),e.a.add(t.a),e.v.rotate(s.degreeTransform(t.rotation)))}},Yt=(r(Wt,j),t(Wt,[{key:"emit",value:function(t,e){this.stoped=!1,this.emitTime=0,this.totalTime=P.initValue(t,1/0),!0===e||"life"===e||"destroy"===e?this.life="once"===t?1:this.totalTime:isNaN(e)||(this.life=e),this.rate.init()}},{key:"stop",value:function(){this.totalTime=-1,this.emitTime=0,this.stoped=!0}},{key:"preEmit",value:function(t){var e=this.stoped,i=this.emitTime,a=this.totalTime;this.stoped=!1,this.emitTime=0,this.totalTime=t,this.rate.init();for(;.0167<t;)t-=.0167,this.update(.0167);this.stoped=e,this.emitTime=i+Math.max(t,0),this.totalTime=a}},{key:"removeAllParticles",value:function(){for(var t=this.particles.length;t--;)this.particles[t].dead=!0}},{key:"addSelfInitialize",value:function(t){t.init?t.init(this):this.initAll()}},{key:"addInitialize",value:function(){for(var t=arguments.length,e=Array(t),i=0;i<t;i++)e[i]=arguments[i];for(var a=e.length;a--;)this.initializes.push(e[a])}},{key:"removeInitialize",value:function(t){t=this.initializes.indexOf(t);-1<t&&this.initializes.splice(t,1)}},{key:"removeAllInitializers",value:function(){P.emptyArray(this.initializes)}},{key:"addBehaviour",value:function(){for(var t=arguments.length,e=Array(t),i=0;i<t;i++)e[i]=arguments[i];for(var a=arguments.length;a--;){var r=e[a];this.behaviours.push(r),r.parents&&r.parents.push(this)}}},{key:"removeBehaviour",value:function(t){var e=this.behaviours.indexOf(t);return this.behaviours.splice(e,1),t.parents&&(e=t.parents.indexOf(t),t.parents.splice(e,1)),e}},{key:"removeAllBehaviours",value:function(){P.emptyArray(this.behaviours)}},{key:"update",value:function(t){this.age+=t,(this.age>=this.life||this.dead)&&this.destroy(),this.emitting(t),this.integrate(t)}},{key:"integrate",value:function(t){if(this.parent){var e=1-this.damping;this.parent.integrator.calculate(this,t,e);for(var i=void 0,a=void 0,i=this.particles.length-1;0<=i;i--)(a=this.particles[i]).update(t,i),this.parent.integrator.calculate(a,t,e),this.dispatch("PARTICLE_UPDATE",a),a.dead&&(this.dispatch("PARTICLE_DEAD",a),this.parent.pool.expire(a),this.particles.splice(i,1))}}},{key:"dispatch",value:function(t,e){this.parent&&this.parent.dispatchEvent(t,e),this.bindEvent&&this.dispatchEvent(t,e)}},{key:"emitting",value:function(t){if("once"===this.totalTime){var e=void 0,i=this.rate.getValue(99999);for(0<i&&(this.emitSpeed=i),e=0;e<i;e++)this.createParticle();this.totalTime="none"}else if(this.emitTime+=t,this.emitTime<this.totalTime){var a=this.rate.getValue(t),r=void 0;for(0<a&&(this.emitSpeed=a),r=0;r<a;r++)this.createParticle()}}},{key:"createParticle",value:function(t,e){var i=this.parent.pool.get(j);return this.setupParticle(i,t,e),this.dispatch("PARTICLE_CREATED",i),i}},{key:"setupParticle",value:function(t,e,i){var a=this.initializes,r=this.behaviours;e&&(a=P.toArray(e)),i&&(r=P.toArray(i)),t.reset(),Xt.initialize(this,t,a),t.addBehaviours(r),(t.parent=this).particles.push(t)}},{key:"remove",value:function(){this.stop(),P.destroyAll(this.particles)}},{key:"destroy",value:function(){this.dead=!0,this.remove(),this.removeAllInitializers(),this.removeAllBehaviours(),this.parent&&this.parent.removeEmitter(this)}}]),Wt);function Wt(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{};o(this,Wt);t=h(this,(Wt.__proto__||Object.getPrototypeOf(Wt)).call(this,t));return t.particles=[],t.behaviours=[],t.initializes=[],t.emitTime=0,t.emitSpeed=0,t.totalTime=-1,t.damping=.006,t.bindEmitter=!0,t.rate=new K(1,.1),t.name="Emitter",t.id=A.id(t.name),t}C.bind(Yt);var Zt=(r(Qt,Yt),t(Qt,[{key:"addSelfBehaviour",value:function(){for(var t=arguments.length,e=Array(t),i=0;i<t;i++)e[i]=arguments[i];for(var a=void 0,r=e.length,a=0;a<r;a++){var n=e[a];this.selfBehaviours.push(n),n.initialize(this)}}},{key:"removeSelfBehaviour",value:function(t){t=this.selfBehaviours.indexOf(t);-1<t&&this.selfBehaviours.splice(t,1)}},{key:"update",value:function(t){if(n(Qt.prototype.__proto__||Object.getPrototypeOf(Qt.prototype),"update",this).call(this,t),!this.sleep)for(var e=this.selfBehaviours.length,i=void 0,i=0;i<e;i++)this.selfBehaviours[i].applyBehaviour(this,t,i)}}]),Qt);function Qt(t){o(this,Qt);t=h(this,(Qt.__proto__||Object.getPrototypeOf(Qt)).call(this,t));return t.selfBehaviours=[],t}var Kt=(r(Jt,Yt),t(Jt,[{key:"initEventHandler",value:function(){var e=this;this.mousemoveHandler=function(t){return e.mousemove.call(e,t)},this.mousedownHandler=function(t){return e.mousedown.call(e,t)},this.mouseupHandler=function(t){return e.mouseup.call(e,t)},this.mouseTarget.addEventListener("mousemove",this.mousemoveHandler,!1)}},{key:"emit",value:function(){this._allowEmitting=!0}},{key:"stop",value:function(){this._allowEmitting=!1}},{key:"mousemove",value:function(t){t.layerX||0===t.layerX?(this.p.x+=(t.layerX-this.p.x)*this.ease,this.p.y+=(t.layerY-this.p.y)*this.ease):!t.offsetX&&0!==t.offsetX||(this.p.x+=(t.offsetX-this.p.x)*this.ease,this.p.y+=(t.offsetY-this.p.y)*this.ease),this._allowEmitting&&n(Jt.prototype.__proto__||Object.getPrototypeOf(Jt.prototype),"emit",this).call(this,"once")}},{key:"destroy",value:function(){n(Jt.prototype.__proto__||Object.getPrototypeOf(Jt.prototype),"destroy",this).call(this),this.mouseTarget.removeEventListener("mousemove",this.mousemoveHandler,!1)}}]),Jt);function Jt(t,e,i){o(this,Jt);i=h(this,(Jt.__proto__||Object.getPrototypeOf(Jt)).call(this,i));return i.mouseTarget=P.initValue(t,window),i.ease=P.initValue(e,.7),i._allowEmitting=!1,i.initEventHandler(),i}var $t=(t(te,[{key:"setStroke",value:function(t,e){t=0<arguments.length&&void 0!==t?t:"#000000",e=1<arguments.length&&void 0!==e?e:1;this.stroke={color:t,thinkness:e}}},{key:"initHandler",value:function(){var e=this;this._protonUpdateHandler=function(){e.onProtonUpdate.call(e)},this._protonUpdateAfterHandler=function(){e.onProtonUpdateAfter.call(e)},this._emitterAddedHandler=function(t){e.onEmitterAdded.call(e,t)},this._emitterRemovedHandler=function(t){e.onEmitterRemoved.call(e,t)},this._particleCreatedHandler=function(t){e.onParticleCreated.call(e,t)},this._particleUpdateHandler=function(t){e.onParticleUpdate.call(e,t)},this._particleDeadHandler=function(t){e.onParticleDead.call(e,t)}}},{key:"init",value:function(t){(this.parent=t).addEventListener("PROTON_UPDATE",this._protonUpdateHandler),t.addEventListener("PROTON_UPDATE_AFTER",this._protonUpdateAfterHandler),t.addEventListener("EMITTER_ADDED",this._emitterAddedHandler),t.addEventListener("EMITTER_REMOVED",this._emitterRemovedHandler),t.addEventListener("PARTICLE_CREATED",this._particleCreatedHandler),t.addEventListener("PARTICLE_UPDATE",this._particleUpdateHandler),t.addEventListener("PARTICLE_DEAD",this._particleDeadHandler)}},{key:"resize",value:function(){}},{key:"destroy",value:function(){this.remove()}},{key:"remove",value:function(){this.parent.removeEventListener("PROTON_UPDATE",this._protonUpdateHandler),this.parent.removeEventListener("PROTON_UPDATE_AFTER",this._protonUpdateAfterHandler),this.parent.removeEventListener("EMITTER_ADDED",this._emitterAddedHandler),this.parent.removeEventListener("EMITTER_REMOVED",this._emitterRemovedHandler),this.parent.removeEventListener("PARTICLE_CREATED",this._particleCreatedHandler),this.parent.removeEventListener("PARTICLE_UPDATE",this._particleUpdateHandler),this.parent.removeEventListener("PARTICLE_DEAD",this._particleDeadHandler),this.parent=null}},{key:"onProtonUpdate",value:function(){}},{key:"onProtonUpdateAfter",value:function(){}},{key:"onEmitterAdded",value:function(){}},{key:"onEmitterRemoved",value:function(){}},{key:"onParticleCreated",value:function(){}},{key:"onParticleUpdate",value:function(){}},{key:"onParticleDead",value:function(){}}]),te);function te(t,e){o(this,te),this.pool=new T,this.element=t,this.stroke=e,this.circleConf={isCircle:!0},this.initHandler(),this.name="BaseRenderer"}var ee=(r(ie,$t),t(ie,[{key:"resize",value:function(t,e){this.element.width=t,this.element.height=e}},{key:"onProtonUpdate",value:function(){this.context.clearRect(0,0,this.element.width,this.element.height)}},{key:"onParticleCreated",value:function(t){t.body?x(t.body,this.addImg2Body,t):t.color=t.color||"#ff0000"}},{key:"onParticleUpdate",value:function(t){t.body?t.body instanceof Image&&this.drawImage(t):this.drawCircle(t)}},{key:"onParticleDead",value:function(t){t.body=null}},{key:"addImg2Body",value:function(t,e){e.body=t}},{key:"drawImage",value:function(t){var e,i=t.body.width*t.scale|0,a=t.body.height*t.scale|0,r=t.p.x-i/2,n=t.p.y-a/2;t.color?(t.data.buffer||(t.data.buffer=this.createBuffer(t.body)),(e=t.data.buffer.getContext("2d")).clearRect(0,0,t.data.buffer.width,t.data.buffer.height),e.globalAlpha=t.alpha,e.drawImage(t.body,0,0),e.globalCompositeOperation="source-atop",e.fillStyle=H.rgbToHex(t.rgb),e.fillRect(0,0,t.data.buffer.width,t.data.buffer.height),e.globalCompositeOperation="source-over",e.globalAlpha=1,this.context.drawImage(t.data.buffer,0,0,t.data.buffer.width,t.data.buffer.height,r,n,i,a)):(this.context.save(),this.context.globalAlpha=t.alpha,this.context.translate(t.p.x,t.p.y),this.context.rotate(s.degreeTransform(t.rotation)),this.context.translate(-t.p.x,-t.p.y),this.context.drawImage(t.body,0,0,t.body.width,t.body.height,r,n,i,a),this.context.globalAlpha=1,this.context.restore())}},{key:"drawCircle",value:function(t){t.rgb?this.context.fillStyle="rgba("+t.rgb.r+","+t.rgb.g+","+t.rgb.b+","+t.alpha+")":this.context.fillStyle=t.color,this.context.beginPath(),this.context.arc(t.p.x,t.p.y,t.radius,0,2*Math.PI,!0),this.stroke&&(this.context.strokeStyle=this.stroke.color,this.context.lineWidth=this.stroke.thinkness,this.context.stroke()),this.context.closePath(),this.context.fill()}},{key:"createBuffer",value:function(t){if(t instanceof Image){var e=t.width+"_"+t.height,i=this.bufferCache[e];return i||((i=document.createElement("canvas")).width=t.width,i.height=t.height,this.bufferCache[e]=i),i}}}]),ie);function ie(t){o(this,ie);t=h(this,(ie.__proto__||Object.getPrototypeOf(ie)).call(this,t));return t.stroke=null,t.context=t.element.getContext("2d"),t.bufferCache={},t.name="CanvasRenderer",t}var ae=(r(re,$t),t(re,[{key:"onParticleCreated",value:function(t){t.body?x(t.body,this.addImg2Body,t):(t.body=this.pool.get(this.circleConf,t),this.element.appendChild(t.body))}},{key:"onParticleUpdate",value:function(t){this.bodyReady(t)&&(this.transform3d?v.transform3d(t.body,t.p.x,t.p.y,t.scale,t.rotation):v.transform(t.body,t.p.x,t.p.y,t.scale,t.rotation),t.body.style.opacity=t.alpha,t.body.isCircle&&(t.body.style.backgroundColor=t.color||"#ff0000"))}},{key:"onParticleDead",value:function(t){this.bodyReady(t)&&(this.element.removeChild(t.body),this.pool.expire(t.body),t.body=null)}},{key:"bodyReady",value:function(t){return"object"===i(t.body)&&t.body&&!t.body.isInner}},{key:"addImg2Body",value:function(t,e){e.dead||(e.body=this.pool.get(t,e),v.resize(e.body,t.width,t.height),this.element.appendChild(e.body))}},{key:"createBody",value:function(t,e){return t.isCircle?this.createCircle(e):this.createSprite(t,e)}},{key:"createCircle",value:function(t){var e=v.createDiv(t.id+"_dom",2*t.radius,2*t.radius);return e.style.borderRadius=t.radius+"px",this.stroke&&(e.style.borderColor=this.stroke.color,e.style.borderWidth=this.stroke.thinkness+"px"),e.isCircle=!0,e}},{key:"createSprite",value:function(t,e){var i="string"==typeof t?t:t.src,t=v.createDiv(e.id+"_dom",t.width,t.height);return t.style.backgroundImage="url("+i+")",t}}]),re);function re(t){o(this,re);var i=h(this,(re.__proto__||Object.getPrototypeOf(re)).call(this,t));return i.stroke=null,i.pool.create=function(t,e){return i.createBody(t,e)},i.addImg2Body=i.addImg2Body.bind(i),i.transform3d=!1,i.name="DomRenderer",i}var ne=(r(se,$t),t(se,[{key:"onParticleCreated",value:function(t){t.body?this.createSprite(t):this.createCircle(t),this.element.addChild(t.body)}},{key:"onParticleUpdate",value:function(t){t.body&&(t.body.x=t.p.x,t.body.y=t.p.y,t.body.alpha=t.alpha,t.body.scaleX=t.body.scaleY=t.scale,t.body.rotation=t.rotation)}},{key:"onParticleDead",value:function(t){t.body&&(t.body.parent&&t.body.parent.removeChild(t.body),this.pool.expire(t.body),t.body=null),t.graphics&&this.pool.expire(t.graphics)}},{key:"createSprite",value:function(t){t.body=this.pool.get(t.body),t.body.parent||t.body.image&&(t.body.regX=t.body.image.width/2,t.body.regY=t.body.image.height/2)}},{key:"createCircle",value:function(t){var e=this.pool.get(createjs.Graphics);this.stroke&&(this.stroke instanceof String?e.beginStroke(this.stroke):e.beginStroke("#000000")),e.beginFill(t.color||"#ff0000").drawCircle(0,0,t.radius);var i=this.pool.get(createjs.Shape,[e]);t.body=i,t.graphics=e}}]),se);function se(t,e){o(this,se);t=h(this,(se.__proto__||Object.getPrototypeOf(se)).call(this,t));return t.stroke=e,t.name="EaselRenderer",t}var oe=(r(he,$t),t(he,[{key:"resize",value:function(t,e){this.element.width=t,this.element.height=e}},{key:"createImageData",value:function(t){this.rectangle=t||new Z(0,0,this.element.width,this.element.height),this.imageData=this.context.createImageData(this.rectangle.width,this.rectangle.height),this.context.putImageData(this.imageData,this.rectangle.x,this.rectangle.y)}},{key:"onProtonUpdate",value:function(){this.context.clearRect(this.rectangle.x,this.rectangle.y,this.rectangle.width,this.rectangle.height),this.imageData=this.context.getImageData(this.rectangle.x,this.rectangle.y,this.rectangle.width,this.rectangle.height)}},{key:"onProtonUpdateAfter",value:function(){this.context.putImageData(this.imageData,this.rectangle.x,this.rectangle.y)}},{key:"onParticleCreated",value:function(){}},{key:"onParticleUpdate",value:function(t){this.imageData&&this.setPixel(this.imageData,Math.floor(t.p.x-this.rectangle.x),Math.floor(t.p.y-this.rectangle.y),t)}},{key:"setPixel",value:function(t,e,i,a){var r=a.rgb;e<0||e>this.element.width||i<0||i>this.elementwidth||(e=4*((i>>0)*t.width+(e>>0)),t.data[e]=r.r,t.data[1+e]=r.g,t.data[2+e]=r.b,t.data[3+e]=255*a.alpha)}},{key:"onParticleDead",value:function(){}}]),he);function he(t,e){o(this,he);t=h(this,(he.__proto__||Object.getPrototypeOf(he)).call(this,t));return t.context=t.element.getContext("2d"),t.imageData=null,t.rectangle=null,t.rectangle=e,t.createImageData(e),t.name="PixelRenderer",t}var le=void 0,ue=(r(ce,$t),t(ce,[{key:"setPIXI",value:function(t){try{le=t||{Sprite:{}},this.createFromImage=le.Sprite.from||le.Sprite.fromImage}catch(t){}}},{key:"onProtonUpdate",value:function(){}},{key:"onParticleCreated",value:function(t){t.body?t.body=this.pool.get(t.body,t):t.body=this.pool.get(this.circleConf,t),this.blendMode&&(t.body.blendMode=this.blendMode),this.element.addChild(t.body)}},{key:"onParticleUpdate",value:function(t){this.transform(t,t.body),!0!==this.setColor&&!0!==this.color||(t.body.tint=H.getHex16FromParticle(t))}},{key:"onParticleDead",value:function(t){this.element.removeChild(t.body),this.pool.expire(t.body),t.body=null}},{key:"destroy",value:function(t){n(ce.prototype.__proto__||Object.getPrototypeOf(ce.prototype),"destroy",this).call(this),this.pool.destroy();for(var e=t.length;e--;){var i=t[e];i.body&&this.element.removeChild(i.body)}}},{key:"transform",value:function(t,e){e.x=t.p.x,e.y=t.p.y,e.alpha=t.alpha,e.scale.x=t.scale,e.scale.y=t.scale,e.rotation=t.rotation*s.PI_180}},{key:"createBody",value:function(t,e){return t.isCircle?this.createCircle(e):this.createSprite(t)}},{key:"createSprite",value:function(t){t=t.isInner?this.createFromImage(t.src):new le.Sprite(t);return t.anchor.x=.5,t.anchor.y=.5,t}},{key:"createCircle",value:function(t){var e,i=new le.Graphics;return this.stroke&&(e=this.stroke instanceof String?this.stroke:0,i.beginStroke(e)),i.beginFill(t.color||36077),i.drawCircle(0,0,t.radius),i.endFill(),i}}]),ce);function ce(t,e){o(this,ce);var i=h(this,(ce.__proto__||Object.getPrototypeOf(ce)).call(this,t));return i.stroke=e,i.color=!1,i.setColor=!1,i.blendMode=null,i.pool.create=function(t,e){return i.createBody(t,e)},i.setPIXI(window.PIXI),i.name="PixiRenderer",i}var de=(t(ye,[{key:"set",value:function(t,e){0===e?X.set(t,this.mats[0]):X.multiply(this.mats[e-1],t,this.mats[e]),this.size=Math.max(this.size,e+1)}},{key:"push",value:function(t){0===this.size?X.set(t,this.mats[0]):X.multiply(this.mats[this.size-1],t,this.mats[this.size]),this.size++}},{key:"pop",value:function(){0<this.size&&this.size--}},{key:"top",value:function(){return this.mats[this.size-1]}}]),ye);function ye(){o(this,ye),this.mats=[];for(var t=this.size=0;t<20;t++)this.mats.push(X.create([0,0,0,0,0,0,0,0,0]))}r(pe,$t),t(pe,[{key:"init",value:function(t){n(pe.prototype.__proto__||Object.getPrototypeOf(pe.prototype),"init",this).call(this,t),this.resize(this.element.width,this.element.height)}},{key:"resize",value:function(t,e){this.umat[4]=-2,this.umat[7]=1,this.smat[0]=1/t,this.smat[4]=1/e,this.mstack.set(this.umat,0),this.mstack.set(this.smat,1),this.gl.viewport(0,0,t,e),this.element.width=t,this.element.height=e}},{key:"setMaxRadius",value:function(t){this.circleCanvasURL=this.createCircle(t)}},{key:"getVertexShader",value:function(){return["uniform vec2 viewport;","attribute vec2 aVertexPosition;","attribute vec2 aTextureCoord;","uniform mat3 tMat;","varying vec2 vTextureCoord;","varying float alpha;","void main() {","vec3 v = tMat * vec3(aVertexPosition, 1.0);","gl_Position = vec4(v.x, v.y, 0, 1);","vTextureCoord = aTextureCoord;","alpha = tMat[0][2];","}"].join("\n")}},{key:"getFragmentShader",value:function(){return["precision mediump float;","varying vec2 vTextureCoord;","varying float alpha;","uniform sampler2D uSampler;","uniform vec4 color;","uniform bool useTexture;","uniform vec3 uColor;","void main() {","vec4 textureColor = texture2D(uSampler, vTextureCoord);","gl_FragColor = textureColor * vec4(uColor, 1.0);","gl_FragColor.w *= alpha;","}"].join("\n")}},{key:"initVar",value:function(){this.mstack=new de,this.umat=X.create([2,0,1,0,-2,0,-1,1,1]),this.smat=X.create([.01,0,1,0,.01,0,0,0,1]),this.texturebuffers={}}},{key:"blendEquation",value:function(t){this.gl.blendEquation(this.gl[t])}},{key:"blendFunc",value:function(t,e){this.gl.blendFunc(this.gl[t],this.gl[e])}},{key:"getShader",value:function(t,e,i){i=i?t.createShader(t.FRAGMENT_SHADER):t.createShader(t.VERTEX_SHADER);return t.shaderSource(i,e),t.compileShader(i),t.getShaderParameter(i,t.COMPILE_STATUS)?i:(alert(t.getShaderInfoLog(i)),null)}},{key:"initShaders",value:function(){var t=this.getShader(this.gl,this.getFragmentShader(),!0),e=this.getShader(this.gl,this.getVertexShader(),!1);this.sprogram=this.gl.createProgram(),this.gl.attachShader(this.sprogram,e),this.gl.attachShader(this.sprogram,t),this.gl.linkProgram(this.sprogram),this.gl.getProgramParameter(this.sprogram,this.gl.LINK_STATUS)||alert("Could not initialise shaders"),this.gl.useProgram(this.sprogram),this.sprogram.vpa=this.gl.getAttribLocation(this.sprogram,"aVertexPosition"),this.sprogram.tca=this.gl.getAttribLocation(this.sprogram,"aTextureCoord"),this.gl.enableVertexAttribArray(this.sprogram.tca),this.gl.enableVertexAttribArray(this.sprogram.vpa),this.sprogram.tMatUniform=this.gl.getUniformLocation(this.sprogram,"tMat"),this.sprogram.samplerUniform=this.gl.getUniformLocation(this.sprogram,"uSampler"),this.sprogram.useTex=this.gl.getUniformLocation(this.sprogram,"useTexture"),this.sprogram.color=this.gl.getUniformLocation(this.sprogram,"uColor"),this.gl.uniform1i(this.sprogram.useTex,1)}},{key:"initBuffers",value:function(){var t;this.unitIBuffer=this.gl.createBuffer(),this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER,this.unitIBuffer),this.gl.bufferData(this.gl.ELEMENT_ARRAY_BUFFER,new Uint16Array([0,3,1,0,2,3]),this.gl.STATIC_DRAW);for(var e=void 0,i=[],e=0;e<100;e++)i.push(e);for(t=new Uint16Array(i),this.unitI33=this.gl.createBuffer(),this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER,this.unitI33),this.gl.bufferData(this.gl.ELEMENT_ARRAY_BUFFER,t,this.gl.STATIC_DRAW),i=[],e=0;e<100;e++)i.push(e,e+1,e+2);t=new Uint16Array(i),this.stripBuffer=this.gl.createBuffer(),this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER,this.stripBuffer),this.gl.bufferData(this.gl.ELEMENT_ARRAY_BUFFER,t,this.gl.STATIC_DRAW)}},{key:"createCircle",value:function(t){this.circleCanvasRadius=c(P.initValue(t,32));var e=v.createCanvas("circle_canvas",2*this.circleCanvasRadius,2*this.circleCanvasRadius),t=e.getContext("2d");return t.beginPath(),t.arc(this.circleCanvasRadius,this.circleCanvasRadius,this.circleCanvasRadius,0,2*Math.PI,!0),t.closePath(),t.fillStyle="#FFF",t.fill(),e.toDataURL()}},{key:"drawImg2Canvas",value:function(t){var e=t.body.width,i=t.body.height,a=c(t.body.width),r=c(t.body.height),n=t.body.width/a,s=t.body.height/r;this.texturebuffers[t.data.src]||(this.texturebuffers[t.data.src]=[this.gl.createTexture(),this.gl.createBuffer(),this.gl.createBuffer()]),t.data.texture=this.texturebuffers[t.data.src][0],t.data.vcBuffer=this.texturebuffers[t.data.src][1],t.data.tcBuffer=this.texturebuffers[t.data.src][2],this.gl.bindBuffer(this.gl.ARRAY_BUFFER,t.data.tcBuffer),this.gl.bufferData(this.gl.ARRAY_BUFFER,new Float32Array([0,0,n,0,0,s,s,s]),this.gl.STATIC_DRAW),this.gl.bindBuffer(this.gl.ARRAY_BUFFER,t.data.vcBuffer),this.gl.bufferData(this.gl.ARRAY_BUFFER,new Float32Array([0,0,e,0,0,i,e,i]),this.gl.STATIC_DRAW);r=t.data.canvas.getContext("2d").getImageData(0,0,a,r);this.gl.bindTexture(this.gl.TEXTURE_2D,t.data.texture),this.gl.texImage2D(this.gl.TEXTURE_2D,0,this.gl.RGBA,this.gl.RGBA,this.gl.UNSIGNED_BYTE,r),this.gl.texParameteri(this.gl.TEXTURE_2D,this.gl.TEXTURE_MAG_FILTER,this.gl.LINEAR),this.gl.texParameteri(this.gl.TEXTURE_2D,this.gl.TEXTURE_MIN_FILTER,this.gl.LINEAR_MIPMAP_NEAREST),this.gl.generateMipmap(this.gl.TEXTURE_2D),t.data.textureLoaded=!0,t.data.textureWidth=e,t.data.textureHeight=i}},{key:"onProtonUpdate",value:function(){}},{key:"onParticleCreated",value:function(t){t.data.textureLoaded=!1,t.data.tmat=X.create(),t.data.tmat[8]=1,t.data.imat=X.create(),t.data.imat[8]=1,t.body?x(t.body,this.addImg2Body,t):(x(this.circleCanvasURL,this.addImg2Body,t),t.data.oldScale=t.radius/this.circleCanvasRadius)}},{key:"addImg2Body",value:function(t,e){e.dead||(e.body=t,e.data.src=t.src,e.data.canvas=k(t),e.data.oldScale=1,this.drawImg2Canvas(e))}},{key:"onParticleUpdate",value:function(t){t.data.textureLoaded&&(this.updateMatrix(t),this.gl.uniform3f(this.sprogram.color,t.rgb.r/255,t.rgb.g/255,t.rgb.b/255),this.gl.uniformMatrix3fv(this.sprogram.tMatUniform,!1,this.mstack.top()),this.gl.bindBuffer(this.gl.ARRAY_BUFFER,t.data.vcBuffer),this.gl.vertexAttribPointer(this.sprogram.vpa,2,this.gl.FLOAT,!1,0,0),this.gl.bindBuffer(this.gl.ARRAY_BUFFER,t.data.tcBuffer),this.gl.vertexAttribPointer(this.sprogram.tca,2,this.gl.FLOAT,!1,0,0),this.gl.bindTexture(this.gl.TEXTURE_2D,t.data.texture),this.gl.uniform1i(this.sprogram.samplerUniform,0),this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER,this.unitIBuffer),this.gl.drawElements(this.gl.TRIANGLES,6,this.gl.UNSIGNED_SHORT,0),this.mstack.pop())}},{key:"onParticleDead",value:function(){}},{key:"updateMatrix",value:function(t){var e=d(-t.data.textureWidth/2,-t.data.textureHeight/2),i=d(t.p.x,t.p.y),a=t.rotation*s.PI_180,r=y(a),a=t.scale*t.data.oldScale,a=p(a,a),a=f(e,a),a=f(a,r);a=f(a,i),X.inverse(a,t.data.imat),a[2]=t.alpha,this.mstack.push(a)}}]),C=pe;function pe(t){o(this,pe);t=h(this,(pe.__proto__||Object.getPrototypeOf(pe)).call(this,t));return t.gl=t.element.getContext("experimental-webgl",{antialias:!0,stencil:!1,depth:!1}),t.gl||alert("Sorry your browser do not suppest WebGL!"),t.initVar(),t.setMaxRadius(),t.initShaders(),t.initBuffers(),t.gl.blendEquation(t.gl.FUNC_ADD),t.gl.blendFunc(t.gl.SRC_ALPHA,t.gl.ONE_MINUS_SRC_ALPHA),t.gl.enable(t.gl.BLEND),t.addImg2Body=t.addImg2Body.bind(t),t.name="WebGLRenderer",t}r(fe,$t),$t=fe;function fe(t){o(this,fe);t=h(this,(fe.__proto__||Object.getPrototypeOf(fe)).call(this,t));return t.name="CustomRenderer",t}var ve=(r(ge,at),t(ge,[{key:"getPosition",value:function(){return this.random=Math.random(),this.vector.x=this.x1+this.random*this.length*Math.cos(this.gradient),this.vector.y=this.y1+this.random*this.length*Math.sin(this.gradient),this.vector}},{key:"getDirection",value:function(t,e){var i=this.dy,a=-this.dx;return 0<(i*t+a*e+this.dot)*(0==a?1:a)}},{key:"getDistance",value:function(t,e){return(this.dy*t+-this.dx*e+this.dot)/Math.sqrt(this.xxyy)}},{key:"getSymmetric",value:function(t){var e=t.getGradient(),i=2*(this.getGradient()-e),a=t.x,e=t.y;return t.x=a*Math.cos(i)-e*Math.sin(i),t.y=a*Math.sin(i)+e*Math.cos(i),t}},{key:"getGradient",value:function(){return Math.atan2(this.dy,this.dx)}},{key:"rangeOut",value:function(t){if(Math.abs(this.getGradient())<=s.PI/4){if(t.p.x<=this.maxx&&t.p.x>=this.minx)return!0}else if(t.p.y<=this.maxy&&t.p.y>=this.miny)return!0;return!1}},{key:"getLength",value:function(){return Math.sqrt(this.dx*this.dx+this.dy*this.dy)}},{key:"crossing",value:function(t){"dead"===this.crossType?">"===this.direction||"R"===this.direction||"right"===this.direction||"down"===this.direction?this.rangeOut(t)&&this.getDirection(t.p.x,t.p.y)&&(t.dead=!0):this.rangeOut(t)&&(this.getDirection(t.p.x,t.p.y)||(t.dead=!0)):"bound"===this.crossType?this.rangeOut(t)&&this.getDistance(t.p.x,t.p.y)<=t.radius&&(0===this.dx?t.v.x*=-1:0===this.dy?t.v.y*=-1:this.getSymmetric(t.v)):"cross"===this.crossType&&this.alert&&(console.error("Sorry, LineZone does not support cross method!"),this.alert=!1)}}]),ge);function ge(t,e,i,a,r){o(this,ge);var n=h(this,(ge.__proto__||Object.getPrototypeOf(ge)).call(this));return 0<=i-t?(n.x1=t,n.y1=e,n.x2=i,n.y2=a):(n.x1=i,n.y1=a,n.x2=t,n.y2=e),n.dx=n.x2-n.x1,n.dy=n.y2-n.y1,n.minx=Math.min(n.x1,n.x2),n.miny=Math.min(n.y1,n.y2),n.maxx=Math.max(n.x1,n.x2),n.maxy=Math.max(n.y1,n.y2),n.dot=n.x2*n.y1-n.x1*n.y2,n.xxyy=n.dx*n.dx+n.dy*n.dy,n.gradient=n.getGradient(),n.length=n.getLength(),n.direction=P.initValue(r,">"),n}var me=(r(be,at),t(be,[{key:"getPosition",value:function(){return this.angle=s.PIx2*Math.random(),this.randomRadius=Math.random()*this.radius,this.vector.x=this.x+this.randomRadius*Math.cos(this.angle),this.vector.y=this.y+this.randomRadius*Math.sin(this.angle),this.vector}},{key:"setCenter",value:function(t,e){this.center.x=t,this.center.y=e}},{key:"crossing",value:function(t){var e=t.p.distanceTo(this.center);"dead"===this.crossType?e-t.radius>this.radius&&(t.dead=!0):"bound"===this.crossType?e+t.radius>=this.radius&&this.getSymmetric(t):"cross"===this.crossType&&this.alert&&(console.error("Sorry, CircleZone does not support cross method!"),this.alert=!1)}},{key:"getSymmetric",value:function(t){var e=t.v.getGradient(),i=2*(this.getGradient(t)-e),a=t.v.x,e=t.v.y;t.v.x=a*Math.cos(i)-e*Math.sin(i),t.v.y=a*Math.sin(i)+e*Math.cos(i)}},{key:"getGradient",value:function(t){return-s.PI_2+Math.atan2(t.p.y-this.center.y,t.p.x-this.center.x)}}]),be);function be(t,e,i){o(this,be);var a=h(this,(be.__proto__||Object.getPrototypeOf(be)).call(this));return a.x=t,a.y=e,a.radius=i,a.angle=0,a.center={x:t,y:e},a}var _e=(r(xe,at),t(xe,[{key:"getPosition",value:function(){return this.vector.x=this.x+Math.random()*this.width,this.vector.y=this.y+Math.random()*this.height,this.vector}},{key:"crossing",value:function(t){"dead"===this.crossType?((t.p.x+t.radius<this.x||t.p.x-t.radius>this.x+this.width)&&(t.dead=!0),(t.p.y+t.radius<this.y||t.p.y-t.radius>this.y+this.height)&&(t.dead=!0)):"bound"===this.crossType?(t.p.x-t.radius<this.x?(t.p.x=this.x+t.radius,t.v.x*=-1):t.p.x+t.radius>this.x+this.width&&(t.p.x=this.x+this.width-t.radius,t.v.x*=-1),t.p.y-t.radius<this.y?(t.p.y=this.y+t.radius,t.v.y*=-1):t.p.y+t.radius>this.y+this.height&&(t.p.y=this.y+this.height-t.radius,t.v.y*=-1)):"cross"===this.crossType&&(t.p.x+t.radius<this.x&&t.v.x<=0?t.p.x=this.x+this.width+t.radius:t.p.x-t.radius>this.x+this.width&&0<=t.v.x&&(t.p.x=this.x-t.radius),t.p.y+t.radius<this.y&&t.v.y<=0?t.p.y=this.y+this.height+t.radius:t.p.y-t.radius>this.y+this.height&&0<=t.v.y&&(t.p.y=this.y-t.radius))}}]),xe);function xe(t,e,i,a){o(this,xe);var r=h(this,(xe.__proto__||Object.getPrototypeOf(xe)).call(this));return r.x=t,r.y=e,r.width=i,r.height=a,r}r(ke,at),t(ke,[{key:"reset",value:function(t,e,i,a){this.imageData=t,this.x=P.initValue(e,0),this.y=P.initValue(i,0),this.d=P.initValue(a,2),this.vectors=[],this.setVectors()}},{key:"setVectors",value:function(){for(var t=void 0,e=void 0,i=this.imageData.width,a=this.imageData.height,t=0;t<i;t+=this.d)for(e=0;e<a;e+=this.d){var r=4*((e>>0)*i+(t>>0));0<this.imageData.data[3+r]&&this.vectors.push({x:t+this.x,y:e+this.y})}return this.vector}},{key:"getBound",value:function(t,e){t=4*((e>>0)*this.imageData.width+(t>>0));return 0<this.imageData.data[3+t]}},{key:"getPosition",value:function(){var t=P.getRandFromArray(this.vectors);return this.vector.copy(t)}},{key:"getColor",value:function(t,e){t-=this.x;t=4*(((e-=this.y)>>0)*this.imageData.width+(t>>0));return{r:this.imageData.data[t],g:this.imageData.data[1+t],b:this.imageData.data[2+t],a:this.imageData.data[3+t]}}},{key:"crossing",value:function(t){"dead"===this.crossType?this.getBound(t.p.x-this.x,t.p.y-this.y)?t.dead=!0:t.dead=!1:"bound"===this.crossType&&(this.getBound(t.p.x-this.x,t.p.y-this.y)||t.v.negate())}}]),r=ke;function ke(t,e,i,a){o(this,ke);var r=h(this,(ke.__proto__||Object.getPrototypeOf(ke)).call(this));return r.reset(t,e,i,a),r}t={addEventListener:function(t,e){t.addEventListener("PROTON_UPDATE_AFTER",function(){return e()})},getStyle:function(t){t=H.hexToRgb(0<arguments.length&&void 0!==t?t:"#ff0000");return"rgba("+t.r+", "+t.g+", "+t.b+", 0.5)"},drawZone:function(t,e,i,a){var r=e.getContext("2d"),n=this.getStyle();this.addEventListener(t,function(){a&&r.clearRect(0,0,e.width,e.height),i instanceof nt?(r.beginPath(),r.fillStyle=n,r.arc(i.x,i.y,10,0,2*Math.PI,!0),r.fill(),r.closePath()):i instanceof ve?(r.beginPath(),r.strokeStyle=n,r.moveTo(i.x1,i.y1),r.lineTo(i.x2,i.y2),r.stroke(),r.closePath()):i instanceof _e?(r.beginPath(),r.strokeStyle=n,r.drawRect(i.x,i.y,i.width,i.height),r.stroke(),r.closePath()):i instanceof me&&(r.beginPath(),r.strokeStyle=n,r.arc(i.x,i.y,i.radius,0,2*Math.PI,!0),r.stroke(),r.closePath())})},drawEmitter:function(t,e,i,a){var r=e.getContext("2d"),n=this.getStyle();this.addEventListener(t,function(){a&&r.clearRect(0,0,e.width,e.height),r.beginPath(),r.fillStyle=n,r.arc(i.p.x,i.p.y,10,0,2*Math.PI,!0),r.fill(),r.closePath()})}};return V.Particle=j,V.Pool=T,V.Util=P,V.ColorUtil=H,V.MathUtil=s,V.Vector2D=V.Vector=F,V.Polar2D=V.Polar=q,V.ArraySpan=Y,V.Rectangle=Z,V.Rate=K,V.ease=U,V.Span=l,V.Mat3=X,V.getSpan=function(t,e,i){return new l(t,e,i)},V.createArraySpan=Y.createArraySpan,V.Initialize=V.Init=$,V.Life=V.L=et,V.Position=V.P=ot,V.Velocity=V.V=lt,V.Mass=V.M=ct,V.Radius=V.R=yt,V.Body=V.B=ft,V.Behaviour=gt,V.Force=V.F=bt,V.Attraction=V.A=xt,V.RandomDrift=V.RD=Pt,V.Gravity=V.G=At,V.Collision=Rt,V.CrossZone=wt,V.Alpha=St,V.Scale=V.S=Dt,V.Rotate=Mt,V.Color=Lt,V.Repulsion=Nt,V.Cyclone=zt,V.GravityWell=qt,V.Emitter=Yt,V.BehaviourEmitter=Zt,V.FollowEmitter=Kt,V.Zone=at,V.LineZone=ve,V.CircleZone=me,V.PointZone=nt,V.RectZone=_e,V.ImageZone=r,V.CanvasRenderer=ee,V.DomRenderer=ae,V.EaselRenderer=ne,V.PixiRenderer=ue,V.PixelRenderer=oe,V.WebGLRenderer=V.WebGlRenderer=C,V.CustomRenderer=$t,V.Debug=t,P.assign(V,U),V});
+//# sourceMappingURL=proton.min.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/raf-manager/build/RAFManager.min.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/raf-manager/build/RAFManager.min.js ***!
+  \**********************************************************/
+/***/ (function(module) {
+
+/*!
+* RAFManager v0.1.0
+*
+* Copyright 2018-2018, ajiemath <ajiemath@gmail.com>
+* Licensed under the MIT license
+* http://www.opensource.org/licenses/mit-license
+*
+*/
+!function(t,i){ true?module.exports=i():0}(this,function(){"use strict";return function(){for(var t=["ms","moz","webkit","o"],i=0;i<t.length&&!window.requestAnimationFrame;++i)window.requestAnimationFrame=window[t[i]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[t[i]+"CancelAnimationFrame"]||window[t[i]+"CancelRequestAnimationFrame"]}(),{timer:0,state:"stop",animations:[],add:function(t){var i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:60,n={callback:t,fps:i,n:60/i,param:arguments.length>2&&void 0!==arguments[2]?arguments[2]:null,i:0};return this.animations.push(n),this.animations.length>=1&&this.start(),this},getIndex:function(t){for(var i=0;i<this.animations.length;i++){if(this.animations[i].callback===t)return i}return-1},remove:function(t){if(!(this.getIndex(t)<0))return this.deleteMap(t),0===this.animations.length&&this.stop(),this},deleteMap:function(t){var i=this.getIndex(t),n=this.animations[i];for(var e in n)delete n[e];this.animations.splice(i,1)},start:function(){if("start"!==this.state)return this.state="start",this.tick(),this},stop:function(){if("stop"!==this.state)return this.state="stop",cancelAnimationFrame(this.timer),this},tick:function(){var t=this;this.timer=requestAnimationFrame(function(){t.tick()});for(var i=0;i<this.animations.length;i++){var n=this.animations[i],e=n.callback,a=n.param;n.i++,n.i>=n.n&&(e(a),n.i=0)}}}});
+//# sourceMappingURL=RAFManager.min.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap-vue/dist/bootstrap-vue.css":
 /*!***********************************************************!*\
   !*** ./node_modules/bootstrap-vue/dist/bootstrap-vue.css ***!
@@ -49922,6 +48574,36 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_style_index_0_id_5c056944_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../vue-loader/lib/loaders/stylePostLoader.js!../../../../postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../vue-loader/lib/index.js??vue-loader-options!./CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_style_index_0_id_5c056944_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_style_index_0_id_5c056944_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css&":
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css& ***!
@@ -49949,6 +48631,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Projects_vue_vue_type_style_index_0_id_533b60e5_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_app_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./app.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_app_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_app_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ }),
 
@@ -50248,9 +48960,9 @@ var e=function(){return(e=Object.assign||function(e){for(var t,r=1,s=arguments.l
 
 /***/ }),
 
-/***/ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue":
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue":
 /*!************************************************************************!*\
-  !*** ./node_modules/vue-particles/src/vue-particles/vue-particles.vue ***!
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue ***!
   \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -50259,8 +48971,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-/* harmony import */ var _vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vue-particles.vue?vue&type=template&id=beb6e31c& */ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c&");
-/* harmony import */ var _vue_particles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vue-particles.vue?vue&type=script&lang=js& */ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true& */ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true&");
+/* harmony import */ var _ParticlesBg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ParticlesBg.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js&");
 /* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -50270,9 +48982,188 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
-  _vue_particles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__.render,
-  _vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _ParticlesBg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "33ed58ad",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _utils_Rand_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/Rand.js */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Rand.js");
+/* harmony import */ var _particles_BallParticles_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./particles/BallParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue");
+/* harmony import */ var _particles_ColorParticles_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./particles/ColorParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue");
+/* harmony import */ var _particles_CircleParticles_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./particles/CircleParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue");
+/* harmony import */ var _particles_CobwebParticles_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./particles/CobwebParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue");
+/* harmony import */ var _particles_ThickParticles_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./particles/ThickParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue");
+/* harmony import */ var _particles_CustomParticles_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./particles/CustomParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue");
+/* harmony import */ var _particles_LinesParticles_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./particles/LinesParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue");
+/* harmony import */ var _particles_PolygonParticles_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./particles/PolygonParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue");
+/* harmony import */ var _particles_SquareParticles_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./particles/SquareParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue");
+/* harmony import */ var _particles_FountainParticles_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./particles/FountainParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue");
+/* harmony import */ var _particles_TadpoleParticles_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./particles/TadpoleParticles.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "ParticlesBg",
+  components: {
+    ColorParticles: _particles_ColorParticles_vue__WEBPACK_IMPORTED_MODULE_2__.default,
+    CircleParticles: _particles_CircleParticles_vue__WEBPACK_IMPORTED_MODULE_3__.default,
+    CobwebParticles: _particles_CobwebParticles_vue__WEBPACK_IMPORTED_MODULE_4__.default,
+    ThickParticles: _particles_ThickParticles_vue__WEBPACK_IMPORTED_MODULE_5__.default,
+    LinesParticles: _particles_LinesParticles_vue__WEBPACK_IMPORTED_MODULE_7__.default,
+    FountainParticles: _particles_FountainParticles_vue__WEBPACK_IMPORTED_MODULE_10__.default,
+    CustomParticles: _particles_CustomParticles_vue__WEBPACK_IMPORTED_MODULE_6__.default,
+    PolygonParticles: _particles_PolygonParticles_vue__WEBPACK_IMPORTED_MODULE_8__.default,
+    SquareParticles: _particles_SquareParticles_vue__WEBPACK_IMPORTED_MODULE_9__.default,
+    TadpoleParticles: _particles_TadpoleParticles_vue__WEBPACK_IMPORTED_MODULE_11__.default,
+    BallParticles: _particles_BallParticles_vue__WEBPACK_IMPORTED_MODULE_1__.default
+  },
+  props: {
+    type: {
+      type: String,
+      required: false,
+      default: "random"
+    },
+    num: [String, Number],
+    bg: Boolean,
+    color: String,
+    config: Object,
+    canvas: Object,
+    list: Array,
+    globalCompositeOperation: String
+  },
+  data() {
+    return {
+      particles: "color-particles"
+    };
+  },
+  methods: {
+    getNum() {
+      return +this.num;
+    },
+    getRandom() {
+      if (!this.random) {
+        // Code source from here, thanks author
+        // https://github.com/drawcall/Proton/blob/gh-pages/source/src/utils/Rand.js
+        this.random = new _utils_Rand_js__WEBPACK_IMPORTED_MODULE_0__.default();
+        this.random.set(0.25, "color-particles");
+        this.random.set(0.2, "ball-particles");
+        this.random.set(0.2, "circle-particles");
+        this.random.set(0.2, "cobweb-particles");
+        this.random.set(0.2, "thick-particles");
+        this.random.set(0.2, "lines-particles");
+        this.random.set(0.2, "fountain-particles");
+        this.random.set(0.2, "polygon-particles");
+        this.random.set(0.2, "square-particles");
+        this.random.set(0.2, "tadpole-particles");
+      }
+      return this.random.getResult();
+    },
+
+    getFromList(){
+      if(!this.list) return this.getRandom();
+      let item = this.list[Math.floor(Math.random() * this.list.length)];
+      item = this.transformName(item);
+
+      return item;
+    },
+
+    transformName(name){
+      name = String(name).toLowerCase() || "random";
+      if (name.indexOf("-") <= 0) name += "-particles";
+      return name;
+    },
+
+    setParticles() {
+      this.particles = this.transformName(this.type);
+      if (this.particles.indexOf("random") === 0) {
+        this.particles = this.getRandom();
+      }
+
+      if (this.particles.indexOf("list") === 0) {
+        this.particles = this.getFromList();
+      }
+    }
+  },
+  created() {
+    this.setParticles();
+  },
+  beforeMount() {}
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue":
+/*!************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BallParticles.vue?vue&type=template&id=9d3cfa32& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32&");
+/* harmony import */ var _BallParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BallParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _BallParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__.render,
+  _BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -50282,15 +49173,247 @@ var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPOR
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "node_modules/vue-particles/src/vue-particles/vue-particles.vue"
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "BallParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    num: Number,
+    color: String,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      this.createMiniEmitter(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const context = canvas.getContext("2d");
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+        this.num ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(this.num) : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 9),
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.8, 1.3)
+      );
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(1, 50));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(5, 6));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(5, 8),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(30, 70),
+          "polar"
+        )
+      );
+
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(1, 0));
+      emitter.addBehaviour(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)([
+          "#36aaf3",
+          "#fd769c",
+          "#94ff22",
+          "#ffa545",
+          "#ffffff"
+        ])
+      );
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(0.7, 1));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Gravity)(3));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Collision)(emitter));
+      emitter.addBehaviour(this.customDeadBehaviour(canvas));
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+        "bound"
+      );
+      emitter.addBehaviour(crossZoneBehaviour);
+
+      emitter.p.x = Math.min(500, Math.max(canvas.width / 2 - 400, 50));
+      emitter.p.y = canvas.height / 2 + 50;
+      emitter.emit();
+      this.proton.addEmitter(emitter);
+
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      renderer.onProtonUpdate = () => {
+        context.fillStyle =
+          (0,_utils_Color__WEBPACK_IMPORTED_MODULE_3__.getColor)(this.color, 0.2) || "rgba(255, 255, 255, 0.2)";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+      };
+      this.proton.addRenderer(renderer);
+
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+    customDeadBehaviour(canvas) {
+      return {
+        initialize(particle) {},
+        applyBehaviour: particle => {
+          if (particle.p.y + particle.radius >= canvas.height) {
+            if (particle.radius > 9) {
+              this.miniEmitteing(particle);
+              particle.dead = true;
+            }
+          }
+        }
+      };
+    },
+
+    createMiniEmitter(canvas) {
+      const miniEmitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      miniEmitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(3, 6),
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(1, 2)
+      );
+
+      miniEmitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      miniEmitter.radiusInitialize = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)();
+      miniEmitter.addInitialize(miniEmitter.radiusInitialize);
+      miniEmitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(0.5, 1));
+      miniEmitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().V)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(1.5, 3),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 70, true),
+          "polar"
+        )
+      );
+
+      miniEmitter.colorBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)("#ffffff");
+      miniEmitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(1, 0));
+      miniEmitter.addBehaviour(miniEmitter.colorBehaviour);
+      miniEmitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Gravity)(4));
+      miniEmitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Collision)(miniEmitter));
+      miniEmitter.addBehaviour(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+          "bound"
+        )
+      );
+      this.proton.addEmitter(miniEmitter);
+
+      this.miniEmitter = miniEmitter;
+    },
+    miniEmitteing(particle) {
+      const miniEmitter = this.miniEmitter;
+      miniEmitter.radiusInitialize.reset(
+        particle.radius * 0.05,
+        particle.radius * 0.2
+      );
+      miniEmitter.colorBehaviour.reset(particle.color);
+      miniEmitter.p.x = particle.p.x;
+      miniEmitter.p.y = particle.p.y;
+      miniEmitter.emit("once");
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue?vue&type=template&id=5c056944&scoped=true& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true&");
+/* harmony import */ var _CanvasComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CanvasComp.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js&");
+/* harmony import */ var _CanvasComp_vue_vue_type_style_index_0_id_5c056944_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _CanvasComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "5c056944",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -50308,240 +49431,2153 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
-/* eslint-disable */
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'vue-particles',
+  name: "CanvasComp",
   props: {
-    color: {
-      type: String,
-      default: '#dedede'
-    },
-    particleOpacity: {
-      type: Number,
-      default: 0.7
-    },
-    particlesNumber: {
-      type: Number,
-      default: 80
-    },
-    shapeType: {
-      type: String,
-      default: 'circle'
-    },
-    particleSize: {
-      type: Number,
-      default: 4
-    },
-    linesColor: {
-      type: String,
-      default: '#dedede'
-    },
-    linesWidth: {
-      type: Number,
-      default: 1
-    },
-    lineLinked: {
-      type: Boolean,
-      default: true
-    },
-    lineOpacity: {
-      type: Number,
-      default: 0.4
-    },
-    linesDistance: {
-      type: Number,
-      default: 150
-    },
-    moveSpeed: {
-      type: Number,
-      default: 3
-    },
-    hoverEffect: {
-      type: Boolean,
-      default: true
-    },
-    hoverMode: {
-      type: String,
-      default: 'grab'
-    },
-    clickEffect: {
-      type: Boolean,
-      default: true
-    },
-    clickMode: {
-      type: String,
-      default: 'push'
-    }
+    canvas: Object,
+    bg: Boolean,
+    globalCompositeOperation: String
   },
-  mounted () {
-    // import particle.js only on client-side
-    __webpack_require__(/*! particles.js */ "./node_modules/particles.js/particles.js")
-    this.$nextTick(() => {
-      this.initParticleJS(
-        this.color,
-        this.particleOpacity,
-        this.particlesNumber,
-        this.shapeType,
-        this.particleSize,
-        this.linesColor,
-        this.linesWidth,
-        this.lineLinked,
-        this.lineOpacity,
-        this.linesDistance,
-        this.moveSpeed,
-        this.hoverEffect,
-        this.hoverMode,
-        this.clickEffect,
-        this.clickMode
-      )
-    })
+  data: function() {
+    return {
+      styleObject: {
+        width: "100%",
+        height: "100%"
+      }
+    };
   },
   methods: {
-    initParticleJS (
-      color,
-      particleOpacity,
-      particlesNumber,
-      shapeType,
-      particleSize,
-      linesColor,
-      linesWidth,
-      lineLinked,
-      lineOpacity,
-      linesDistance,
-      moveSpeed,
-      hoverEffect,
-      hoverMode,
-      clickEffect,
-      clickMode
-    ) {
-      particlesJS('particles-js', {
-        "particles": {
-          "number": {
-            "value": particlesNumber,
-            "density": {
-              "enable": true,
-              "value_area": 800
-            }
-          },
-          "color": {
-            "value": color
-          },
-          "shape": {
-            // circle, edge, triangle, polygon, star, image
-            "type": shapeType,
-            "stroke": {
-              "width": 0,
-              "color": "#192231"
-            },
-            "polygon": {
-              "nb_sides": 5
-            }
-          },
-          "opacity": {
-            "value": particleOpacity,
-            "random": false,
-            "anim": {
-              "enable": false,
-              "speed": 1,
-              "opacity_min": 0.1,
-              "sync": false
-            }
-          },
-          "size": {
-            "value": particleSize,
-            "random": true,
-            "anim": {
-              "enable": false,
-              "speed": 40,
-              "size_min": 0.1,
-              "sync": false
-            }
-          },
-          "line_linked": {
-            "enable": lineLinked,
-            "distance": linesDistance,
-            "color": linesColor,
-            "opacity": lineOpacity,
-            "width": linesWidth
-          },
-          "move": {
-            "enable": true,
-            "speed": moveSpeed,
-            "direction": "none",
-            "random": false,
-            "straight": false,
-            "out_mode": "out",
-            "bounce": false,
-            "attract": {
-              "enable": false,
-              "rotateX": 600,
-              "rotateY": 1200
-            }
-          }
-        },
-        "interactivity": {
-          "detect_on": "canvas",
-          "events": {
-            "onhover": {
-              "enable": hoverEffect,
-              "mode": hoverMode
-            },
-            "onclick": {
-              "enable": clickEffect,
-              "mode": clickMode
-            },
-            "onresize": {
+    initCanvas: function() {
+      const canvas = this.$refs.canvasRef;
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      canvas.width = width;
+      canvas.height = height;
 
-              "enable": true,
-              "density_auto": true,
-              "density_area": 400
+      if (this.globalCompositeOperation) {
+        const context = canvas.getContext("2d");
+        context.globalCompositeOperation = this.globalCompositeOperation;
+      }
 
-            }
-          },
-          "modes": {
-            "grab": {
-              "distance": 140,
-              "line_linked": {
-                "opacity": 1
-              }
-            },
-            "bubble": {
-              "distance": 400,
-              "size": 40,
-              "duration": 2,
-              "opacity": 8,
-              "speed": 3
-            },
-            "repulse": {
-              "distance": 200,
-              "duration": 0.4
-            },
-            "push": {
-              "particles_nb": 4
-            },
-            "remove": {
-              "particles_nb": 2
-            }
-          }
-        },
-        "retina_detect": true
+      this.$emit("canvasInited", canvas);
+    },
+    resize: function() {
+      const canvas = this.$refs.canvasRef;
+      const width = canvas.clientWidth;
+      const height = canvas.clientHeight;
+      canvas.width = width;
+      canvas.height = height;
+      this.$emit("canvasResize", { width, height });
+    },
+
+    handleMouseDown: function(e) {
+      this.$emit("canvasMouseDown", e);
+    },
+
+    handleMouseMove: function(e) {
+      this.$emit("canvasMouseMove", e);
+    }
+  },
+  created() {
+    if (this.bg) {
+      this.styleObject = Object.assign(this.styleObject, {
+        position: "absolute",
+        zIndex: -1,
+        top: 0,
+        left: 0
       });
     }
 
+    if(this.canvas){
+      this.styleObject = Object.assign(this.styleObject, this.canvas);
+    }
+  },
+  mounted() {
+    this.initCanvas();
+    this.resize = this.resize.bind(this);
+    window.addEventListener("resize", this.resize);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.resize);
   }
 });
-/* eslint-disable */
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CircleParticles.vue?vue&type=template&id=92be9914& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914&");
+/* harmony import */ var _CircleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CircleParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CircleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+const colors = [
+  "#529B88",
+  "#CDD180",
+  "#FFFA32",
+  "#FB6255",
+  "#FB4A53",
+  "#FF4E50",
+  "#F9D423"
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "ColorParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(this.num || 20);
+      emitter.damping = 0.008;
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(30, 600));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.5),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height)
+        )
+      );
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+        "cross"
+      );
+      emitter.addBehaviour(crossZoneBehaviour);
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(proton_engine__WEBPACK_IMPORTED_MODULE_1___default().getSpan(0.35, 0.55)));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(this.getColor()));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RandomDrift)(50, 50, 0.5));
+      emitter.emit("once");
+      this.proton.addEmitter(emitter);
+
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      this.proton.addRenderer(renderer);
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+    getColor() {
+      let c = colors;
+      if (this.color) {
+        if (Array.isArray(this.color)) {
+          c = this.color;
+        } else {
+          c = [this.color];
+        }
+      }
+
+      return c;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CobwebParticles.vue?vue&type=template&id=678b9e30& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30&");
+/* harmony import */ var _CobwebParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CobwebParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CobwebParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CobwebParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+        this.num ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(this.num) : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(100),
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.05, 0.2)
+      );
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(1, 4));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(Infinity));
+      const pointZone = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, width, height)
+      );
+      emitter.addInitialize(pointZone);
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.3, 0.6),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(proton_engine__WEBPACK_IMPORTED_MODULE_1___default().getSpan(0.2, 0.9)));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(this.color || "#333"));
+      this.crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, width, height),
+        "cross"
+      );
+      emitter.addBehaviour(this.crossZoneBehaviour);
+
+      emitter.emit("once");
+      emitter.damping = 0;
+      this.proton.addEmitter(emitter);
+      this.proton.addRenderer(this.createRenderer(canvas, emitter));
+    },
+    createRenderer(canvas, emitter) {
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      const R = 140;
+
+      renderer.onProtonUpdateAfter = () => {
+        let particles = emitter.particles;
+
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            let pA = particles[i];
+            let pB = particles[j];
+            let dis = pA.p.distanceTo(pB.p);
+
+            if (dis < R) {
+              let alpha = (1 - dis / R) * 0.5;
+              context.strokeStyle =
+                (0,_utils_Color__WEBPACK_IMPORTED_MODULE_3__.getColor)(this.color, alpha) || `rgba(3, 3, 3, ${alpha})`;
+              context.beginPath();
+              context.moveTo(pA.p.x, pA.p.y);
+              context.lineTo(pB.p.x, pB.p.y);
+              context.closePath();
+              context.stroke();
+            }
+          }
+        }
+      };
+
+      return renderer;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ColorParticles.vue?vue&type=template&id=3b573f3e& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e&");
+/* harmony import */ var _ColorParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ColorParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _ColorParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+const colors = [
+  "#529B88",
+  "#CDD180",
+  "#FFFA32",
+  "#FB6255",
+  "#FB4A53",
+  "#FF4E50",
+  "#F9D423"
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "ColorParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+        this.num ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(this.num) : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(5, 8),
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.1, 0.25)
+      );
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(20, 200));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(2, 4));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, width, height))
+      );
+
+      emitter.addBehaviour(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(0, 1, Infinity, (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().easeOutCubic))
+      );
+      emitter.addBehaviour(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(1, 0, Infinity, (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().easeOutCubic))
+      );
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(colors, "random"));
+
+      emitter.emit();
+      this.proton.addEmitter(emitter);
+
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      this.proton.addRenderer(renderer);
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CustomParticles.vue?vue&type=template&id=55517275& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275&");
+/* harmony import */ var _CustomParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CustomParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+const colors = [
+  "#529B88",
+  "#CDD180",
+  "#FFFA32",
+  "#FB6255",
+  "#FB4A53",
+  "#FF4E50",
+  "#F9D423"
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CustomParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    num: Number,
+    color: String,
+    globalCompositeOperation: String,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    getCompositeOperation() {
+      const globalCompositeOperation =
+        this.globalCompositeOperation || this.operation || "source-over";
+      return globalCompositeOperation;
+    },
+
+    getProp(key, defaultVal) {
+      const config = this.config || {};
+      const val = config[key] || defaultVal;
+      
+      if (Array.isArray(val)) {
+        return new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(val[0], val[1]);
+      } else {
+        return val;
+      }
+    },
+
+    getArrProp(key, defaultVal) {
+      const config = this.config || {};
+      const val = config[key] || defaultVal;
+      if (!val) return null;
+
+      if (Array.isArray(val)) {
+        return val;
+      } else {
+        return [val, val];
+      }
+    },
+
+    createProton(canvas, width, height) {
+      const num = this.getProp("num", [5, 8]);
+      const rps = this.getProp("rps", [0.1, 0.2]);
+      const mass = this.getProp("mass", 1);
+      const radius = this.getProp("radius", [10, 30]);
+      const life = this.getProp("life", [2, 3]);
+      const body = this.getProp("body");
+      const position = this.getProp("position");
+      const v = this.getProp("v", [2, 3]);
+      const tha = this.getProp("tha", [-15, 15]);
+      const alpha = this.getArrProp("alpha");
+      const scale = this.getArrProp("scale");
+      const color = this.getArrProp("color");
+      const cross = this.getProp("cross", "dead");
+      const random = this.getProp("random");
+      const rotate = this.getArrProp("rotate");
+      const g = this.getProp("g");
+      const f = this.getArrProp("f");
+      const emitterV = this.getProp("emitter");
+
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+      let emitter;
+      if (emitterV === "follow") {
+        emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().FollowEmitter)();
+      } else {
+        emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      }
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(num, rps);
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(mass));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(radius));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(life));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(v, tha, "polar"));
+      if (body) emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Body)(body));
+
+      let pos;
+      if (position === "all" || position === "screen") {
+        pos = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height)
+        );
+      } else if (typeof position === "object") {
+        pos = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(
+            position.x,
+            position.y,
+            position.width,
+            position.height
+          )
+        );
+      } else {
+        emitter.p.x = canvas.width / 2;
+        emitter.p.y = canvas.height / 2;
+      }
+
+      emitter.addInitialize(pos);
+
+      /// behaviour
+      const alphaB = alpha
+        ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(alpha[0], alpha[1])
+        : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(0, 1);
+      const scaleB = scale
+        ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(scale[0], scale[1])
+        : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(1, 0.2);
+      const colorB = color
+        ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(color[0], color[1])
+        : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(colors);
+
+      emitter.addBehaviour(alphaB);
+      emitter.addBehaviour(scaleB);
+      if (!body) emitter.addBehaviour(colorB);
+
+      if (rotate) {
+        if (rotate[0] === true || rotate[0] === "rotate") {
+          emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rotate)());
+        } else {
+          emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rotate)(rotate[0], rotate[1]));
+        }
+      }
+
+      const zone = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height);
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(zone, cross);
+      emitter.addBehaviour(crossZoneBehaviour);
+
+      random &&
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RandomDrift)(random, random, 0.05));
+      g && emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().G)(g));
+      f && emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().F)(f[0], f[1]));
+
+      emitter.emit();
+      this.proton.addEmitter(emitter);
+
+      const renderer = this.createRenderer(canvas);
+      this.proton.addRenderer(renderer);
+
+      this.emitter = emitter;
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+
+    createRenderer(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+
+      const onUpdate = this.getProp("onUpdate");
+      if (onUpdate) {
+        renderer.onProtonUpdate = () => {
+          onUpdate(context, width, height);
+        };
+      }
+
+      const onParticleCreated = this.getProp("onParticleCreated");
+      if (onParticleCreated) {
+        renderer.onParticleCreated = particle => {
+          onParticleCreated(context, particle);
+        };
+      }
+
+      const onParticleUpdate = this.getProp("onParticleUpdate");
+      if (onParticleUpdate) {
+        renderer.onParticleUpdate = particle => {
+          onParticleUpdate(context, particle);
+        };
+      }
+
+      return renderer;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FountainParticles.vue?vue&type=template&id=5c4593dc& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc&");
+/* harmony import */ var _FountainParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FountainParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _FountainParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__.render,
+  _FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+const colors = [
+  "#529B88",
+  "#CDD180",
+  "#FFFA32",
+  "#FB6255",
+  "#FB4A53",
+  "#FF4E50",
+  "#F9D423"
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "FountainParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+      if (this.color) {
+        canvas.style.backgroundColor = this.color;
+      }
+    },
+    canvasResize({ width, height }) {
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+        this.num ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(this.num) : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 8),
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.1, 0.25)
+      );
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(20, 200));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(2, 4));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 7),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CircleZone)(width / 2, height / 2, 100))
+      );
+
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(1, 0));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(0.2, 1));
+      emitter.addBehaviour(this.createCustomBehaviour());
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(colors, "random"));
+      emitter.emit();
+      this.proton.addEmitter(emitter);
+
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      this.proton.addRenderer(renderer);
+    },
+    createCustomBehaviour() {
+      const f = 10 * 100;
+      return {
+        initialize: function(particle) {
+          particle.f = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Vector2D)(0, 0);
+        },
+        applyBehaviour: particle => {
+          let length = particle.v.length() / 1000;
+          let gradient = particle.v.getGradient();
+          gradient += 3.14 / 2;
+
+          particle.f.x = f * length * Math.cos(gradient);
+          particle.f.y = f * length * Math.sin(gradient);
+          particle.a.add(particle.f);
+        }
+      };
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LinesParticles.vue?vue&type=template&id=09e97e45& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45&");
+/* harmony import */ var _LinesParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LinesParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _LinesParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__.render,
+  _LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "LinesParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+      if (this.color) {
+        canvas.style.backgroundColor = this.color;
+      }
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.damping = 0.008;
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(this.num ? this.num : 250);
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(4));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(1.5),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+      
+      const mouseObj = {
+        x: width / 2,
+        y: height / 2
+      };
+      const attractionBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Attraction)(mouseObj, 0, 0);
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+        "cross"
+      );
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)("random"));
+      emitter.addBehaviour(attractionBehaviour, crossZoneBehaviour);
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RandomDrift)(10, 10, 0.05));
+      emitter.p.x = canvas.width / 2;
+      emitter.p.y = canvas.height / 2;
+      emitter.emit("once");
+
+      this.proton.addEmitter(emitter);
+      this.proton.addRenderer(this.createRenderer(canvas));
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+    createRenderer(canvas) {
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+      renderer.onProtonUpdate = () => {
+        context.fillStyle =
+          (0,_utils_Color__WEBPACK_IMPORTED_MODULE_3__.getColor)(this.color, 0.02) || "rgba(0, 0, 0, 0.02)";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+      };
+
+      renderer.onParticleUpdate = function(particle) {
+        context.beginPath();
+        context.strokeStyle = particle.color;
+        context.lineWidth = 1;
+        context.moveTo(particle.old.p.x, particle.old.p.y);
+        context.lineTo(particle.p.x, particle.p.y);
+        context.closePath();
+        context.stroke();
+      };
+
+      return renderer;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PolygonParticles.vue?vue&type=template&id=759ac7ac& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac&");
+/* harmony import */ var _PolygonParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PolygonParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _PolygonParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+const COLOR = [
+  "#f6b93b",
+  "#18dcff",
+  "#cd84f1",
+  "#ED4C67",
+  "#ffffff",
+  "#b71540",
+  "#32ff7e",
+  "#ff3838"
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "PolygonParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.createProton(canvas);
+      this.createEmitter({
+        canvas,
+        x: width / 2,
+        y: height / 2,
+        mainEmitter: true,
+        zone: "bound"
+      });
+
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+      const renderer = this.createRenderer(canvas);
+      this.proton.addRenderer(renderer);
+    },
+
+    createRenderer(canvas) {
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CustomRenderer)();
+      renderer.onProtonUpdate = () => {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+      };
+
+      renderer.onParticleCreated = particle => {
+        particle.data.count = proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.randomAToB(3, 10, true);
+      };
+
+      renderer.onParticleUpdate = particle => {
+        context.save();
+        context.globalAlpha = particle.alpha;
+        context.fillStyle = particle.color;
+
+        context.translate(particle.p.x, particle.p.y);
+        context.rotate(proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.degreeTransform(particle.rotation));
+        context.translate(-particle.p.x, -particle.p.y);
+
+        context.beginPath();
+        drawPolygon(particle, particle.data.count);
+
+        context.closePath();
+        context.fill();
+        context.globalAlpha = 1;
+        context.restore();
+      };
+
+      renderer.onParticleDead = particle => {};
+
+      const drawPolygon = (particle, count) => {
+        if (count >= 7) {
+          context.arc(
+            particle.p.x,
+            particle.p.y,
+            particle.radius,
+            0,
+            Math.PI * 2,
+            true
+          );
+        } else {
+          const radius = particle.radius;
+
+          for (let i = 0; i <= count; i++) {
+            let x =
+              particle.p.x +
+              radius * Math.cos((((Math.PI / 180) * 360) / count) * i);
+            let y =
+              particle.p.y +
+              radius * Math.sin((((Math.PI / 180) * 360) / count) * i);
+
+            if (i === 0) context.moveTo(x, y);
+            else context.lineTo(x, y);
+          }
+        }
+      };
+
+      return renderer;
+    },
+
+    createEmitter({
+      mainEmitter,
+      canvas,
+      x,
+      y,
+      radius,
+      color = COLOR,
+      zone = "dead",
+      once = "all",
+      alpha = 0.85,
+      gravity = 3.5
+    }) {
+      const emitter = this.proton.pool.get((proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter));
+
+      if (!emitter.completed) {
+        emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(
+          this.num ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(this.num) : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 9),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(1.6, 2.2)
+        );
+
+        const radiusInit = mainEmitter
+          ? new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(10, 110)
+          : new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(3, radius);
+        emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+        emitter.addInitialize(radiusInit);
+        emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Life)(3, 6));
+        emitter.addInitialize(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+            new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 6),
+            new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(-90, 90),
+            "polar"
+          )
+        );
+
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(alpha, 0.2));
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(color));
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Scale)(1, 0.3));
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rotate)());
+        emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Gravity)(gravity));
+
+        emitter.addBehaviour(this.customDeadBehaviour(canvas));
+        emitter.addBehaviour(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+            new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+            zone
+          )
+        );
+      }
+
+      emitter.p.x = x;
+      emitter.p.y = y;
+      if (once === "once") emitter.emit("once");
+      else emitter.emit();
+
+      this.proton.addEmitter(emitter);
+      //this.expireEmitter(emitter);
+    },
+
+    expireEmitter(emitter) {
+      setTimeout(() => {
+        emitter.completed = true;
+        this.proton.pool.expire(emitter);
+        this.proton.removeEmitter(emitter);
+      }, 500);
+    },
+
+    customDeadBehaviour(canvas) {
+      return {
+        initialize: particle => {
+          particle.data = particle.data || {};
+          particle.data.oldRadius = particle.radius;
+          particle.data.emitterCount = 0;
+        },
+        applyBehaviour: particle => {
+          if (particle.radius < 5) return;
+          if (particle.data.emitterCount >= 2) return;
+
+          if (particle.radius <= (1 / 3) * particle.data.oldRadius) {
+            particle.data.emitterCount++;
+            this.createEmitter({
+              canvas,
+              x: particle.p.x,
+              y: particle.p.y,
+              radius: particle.radius * (1 / 2),
+              alpha: 0.5,
+              gravity: 5,
+              color: particle.color,
+              once: "once"
+            });
+          }
+        }
+      };
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SquareParticles.vue?vue&type=template&id=0057876e& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e&");
+/* harmony import */ var _SquareParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SquareParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _SquareParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+const colors = [
+  "#fad390",
+  "#81ecec",
+  "#ffffff",
+  "#badc58",
+  "#f9ca24",
+  "#FEA47F"
+];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "SquareParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+      if (this.color) {
+        canvas.style.backgroundColor = this.color;
+      }
+    },
+    canvasResize({ width, height }) {
+      const dis = 150;
+      this.crossZoneBehaviour.zone.width = width + 2 * dis;
+      this.crossZoneBehaviour.zone.height = height + 2 * dis;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(this.num ? this.num : 50);
+      emitter.damping = 0;
+
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(4, 70));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(4, 12), 180, "polar")
+      );
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().LineZone)(0, 0, canvas.width, 0))
+      );
+
+      const dis = 150;
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(
+          0 - dis,
+          0 - dis,
+          canvas.width + 2 * dis,
+          canvas.height + 2 * dis
+        ),
+        "cross"
+      );
+      emitter.addBehaviour(crossZoneBehaviour);
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Alpha)(proton_engine__WEBPACK_IMPORTED_MODULE_1___default().getSpan(0.1, 0.55)));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(colors));
+
+      emitter.emit("once");
+      this.proton.addEmitter(emitter);
+      const renderer = this.createRenderer(canvas);
+      this.proton.addRenderer(renderer);
+
+      this.crossZoneBehaviour = crossZoneBehaviour;
+      emitter.preEmit(2);
+    },
+    createRenderer(canvas) {
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CustomRenderer)();
+
+      renderer.onProtonUpdate = () => {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+      };
+
+      renderer.onParticleCreated = particle => {
+        const w = particle.radius || 60;
+        const h = proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.randomAToB(100, 200, "int");
+        particle.data.w = w;
+        particle.data.h = h;
+      };
+
+      renderer.onParticleUpdate = particle => {
+        const w = particle.data.w;
+        const h = particle.data.h;
+        context.save();
+        context.globalAlpha = particle.alpha;
+        context.fillStyle = particle.color;
+
+        context.translate(particle.p.x, particle.p.y);
+        context.rotate(proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.degreeTransform(particle.rotation));
+        context.translate(-particle.p.x, -particle.p.y);
+
+        context.beginPath();
+        context.rect(particle.p.x - w / 2, particle.p.y - h / 2, w, h);
+
+        context.closePath();
+        context.fill();
+        context.globalAlpha = 1;
+        context.restore();
+      };
+
+      return renderer;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TadpoleParticles.vue?vue&type=template&id=381157b5& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5&");
+/* harmony import */ var _TadpoleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TadpoleParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _TadpoleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__.render,
+  _TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+const colors = [
+  "#fad390",
+  "#81ecec",
+  "#ffffff",
+  "#badc58",
+  "#f9ca24",
+  "#FEA47F"
+];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "TadpoleParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.damping = 0.008;
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(this.num ? this.num : 50);
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(5, 9));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Velocity)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(1.5),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, width, height))
+      );
+
+      const mouseInfo = {
+        x: width / 2,
+        y: height / 2
+      };
+
+      const attractionBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Attraction)(mouseInfo, 0, 0);
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+        "bound"
+      );
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)(this.color || "#bbbbbb"));
+      //emitter.addBehaviour(new Proton.Alpha(new Proton.Span(0.5, 1)));
+      emitter.addBehaviour(attractionBehaviour, crossZoneBehaviour);
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RandomDrift)(15, 15, 0.05));
+      emitter.emit("once");
+
+      this.proton.addEmitter(emitter);
+      this.proton.addRenderer(this.createRenderer(canvas));
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+    createRenderer(canvas) {
+      const jointCount = 12;
+      const delayTime = 6;
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+
+      renderer.onProtonUpdate = function() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+      };
+
+      renderer.onParticleCreated = particle => {
+        particle.data.points = [];
+        particle.data.index = 0;
+      };
+
+      renderer.onParticleUpdate = function(particle) {
+        drawTadpoleTail(particle);
+        if (particle.data.index % delayTime === 0) fillPointsData(particle);
+        drawTadpoleHead(particle);
+        particle.data.index++;
+      };
+
+      const fillPointsData = particle => {
+        particle.data.points.unshift(particle.p.y);
+        particle.data.points.unshift(particle.p.x);
+
+        if (particle.data.points.length > jointCount) {
+          particle.data.points.pop();
+          particle.data.points.pop();
+        }
+      };
+
+      const drawTadpoleHead = particle => {
+        context.fillStyle = particle.color;
+        context.beginPath();
+        context.arc(
+          particle.p.x,
+          particle.p.y,
+          particle.radius,
+          0,
+          Math.PI * 2,
+          true
+        );
+        context.closePath();
+        context.fill();
+      };
+
+      const drawTadpoleTail = particle => {
+        context.beginPath();
+        context.strokeStyle = particle.color;
+
+        context.moveTo(particle.p.x, particle.p.y);
+
+        const l = particle.data.points.length;
+        for (let i = 0; i < l; i += 2) {
+          const x = particle.data.points[i];
+          const y = particle.data.points[i + 1];
+
+          context.lineWidth = linearEvaluation(i, l);
+          context.lineTo(x, y);
+          context.stroke();
+        }
+      };
+
+      const linearEvaluation = (i, l) => {
+        if (l <= 2) return 1;
+
+        const max = 6;
+        const A = (max - 1) / (2 / l - 1);
+        const B = 1 - A;
+        const X = (i + 2) / l;
+        let val = A * X + B;
+        val = val >> 0;
+
+        return val;
+      };
+
+      return renderer;
+    },
+    renderProton() {
+      this.proton && this.proton.update();
+    }
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ThickParticles.vue?vue&type=template&id=995f8b32& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32&");
+/* harmony import */ var _ThickParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThickParticles.vue?vue&type=script&lang=js& */ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js&");
+/* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _ThickParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasComp.vue */ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proton-engine */ "./node_modules/proton-engine/build/proton.min.js");
+/* harmony import */ var proton_engine__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proton_engine__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! raf-manager */ "./node_modules/raf-manager/build/RAFManager.min.js");
+/* harmony import */ var raf_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(raf_manager__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils_Color__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Color */ "./node_modules/particles-bg-vue/src/particles-bg/utils/Color.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "ThickParticles",
+  components: {
+    CanvasComp: _CanvasComp_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  props: {
+    canvas: Object,
+    bg: Boolean,
+    color: String,
+    num: Number,
+    config: {}
+  },
+  methods: {
+    canvasInited(canvas) {
+      this.canvasDom = canvas;
+      this.createProton(canvas);
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().add(this.renderProton);
+      if (this.color) {
+        canvas.style.backgroundColor = this.color;
+      }
+    },
+    canvasResize({ width, height }) {
+      this.crossZoneBehaviour.zone.width = width;
+      this.crossZoneBehaviour.zone.height = height;
+      this.proton.renderers[0].resize(width, height);
+    },
+    canvasMouseDown(e) {},
+
+    createProton(canvas) {
+      const width = canvas.width;
+      const height = canvas.height;
+      this.proton = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default())();
+
+      const emitter = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Emitter)();
+      emitter.damping = 0.008;
+      emitter.rate = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Rate)(this.num ? this.num : 150);
+
+      // Initialize
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Mass)(1));
+      emitter.addInitialize(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Radius)(8));
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().V)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0.1, 0.5),
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Span)(0, 360),
+          "polar"
+        )
+      );
+      emitter.addInitialize(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Position)(
+          new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CircleZone)(canvas.width / 2, canvas.height / 2, 100)
+        )
+      );
+
+      // Behaviour
+      const crossZoneBehaviour = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CrossZone)(
+        new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RectZone)(0, 0, canvas.width, canvas.height),
+        "cross"
+      );
+      emitter.addBehaviour(crossZoneBehaviour);
+      this.repulsion = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Repulsion)(
+        {
+          x: canvas.width / 2,
+          y: canvas.height / 2 - 100
+        },
+        3,
+        300
+      );
+
+      this.attraction = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Attraction)(
+        {
+          x: canvas.width / 2,
+          y: canvas.height / 2
+        },
+        3,
+        200
+      );
+      emitter.addBehaviour(this.attraction, this.repulsion);
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().Color)("random"));
+      emitter.addBehaviour(new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().RandomDrift)(20, 15, 0.15));
+
+      emitter.emit("once");
+      this.proton.addEmitter(emitter);
+      this.proton.addRenderer(this.createRenderer(canvas));
+      this.crossZoneBehaviour = crossZoneBehaviour;
+    },
+    createRenderer(canvas) {
+      const context = canvas.getContext("2d");
+      const renderer = new (proton_engine__WEBPACK_IMPORTED_MODULE_1___default().CanvasRenderer)(canvas);
+
+      renderer.onProtonUpdate = () => {
+        this.hue += 1;
+        context.fillStyle = (0,_utils_Color__WEBPACK_IMPORTED_MODULE_3__.getColor)(this.color, 0.02) || "rgba(0, 0, 0, 0.02)";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+      };
+
+      renderer.onParticleCreated = particle => {
+        particle.data.begin = proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.randomAToB(1, 120);
+        particle.data.tha = proton_engine__WEBPACK_IMPORTED_MODULE_1___default().MathUtil.randomAToB(0, Math.PI * 2);
+      };
+
+      renderer.onParticleUpdate = particle => {
+        const hue = particle.data.begin + this.hue;
+        particle.color = this.colorTemplate.replace("hue", hue % 360);
+
+        const ratio = 3 / 4;
+        const radius =
+          particle.radius *
+            (1 - ratio) *
+            Math.cos((particle.data.tha += 0.01)) +
+          particle.radius * ratio;
+
+        context.beginPath();
+        context.fillStyle = particle.color;
+        context.arc(particle.p.x, particle.p.y, radius, 0, Math.PI * 2, true);
+        context.closePath();
+        context.fill();
+      };
+
+      return renderer;
+    },
+    renderProton() {
+      const canvas = this.canvasDom;
+      this.proton.update();
+      if (this.index % 200 === 0) {
+        this.attraction.targetPosition.x = Math.random() * canvas.width;
+        this.attraction.targetPosition.y = Math.random() * canvas.height;
+
+        this.repulsion.targetPosition.x = Math.random() * canvas.width;
+        this.repulsion.targetPosition.y = Math.random() * canvas.height;
+      }
+
+      this.index++;
+    }
+  },
+  created() {
+    this.hue = 0;
+    this.index = 0;
+    this.colorTemplate = `hsla(hue,80%,50%, 0.75)`;
+    this.renderProton = this.renderProton.bind(this);
+  },
+  beforeDestroy() {
+    try {
+      this.proton.destroy();
+      raf_manager__WEBPACK_IMPORTED_MODULE_2___default().remove(this.renderProton);
+    } catch (e) {}
+  }
+});
 
 
 /***/ }),
@@ -50756,15 +51792,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _app_vue_vue_type_template_id_53f13272___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.vue?vue&type=template&id=53f13272& */ "./resources/js/views/app.vue?vue&type=template&id=53f13272&");
 /* harmony import */ var _app_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.vue?vue&type=script&lang=js& */ "./resources/js/views/app.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _app_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.vue?vue&type=style&index=0&lang=css& */ "./resources/js/views/app.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
   _app_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
   _app_vue_vue_type_template_id_53f13272___WEBPACK_IMPORTED_MODULE_0__.render,
   _app_vue_vue_type_template_id_53f13272___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -50878,6 +51916,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style_loader_dist_cjs_js_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_style_index_0_id_5c056944_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../style-loader/dist/cjs.js!../../../../css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../vue-loader/lib/loaders/stylePostLoader.js!../../../../postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../vue-loader/lib/index.js??vue-loader-options!./CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=style&index=0&id=5c056944&scoped=true&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css&":
 /*!*******************************************************************************************************!*\
   !*** ./resources/js/components/Projects.vue?vue&type=style&index=0&id=533b60e5&scoped=true&lang=css& ***!
@@ -50891,9 +51942,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/views/app.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/views/app.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_app_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./app.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/app.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************!*\
-  !*** ./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -50902,24 +51966,420 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_vue_particles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../vue-loader/lib/index.js??vue-loader-options!./vue-particles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_vue_particles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_ParticlesBg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../vue-loader/lib/index.js??vue-loader-options!./ParticlesBg.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_ParticlesBg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
-/***/ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c&":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c& ***!
-  \*******************************************************************************************************/
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true&":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true& ***!
+  \*******************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__.render,
-/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
 /* harmony export */ });
-/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_vue_particles_vue_vue_type_template_id_beb6e31c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../vue-loader/lib/index.js??vue-loader-options!./vue-particles.vue?vue&type=template&id=beb6e31c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c&");
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ParticlesBg_vue_vue_type_template_id_33ed58ad_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../vue-loader/lib/index.js??vue-loader-options!./ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_BallParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./BallParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_BallParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32&":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32& ***!
+  \*******************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_BallParticles_vue_vue_type_template_id_9d3cfa32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./BallParticles.vue?vue&type=template&id=9d3cfa32& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./CanvasComp.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true&":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true& ***!
+  \****************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CanvasComp_vue_vue_type_template_id_5c056944_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./CanvasComp.vue?vue&type=template&id=5c056944&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_CircleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./CircleParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_CircleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914&":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914& ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CircleParticles_vue_vue_type_template_id_92be9914___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./CircleParticles.vue?vue&type=template&id=92be9914& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_CobwebParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./CobwebParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_CobwebParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30&":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30& ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CobwebParticles_vue_vue_type_template_id_678b9e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./CobwebParticles.vue?vue&type=template&id=678b9e30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_ColorParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./ColorParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_ColorParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e&":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e& ***!
+  \********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ColorParticles_vue_vue_type_template_id_3b573f3e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./ColorParticles.vue?vue&type=template&id=3b573f3e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_CustomParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./CustomParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_CustomParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275&":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275& ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_CustomParticles_vue_vue_type_template_id_55517275___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./CustomParticles.vue?vue&type=template&id=55517275& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_FountainParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./FountainParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_FountainParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc&":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc& ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_FountainParticles_vue_vue_type_template_id_5c4593dc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./FountainParticles.vue?vue&type=template&id=5c4593dc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_LinesParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./LinesParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_LinesParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45&":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45& ***!
+  \********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_LinesParticles_vue_vue_type_template_id_09e97e45___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./LinesParticles.vue?vue&type=template&id=09e97e45& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_PolygonParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./PolygonParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_PolygonParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac&":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac& ***!
+  \**********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_PolygonParticles_vue_vue_type_template_id_759ac7ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./PolygonParticles.vue?vue&type=template&id=759ac7ac& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_SquareParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./SquareParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_SquareParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e&":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e& ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_SquareParticles_vue_vue_type_template_id_0057876e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./SquareParticles.vue?vue&type=template&id=0057876e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_TadpoleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./TadpoleParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_TadpoleParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5&":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5& ***!
+  \**********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_TadpoleParticles_vue_vue_type_template_id_381157b5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./TadpoleParticles.vue?vue&type=template&id=381157b5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5&");
+
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_ThickParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/index.js??vue-loader-options!./ThickParticles.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_vue_loader_lib_index_js_vue_loader_options_ThickParticles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32&":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32& ***!
+  \********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */ });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ThickParticles_vue_vue_type_template_id_995f8b32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../vue-loader/lib/index.js??vue-loader-options!./ThickParticles.vue?vue&type=template&id=995f8b32& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32&");
 
 
 /***/ }),
@@ -51026,10 +52486,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/vue-particles/src/vue-particles/vue-particles.vue?vue&type=template&id=beb6e31c& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/ParticlesBg.vue?vue&type=template&id=33ed58ad&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -51042,24 +52502,441 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", {
+  return _c(_vm.particles, {
+    tag: "component",
     attrs: {
-      id: "particles-js",
+      globalCompositeOperation: _vm.globalCompositeOperation,
+      num: _vm.getNum(),
+      bg: _vm.bg,
       color: _vm.color,
-      particleOpacity: _vm.particleOpacity,
-      linesColor: _vm.linesColor,
-      particlesNumber: _vm.particlesNumber,
-      shapeType: _vm.shapeType,
-      particleSize: _vm.particleSize,
-      linesWidth: _vm.linesWidth,
-      lineLinked: _vm.lineLinked,
-      lineOpacity: _vm.lineOpacity,
-      linesDistance: _vm.linesDistance,
-      moveSpeed: _vm.moveSpeed,
-      hoverEffect: _vm.hoverEffect,
-      hoverMode: _vm.hoverMode,
-      clickEffect: _vm.clickEffect,
-      clickMode: _vm.clickMode
+      canvas: _vm.canvas,
+      config: _vm.config
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32&":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/BallParticles.vue?vue&type=template&id=9d3cfa32& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CanvasComp.vue?vue&type=template&id=5c056944&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas", {
+    ref: "canvasRef",
+    staticClass: "canvas",
+    style: _vm.styleObject,
+    on: { mousedown: _vm.handleMouseDown, mousemove: _vm.handleMouseMove }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CircleParticles.vue?vue&type=template&id=92be9914& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CobwebParticles.vue?vue&type=template&id=678b9e30& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ColorParticles.vue?vue&type=template&id=3b573f3e& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/CustomParticles.vue?vue&type=template&id=55517275& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "getCompositeOperation()"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc&":
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/FountainParticles.vue?vue&type=template&id=5c4593dc& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "xor"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/LinesParticles.vue?vue&type=template&id=09e97e45& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac&":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/PolygonParticles.vue?vue&type=template&id=759ac7ac& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "xor"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/SquareParticles.vue?vue&type=template&id=0057876e& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "lighter"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5&":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/TadpoleParticles.vue?vue&type=template&id=381157b5& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "xor"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
+    }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./node_modules/particles-bg-vue/src/particles-bg/particles/ThickParticles.vue?vue&type=template&id=995f8b32& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => /* binding */ render,
+/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("canvas-comp", {
+    attrs: {
+      bg: _vm.bg,
+      canvas: _vm.canvas,
+      "global-composite-operation": "source-over"
+    },
+    on: {
+      canvasInited: _vm.canvasInited,
+      canvasResize: _vm.canvasResize,
+      canvasMouseDown: _vm.canvasMouseDown
     }
   })
 }
@@ -51091,6 +52968,7 @@ var render = function() {
     [
       _c(
         "b-card",
+        { attrs: { sm: "4" } },
         [
           _c(
             "b-container",
@@ -51414,7 +53292,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container col-10 justify-content-center" },
+    { staticClass: "container col-12 justify-content-center" },
     [
       _c(
         "b-card",
@@ -51526,9 +53404,11 @@ var render = function() {
   return _c(
     "div",
     [
+      _c("b-card-title", [_vm._v("Projects")]),
+      _vm._v(" "),
       _c(
         "b-card",
-        { attrs: { id: "card", title: "Projects" } },
+        { attrs: { id: "card", "no-body": "" } },
         [
           _c(
             "b-carousel",
@@ -51661,22 +53541,14 @@ var render = function() {
       _c(
         "b-row",
         [
-          _c("b-col", [_c("b-card-title", [_vm._v("Expirence")])], 1),
-          _vm._v(" "),
-          _c("b-col", [_c("b-card-title", [_vm._v("Education")])], 1)
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        { staticClass: "mb-2" },
-        [
           _c(
             "b-col",
             [
+              _c("b-card-title", [_vm._v("Expirence")]),
+              _vm._v(" "),
               _c(
                 "b-card",
+                { staticClass: "mb-2" },
                 [
                   _c("b-card-text", { staticClass: "small text-muted" }, [
                     _vm._v("2019 - 2020")
@@ -51703,8 +53575,11 @@ var render = function() {
           _c(
             "b-col",
             [
+              _c("b-card-title", [_vm._v("Education")]),
+              _vm._v(" "),
               _c(
                 "b-card",
+                { staticClass: "mb-2" },
                 [
                   _c("b-card-text", { staticClass: "small text-muted" }, [
                     _vm._v("2017 - Now")
@@ -51723,25 +53598,11 @@ var render = function() {
                   ])
                 ],
                 1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        { staticClass: "mb-2" },
-        [
-          _c("b-col"),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            [
+              ),
+              _vm._v(" "),
               _c(
                 "b-card",
+                { staticClass: "mb-2" },
                 [
                   _c("b-card-text", { staticClass: "small text-muted" }, [
                     _vm._v("2016 - 2017")
@@ -51760,25 +53621,11 @@ var render = function() {
                   ])
                 ],
                 1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        { staticClass: "mb-2" },
-        [
-          _c("b-col"),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            [
+              ),
+              _vm._v(" "),
               _c(
                 "b-card",
+                { staticClass: "mb-2" },
                 [
                   _c("b-card-text", { staticClass: "small text-muted" }, [
                     _vm._v("2015 - 2016")
@@ -51799,25 +53646,11 @@ var render = function() {
                   ])
                 ],
                 1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        { staticClass: "mb-2" },
-        [
-          _c("b-col"),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            [
+              ),
+              _vm._v(" "),
               _c(
                 "b-card",
+                { staticClass: "mb-2" },
                 [
                   _c("b-card-text", { staticClass: "small text-muted" }, [
                     _vm._v("2004 - 2015")
@@ -51876,10 +53709,7 @@ var render = function() {
     [
       _c(
         "div",
-        {
-          staticStyle: { position: "relative" },
-          attrs: { id: "home", href: "top" }
-        },
+        { attrs: { id: "home", href: "top" } },
         [
           _c(
             "div",
@@ -51889,9 +53719,14 @@ var render = function() {
             },
             [
               _c("b-row", { staticClass: "justify-content-center" }, [
-                _c("h1", { staticClass: "display-1" }, [
-                  _vm._v("\n          Albert Andersen\n        ")
-                ])
+                _c(
+                  "h1",
+                  {
+                    staticClass: "display-1",
+                    staticStyle: { "font-size": "8vw" }
+                  },
+                  [_vm._v("\n          Albert Andersen\n        ")]
+                )
               ]),
               _vm._v(" "),
               _c("b-row", { staticClass: "justify-content-center" }, [
@@ -51938,17 +53773,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _c("vue-particles", {
-            attrs: {
-              color: "#ffffff",
-              particleSize: 1,
-              linesWidth: 2,
-              linesDistance: 150,
-              lineOpacity: 1000,
-              moveSpeed: 6,
-              particlesNumber: 80
-            }
-          })
+          _c("particles-bg", { attrs: { type: "random", bg: true } })
         ],
         1
       ),
@@ -52042,7 +53867,7 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "container justify-content-center col-8 mb-5",
+          staticClass: "container justify-content-center mb-5",
           attrs: { id: "nav-scroller" }
         },
         [
@@ -52180,35 +54005,6 @@ function normalizeComponent (
     options: options
   }
 }
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-particles/src/vue-particles/index.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/vue-particles/src/vue-particles/index.js ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
-/* harmony export */ });
-/* harmony import */ var _vue_particles_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vue-particles.vue */ "./node_modules/vue-particles/src/vue-particles/vue-particles.vue");
-/* eslint-disable */
-
-
-const VueParticles = {
-
-    install (Vue, options) {
-        Vue.component('vue-particles', _vue_particles_vue__WEBPACK_IMPORTED_MODULE_0__.default)
-    }
-
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (VueParticles);
-/* eslint-disable */
 
 
 /***/ }),
@@ -64227,7 +66023,7 @@ Vue.compile = compileToFunctions;
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;

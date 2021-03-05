@@ -1,9 +1,9 @@
 <template>
 <div id="app">
-  <div id="home" href="top" style="position: relative;">
+  <div id="home" href="top">
     <div class="container col-12 align-items-center" style="position: absolute;">
       <b-row class="justify-content-center">
-        <h1 class="display-1">
+        <h1 class="display-1" style="font-size:8vw;">
           Albert Andersen
         </h1>
       </b-row>
@@ -22,15 +22,7 @@
         </h3>
       </b-row>
     </div>
-    <vue-particles
-      color="#ffffff"
-      :particleSize="1"
-      :linesWidth="2"
-      :linesDistance="150"
-      :lineOpacity="1000"
-      :moveSpeed="6"
-      :particlesNumber="80"
-    ></vue-particles>
+    <particles-bg type="random" :bg="true" />
   </div>
   <div class="sticky-top">
     <b-navbar toggleable="lg" type="dark" variant="info" class="mb-5" v-b-scrollspy:nav-scroller>
@@ -49,7 +41,7 @@
     </b-navbar>
   </div>
 
-  <div id="nav-scroller" class="container justify-content-center col-8 mb-5">
+  <div id="nav-scroller" class="container justify-content-center mb-5">
     <About id="about" class="mb-5"/>
     <TimeLine id="timeLine" class="mb-5"/>
     <Projects id="projects" class="mb-5"/>
@@ -66,6 +58,7 @@ import AppFooter from '../components/AppFooter.vue';
 import TimeLine from '../components/TimeLine.vue';
 import Contact from '../components/Contact.vue';
 import Projects from '../components/Projects.vue';
+import { ParticlesBg } from "particles-bg-vue";
 
 export default {
   components: {
@@ -74,10 +67,10 @@ export default {
     TimeLine,
     Contact,
     Projects,
+    ParticlesBg,
   },
   data() {
     return {
-      message: "hej"
     }
   },
   methods: {
@@ -92,3 +85,13 @@ export default {
   },
 }
 </script>
+
+<style>
+.canvas {
+  height: 100vh;
+}
+
+#home {
+  height: 100vh
+}
+</style>

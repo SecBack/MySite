@@ -3,14 +3,7 @@
   <b-row>
     <b-col>
       <b-card-title>Expirence</b-card-title>
-    </b-col>
-    <b-col>
-      <b-card-title>Education</b-card-title>
-    </b-col>
-  </b-row>
-  <b-row class="mb-2">
-    <b-col>
-      <b-card>
+      <b-card class="mb-2">
         <b-card-text class="small text-muted">2019 - 2020</b-card-text>
         <b-card-title>WEXO a/s</b-card-title>
         <b-card-text>
@@ -20,7 +13,8 @@
     </b-card>
     </b-col>
     <b-col>
-      <b-card>
+      <b-card-title>Education</b-card-title>
+      <b-card class="mb-2">
         <b-card-text class="small text-muted">2017 - Now</b-card-text>
         <b-card-title>Syddansk erhvervsskole</b-card-title>
         <b-card-text>
@@ -28,13 +22,7 @@
         </b-card-text>
         <b-card-text class="small text-muted">Odense</b-card-text>
       </b-card>
-    </b-col>
-  </b-row>
-  <b-row class="mb-2">
-    <b-col>
-    </b-col>
-    <b-col>
-      <b-card>
+      <b-card class="mb-2">
         <b-card-text class="small text-muted">2016 - 2017</b-card-text>
         <b-card-title>Tørring 10th grade</b-card-title>
         <b-card-text>
@@ -42,13 +30,7 @@
         </b-card-text>
         <b-card-text class="small text-muted">Tørring</b-card-text>
       </b-card>
-    </b-col>
-  </b-row>
-  <b-row class="mb-2">
-    <b-col>
-    </b-col>
-    <b-col>
-      <b-card>
+      <b-card class="mb-2">
         <b-card-text class="small text-muted">2015 - 2016</b-card-text>
         <b-card-title>Vesterlund Efterskole 9th grade</b-card-title>
         <b-card-text>
@@ -56,13 +38,7 @@
         </b-card-text>
         <b-card-text class="small text-muted">Vesterlund</b-card-text>
       </b-card>
-    </b-col>
-  </b-row>
-  <b-row class="mb-2">
-    <b-col>
-    </b-col>
-    <b-col>
-      <b-card>
+      <b-card class="mb-2">
         <b-card-text class="small text-muted">2004 - 2015</b-card-text>
         <b-card-title>Primary school</b-card-title>
         <b-card-text>

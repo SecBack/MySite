@@ -1,6 +1,7 @@
 <template>
   <div>
-    <b-card id="card" title="Projects">
+    <b-card-title>Projects</b-card-title>
+    <b-card id="card" no-body>
 
     <b-carousel
       id="carousel"
