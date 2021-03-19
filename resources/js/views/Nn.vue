@@ -98,7 +98,7 @@ export default {
           }
 
           axios
-            .post("http://nn.albertandersen.dk", dataArr)
+            .post("https://nn.albertandersen.dk", dataArr)
             .then((response) => {
               // the libary p5.js needs to run in mounted, meaning mounted
               // will never 'finish' because of p5.draw. which means that
