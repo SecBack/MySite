@@ -6,17 +6,24 @@
        <b-row class="justify-content-center">
         <b-card
           title="Number guesser"
-          sub-title="Draw a number in the grid, and watch the magic happen"
           style="width: 100%"
           id="card"
         >
           <b-row no-gutters>
+
+
             <b-col>
               <div id="canvas" style="width: auto"></div>
               <b-button type="button" variant="primary" id="button">Send Data</b-button>
             </b-col>
 
             <b-col>
+              <b-card-sub-title>1. Only one diget</b-card-sub-title>
+              <b-card-sub-title>2. Try to fill the canvas</b-card-sub-title>
+              <b-card-sub-title>3. Take your time drawing</b-card-sub-title>
+              <b-card-sub-title>4. If you can't read it, well...</b-card-sub-title>
+              <b-card-sub-title>5. Reload the page</b-card-sub-title>
+
               <b-card-text>
                 Guesses will be shown below - number: "chance"
               </b-card-text>
@@ -71,7 +78,7 @@ export default {
 
       p5.draw = () => {
         p5.stroke(0);
-        p5.strokeWeight(20);
+        p5.strokeWeight(50);
 
         if (p5.mouseIsPressed === true) {
           p5.line(p5.mouseX, p5.mouseY, p5.pmouseX, p5.pmouseY);
@@ -93,9 +100,10 @@ export default {
             if (red + green + blue > 0) {
               dataArr.push(0);
             } else {
-              dataArr.push(1);
+              dataArr.push(200);
             }
           }
+          console.log(dataArr)
 
           axios
             .post("https://nn.albertandersen.dk", dataArr)
