@@ -100,7 +100,7 @@ export default {
             if (red + green + blue > 0) {
               dataArr.push(0);
             } else {
-              dataArr.push(200);
+              dataArr.push(1);
             }
           }
           console.log(dataArr)
